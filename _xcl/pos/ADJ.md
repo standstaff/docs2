@@ -21,7 +21,7 @@ Although participles have adjectival features they are treated as forms of the v
 
 ### Declension of adjectives
 
-In Classical Armenian, adjectives are declined like nouns in case and number. As a general rule, an adjective agrees with the modified noun in case and number when it follows the noun, but remains in the nominative singular when it preceds the noun. In its predicative function, the adjective is typically not inflected irrespective of its position. See a detailed discussion in (Meillet 1962: 39-50).
+In Classical Armenian, adjectives are declined like nouns in case and number. As a general rule, an adjective agrees with the modified noun in case and number when it follows the noun but remains in the nominative singular when it precedes the noun. In its predicative function, the adjective is typically not inflected irrespective of its position. See a detailed discussion in (Meillet 1962: 39-50).
 
 ### Degrees of comparison
 
@@ -36,6 +36,8 @@ The superlative degree can be expressed by compounds with ամենա-/_amena-_, 
 * զի՞նչ իցէ <b>մեծագոյն քան զ</b>իմաստութիւն / _zi՞nčʻ icʻē <b>mecagoyn kʻan z</b>=imastowtʻiwn_ “what is richer than wisdom?” (Wis. 8:5).
 
 ### References
+
+Առաքելեան, Վարագ. 2010. Գրաբարի քերականութիւն. Երևան: Վիամիր․ [Araqelian, Varag. 2010. Grammar of Grabar. Yerevan: Viamir]
 
 Jensen, Hans. 1959. Altarmenische Grammatik. Heidelberg: Winter.
 

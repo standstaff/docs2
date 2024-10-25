@@ -9,7 +9,7 @@ udver: '2'
 
 Adverbs are words that typically modify [verbs](xcl-pos/VERB) for time, place, direction or manner. They may also modify [adjectives](xcl-pos/ADJ) and other adverbs. 
 
-Complex adverbs form multiword expression. The status of component words is accounted for in the syntactic annotation: the subsequent word is linked to the first one by the <code>fixed</code> relation. All component words are tagged as `ADV` (even in the case of foscilized prepositional phrases).
+Complex adverbs form multiword expression. The status of component words is accounted for in the syntactic annotation: the subsequent word is linked to the first one by the <code>fixed</code> relation. All component words are tagged as `ADV` (even in the case of fossilized prepositional phrases).
 
 There is a subclass of demonstrative, relative and interrogative adverbs, which inflect for [PronType](xcl-feat/PronType). Demonstrative adverbs also inflect for [Deixis](xcl-feat/PronType).
 
@@ -23,6 +23,8 @@ Pronominal adverbs
 * Relative adverbs: որպէս/_orpēs_ ‘in which way’
 
 ### References
+
+Առաքելեան, Վարագ. 2010. Գրաբարի քերականութիւն. Երևան: Վիամիր․ [Araqelian, Varag. 2010. Grammar of Grabar. Yerevan: Viamir]
 
 Jensen, Hans. 1959. Altarmenische Grammatik. Heidelberg: Winter.
 

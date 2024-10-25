@@ -13,7 +13,8 @@ Classical Armenian proper nouns are typically written starting with an uppercase
 
 ### Examples
 
-* Յիսուս/_Yisows_, Երուսաղեմ/_Erowsałem_
+* Յիսուս/_Yisows_ “Jesus”
+* Երուսաղեմ/_Erowsałem_ “Jerusalem”
 
 ### References
 

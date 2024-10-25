@@ -17,11 +17,13 @@ Note that _verbal nouns_ and _participles_ share properties of nouns and verbs i
 
 ### Examples
 
-* աղջիկ/_ałǰik_ ‘girl’
-* ծառ/_caṙ_ ‘tree’
-* աւդ/_awd_ ‘air’
+* աղջիկ/_ałǰik_ “girl”
+* ծառ/_caṙ_ “tree”
+* աւդ/_awd_ “air”
 
 ### References
+
+Առաքելեան, Վարագ. 2010. Գրաբարի քերականութիւն. Երևան: Վիամիր․ [Araqelian, Varag. 2010. Grammar of Grabar. Yerevan: Viamir]
 
 Jensen, Hans. 1959. Altarmenische Grammatik. Heidelberg: Winter.
 

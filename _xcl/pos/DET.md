@@ -23,6 +23,8 @@ Adjectival pronouns and pronominal quantifiers are traditionally included into p
 
 ### References
 
+Առաքելեան, Վարագ. 2010. Գրաբարի քերականութիւն. Երևան: Վիամիր․ [Araqelian, Varag. 2010. Grammar of Grabar. Yerevan: Viamir]
+
 Jensen, Hans. 1959. Altarmenische Grammatik. Heidelberg: Winter.
 
 Jungmann, Paul. 1964‒1965. L’emploi de l’article défini avec le substantif en arménien classique. _Revue des Études Arméniennes_ 1: 47−99; 2 (1965): 43−116.

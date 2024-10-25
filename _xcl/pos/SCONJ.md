@@ -11,11 +11,11 @@ A subordinating conjunction links constructions by making one of them a constitu
 
 The following types of subordinating conjunctions are found in Classical Armenian:
 
-* Complementizers: թե/_tʻe_, եթե/_etʻe_ ‘that’
-* Non-pronominal relativizers: զի/_zi_ ‘that’
-* Non-adverbial markers that introduce an adverbial clause: իբրեւ/_ibrew_ ‘when’, քանզի/_kʻanzi_ ‘for’, etc. 
+* Complementizers: թե/_tʻe_, եթե/_etʻe_ “that”
+* Non-pronominal relativizers: զի/_zi_ “that”
+* Non-adverbial markers that introduce an adverbial clause: իբրեւ/_ibrew_ “when”, քանզի/_kʻanzi_ “for”, etc. 
 
-Complex subordinating conjunctions form multiword expressions, cf. վասն զի / _vasn zi_ ‘because’, որպէս զի / _orpēs zi_ ‘so that’. The status of component words as multiword expressions is accounted for by the <code>fixed</code> relation. Both component words are tagged as `SCONJ`.
+Complex subordinating conjunctions form multiword expressions, cf. վասն զի / _vasn zi_ “because”, որպէս զի / _orpēs zi_ “so that”. The status of component words as multiword expressions is accounted for by the <code>fixed</code> relation. Both component words are tagged as `SCONJ`.
 
 For coordinating conjunctions, see [CCONJ](xcl-pos/CCONJ).
 
@@ -26,6 +26,8 @@ For coordinating conjunctions, see [CCONJ](xcl-pos/CCONJ).
 * Non-pronominal relativizers: Եւ երեւեցաւ նմա հրեշտակ Տեառն <b>զի</b> կայր ընդ աջմէ սեղանոյ խնկոցն: / _Ew erewecʻaw nma hreštak Teaṙn <b>zi</b> kayr ənd aǰmē sełanoy xnkocʻn._ “And there appeared unto him an angel of the Lord that stood on the right side of the altar of incense.” (Lk. 1:11)
 
 ### References
+
+Առաքելեան, Վարագ. 2010. Գրաբարի քերականութիւն. Երևան: Վիամիր․ [Araqelian, Varag. 2010. Grammar of Grabar. Yerevan: Viamir]
 
 Jensen, Hans. 1959. Altarmenische Grammatik. Heidelberg: Winter.
 

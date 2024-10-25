@@ -26,13 +26,15 @@ Finite verbs can be marked for: [Person](xcl-feat/Person), [Number](xcl-feat/Num
 
 ### Examples
 
-* Finate verb: գրեմ/_grem_ ‘I write’
-* Infinitive: գրել/_grel_ ‘to write’
-* Converb: գալոց/_galocʽ_ ‘for coming’
-* Participle: մտեալ/_mteal_ ‘entering’
-* Verbal noun: գրել/_grel_ ‘writing’
+* Finate verb: գրեմ/_grem_ “I write”
+* Infinitive: գրել/_grel_ “to write”
+* Converb: գալոց/_galocʽ_ “for coming”
+* Participle: մտեալ/_mteal_ “entering”
+* Verbal noun: գրել/_grel_ “writing”
 
 ### References
+
+Առաքելեան, Վարագ. 2010. Գրաբարի քերականութիւն. Երևան: Վիամիր․ [Araqelian, Varag. 2010. Grammar of Grabar. Yerevan: Viamir]
 
 Jensen, Hans. 1959. Altarmenische Grammatik. Heidelberg: Winter.
 
