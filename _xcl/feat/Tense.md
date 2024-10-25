@@ -34,6 +34,8 @@ The past tense denotes events that happened before the moment of speaking. Class
 
 ### References
 
+Առաքելեան, Վարագ. 2010. Գրաբարի քերականութիւն. Երևան: Վիամիր․ [Araqelian, Varag. 2010. Grammar of Grabar. Yerevan: Viamir]
+
 Jensen, Hans. 1959. _Altarmenische Grammatik._ Heidelberg: Winter.
 
 Meillet, Antoine. 1913. _Altarmenisches Elementarbuch._ Heidelberg: Winters (<a href="https://archive.org/details/altarmenischesel00meil/page/n5/mode/2up" target="_blank">Internet Archive</a>)

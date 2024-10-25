@@ -33,7 +33,7 @@ The tag `Act` is applied to the inflections, which mark the forms of canonical t
 
 ### <a name="Pass">`Pass`</a>: mediopassive voice (passive, middle, reflexive, etc.)
 
-In Classical Armenian, the tag `Pass` covers a wide range of intransitive and valency-decreasing meanings such as passive, middle, and reflexive. The subject of the verb typically either spontaneously undergoes a change of state, or is affected by the action carried out by an agent facultatively expressed by an oblique complement.
+In Classical Armenian, the tag `Pass` covers a wide range of intransitive and valency-decreasing meanings such as passive, middle, and reflexive. The subject of the verb typically either spontaneously undergoes a change of state or is affected by the action carried out by an agent facultatively expressed by an oblique complement.
 
 #### Examples
 
@@ -56,6 +56,8 @@ The morphological causative is a derivational category in Classical Armenian. Ca
 * <b>Դարձուցաւ</b> ինձ այսրէն արծաթն: / _<b>Darj-owcʻ-aw</b> inj aysrēn arcatʻn_. “My money for that <b>has been returned</b>.” (Gen. 42:28). The causative form is derived from a base verb դառնալ/_daṙnal_ “to turn”.
 
 ### References
+
+Առաքելեան, Վարագ. 2010. Գրաբարի քերականութիւն. Երևան: Վիամիր․ [Araqelian, Varag. 2010. Grammar of Grabar. Yerevan: Viamir]
 
 Jensen, Hans. 1959. _Altarmenische Grammatik._ Heidelberg: Winter.
 

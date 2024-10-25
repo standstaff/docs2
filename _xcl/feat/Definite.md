@@ -19,7 +19,7 @@ In Classical Armenian, definiteness is a lexical feature of some [pronouns](xcl-
 
 ### <a name="Ind">`Ind`</a>: indefinite
 
-The value `Ind` is interpreted as non-specific indefinite and characterizes indefinite pronouns/determiners ոք/_okʻ_ “anyone”(pronoun) and “any” (pronominal adjective), ինչ/_inčʻ_ “something; anything” (which may occasionally have specific indefinite meaning), and indefinite adverbs երբեք/_erbekʻ_ “at any time”, ուրեք/_owrekʻ_ “anywhere”, and ուստեք/_owstekʻ_ “from anywhere”.
+The value `Ind` is interpreted as non-specific indefinite and characterizes indefinite pronouns/determiners ոք/_okʻ_ “anyone” (pronoun) and “any” (pronominal adjective), ինչ/_inčʻ_ “something; anything” (which may occasionally have specific indefinite meaning), and indefinite adverbs երբեք/_erbekʻ_ “at any time”, ուրեք/_owrekʻ_ “anywhere”, and ուստեք/_owstekʻ_ “from anywhere”.
 
 #### Examples
 
@@ -29,7 +29,7 @@ The value `Ind` is interpreted as non-specific indefinite and characterizes inde
 
 ### <a name="Spec">`Spec`</a>: specific indefinite
 
-The value `Spec` is interpreted as non-specific indefinite and characterizes pronouns/pronominal adjectives ոմն/_omn_ “someone; some”, իմն/_imn_ “something” (rare, mostly substituted by ինչ/_inčʻ_), մի/_mi_ “certain”, and an indifinite adverbs երբեմն/_erbemn_ “at some time” and ուրեմն/_owremn_ “somewhere”.
+The value `Spec` is interpreted as non-specific indefinite and characterizes pronouns/pronominal adjectives ոմն/_omn_ “someone; some”, իմն/_imn_ “something” (rare, mostly substituted by ինչ/_inčʻ_), մի/_mi_ “certain”, and an indefinite adverbs երբեմն/_erbemn_ “at some time” and ուրեմն/_owremn_ “somewhere”.
 
 #### Examples
 
@@ -38,7 +38,7 @@ The value `Spec` is interpreted as non-specific indefinite and characterizes pro
 
 ### <a name="Def">`Def`</a>: definite
 
-The value `Def` is interpreted as definite and characterizes enclitic determiners =ս/_=s_ “this (mine)”, =դ/_=d_ “that (your)”, =ն/_=n_ “that (their)” (Klein 1996). It is also assigned to the adposition զ=/_z=_ when it marks the referentially prominent direct object (Müth 2011).
+The value `Def` is interpreted as definite and characterizes enclitic determiners =ս/_=s_ “this (mine)”, =դ/_=d_“that (your)”, =ն/_=n_ “that (their)” (Klein 1996). It is also assigned to the adposition զ=/_z=_ when it marks the referentially prominent direct object (Müth 2011).
 
 #### Examples
 
@@ -46,6 +46,8 @@ The value `Def` is interpreted as definite and characterizes enclitic determiner
 * adposition of definite object: զ=/_z=_
   
 ### References
+
+Առաքելեան, Վարագ. 2010. Գրաբարի քերականութիւն. Երևան: Վիամիր․ [Araqelian, Varag. 2010. Grammar of Grabar. Yerevan: Viamir]
 
 Jensen, Hans. 1959. _Altarmenische Grammatik._ Heidelberg: Winter.
 

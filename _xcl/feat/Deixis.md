@@ -54,6 +54,8 @@ The entity is far away from the reference point (e.g., from the speaker).
 
 ### References
 
+Առաքելեան, Վարագ. 2010. Գրաբարի քերականութիւն. Երևան: Վիամիր․ [Araqelian, Varag. 2010. Grammar of Grabar. Yerevan: Viamir]
+
 Jensen, Hans. 1959. _Altarmenische Grammatik._ Heidelberg: Winter.
 
 Klein, Jared S. 1996. On Personal Deixis in Classical Armenian. _A Study of the Syntax and Semantics of the n-, s-, and d-Demonstratives in Manuscripts E and M of the Old Armenian Gospels._ Dettelbach: Röll, 1996.

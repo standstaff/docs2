@@ -25,12 +25,12 @@ The descriptions of the individual case values below highlight the prototypical 
 
 ### <a name="Nom">`Nom`</a>: nominative
 
-The base form of the nominal, also used as citation form (lemma). This is the default case for subjects of clauses (see below on the genitive for exceptions). The vocative does not have a dedicated form and is expressed by the nominative. The nominative typically does not take adpositions with one exception: when the  particle _զ=_/_z=_ specifies a sentential argument expressed by a relative clause, it can be added to the subject of the clause in the nominative.
+The base form of the nominal, also used as citation form (lemma). This is the default case for subjects of clauses (see below on the genitive for exceptions). The vocative does not have a dedicated form and is expressed by the nominative. The nominative typically does not take adpositions with one exception: when the particle _զ=_/_z=_ specifies a sentential argument expressed by a relative clause, it can be added to the noun phrase expressing the subject of the clause in the nominative.
 
 #### Examples
 
 * Ասէ ց=նա <b>հրեշտակ</b>=ն: / _Asē cʻ=na <b>hreštak</b>=n._ “The angel said unto him.”
-* Եւ տեսեալ հարիւրապետի=ն <b>զ=որ</b> ինչ եղեւ=ն փառաւոր արար զ=Աստուած: / _Ew teseal hariwrapeti=n <b>z=or</b> inčʻ ełew=n pʻaṙawor arar z=Astowac._ “Now when the centurion saw what was done, he glorified God.” (Lk. 23:47)
+* ահաւանիկ աշակերտքն քո գործեն՝ <b>զ=որ</b> ոչ էր արժան գործել ի շաբաթու / _ahawanik ašakertkʻn kʻo gorcen; <b>z=or</b> očʻ ēr aržan gorcel i šabatʻow_ “thy disciples do that which is not lawful to do upon the sabbath day” (Mt. 12:2)
 
 ### <a name="Acc">`Acc`</a>: accusative
 
@@ -77,13 +77,15 @@ The locative case typically expresses the location in space or time. It is used 
 
 ### <a name="Ins">`Ins`</a>: instrumental
 
-The instrumental case is typically used with an adposition to express an instrument.
+The instrumental case is typically used withan an adposition to express an instrument.
 
 #### Examples
 
 <b>հոգւով</b> Աստուածոյ հանեմ ես զդեւս / _<b>hogwov</b> Astowacoy hanem es zdews_ “I cast out devils by the Spirit of God” (Mt. 12:28)
 
 ### References
+
+Առաքելեան, Վարագ. 2010. Գրաբարի քերականութիւն. Երևան: Վիամիր․ [Araqelian, Varag. 2010. Grammar of Grabar. Yerevan: Viamir]
 
 Jensen, Hans. 1959. _Altarmenische Grammatik._ Heidelberg: Winter.
 

@@ -35,20 +35,26 @@ The speaker uses imperative to order or ask the addressee to do the action of th
 
 ### <a name="Sub">`Sub`</a>: subjunctive / future
 
-The subjunctive mood is used under certain circumstances in subordinate clauses, typically for actions that are subjective or otherwise uncertain. In some contexts, the mood expresses also the desire that the action happens; it is thus close to both optative and jussive. In Classical Armenian, it has perfective and imperfective forms, and can express the future.
+The subjunctive mood is used under certain circumstances in subordinate clauses, typically for actions that are subjective or otherwise uncertain. In some contexts, the mood expresses also the desire that the action happens; it is thus close to both optative and jussive. In Classical Armenian, it has perfective and imperfective forms and can express the future.
 
 The subjunctive can have an imperative form, sometimes called “cohortative”, with a special form of 2sg. in -ջիր/_-ǰir_. Given that the UD annotation scheme does not allow to combine two instances of one feature, the imperative forms do not have a dedicated tag in the current version of the CAVaL treebank and are tagged as variants of the 2sg. subjunctive form.
 
 #### Examples
 
-* Imperfective subjunctive: ասիցեմ/_asicʻem_ “I would/will be saying”
-* Perfective subjunctive: ասասցեմ/_asascʻem_ “I would/will say”
+* Imperfective subjunctive: ասիցեմ/_asicʻem “I would/will be saying”
+* Perfective subjunctive: ասասցեմ/_asascʻem “I would/will say”
 * Cohortative: ասասջիր/_asasǰir_ “could you say!”
 
 ### References
+
+Առաքելեան, Վարագ. 2010. Գրաբարի քերականութիւն. Երևան: Վիամիր․ [Araqelian, Varag. 2010. Grammar of Grabar. Yerevan: Viamir]
 
 Jensen, Hans. 1959. _Altarmenische Grammatik._ Heidelberg: Winter.
 
 Meillet, Antoine. 1913. _Altarmenisches Elementarbuch._ Heidelberg: Winters (<a href="https://archive.org/details/altarmenischesel00meil/page/n5/mode/2up" target="_blank">Internet Archive</a>)
 
 Meillet, Antoine. 1962. _Études de linguistique et de philologie arméniennes. I: Recherches sur la syntaxe comparée de l'arménien. Suivies de la composition en arménien._ Lisbonne: Imprensa Nacional de Lisboa.
+
+Kocharov, Petr. 2022. The mixed aorist subjunctive in Classical Armenian. _Indogermanische Forschungen_ 127/1: 169–200.
+
+Weitenberg, Jos. 1993. The use of the classical Armenian subjunctive forms in the fifth century and in middle Armenian Grabar texts: Koriwn and Grigor Aknercʿi. In: S. Simonian, J. Weitenberg (eds.), _Computers in Armenian Philology_. Yerevan: Armenian Academy Press: 72−100.
