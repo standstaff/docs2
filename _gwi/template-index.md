@@ -1,6 +1,6 @@
 ---
 layout: base
-title:  'Gwich\'in UD'
+title:  'Gwichin UD'
 udver: '2'
 ---
 
