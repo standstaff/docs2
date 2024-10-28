@@ -36,7 +36,9 @@ Effectively distinguishing [PRON]() and [DET]() categories in Latgalian (similar
 
 Currently `DET` are: _itei_, _itys_, _kaida_, _kaids_, _kura_, _kurs_, _muna_, _muns_, _sova_, _sovs_, _tei_, _tis_, _toveja_, _tovejs_.
 			
-PRON `are`: _es_, _jei_, _jis_, _jī_, _kas_, _tu_.
+`PRON` are: _es_, _jei_, _jis_, _jī_, _kas_, _tu_.
+
+These lists will be expanded in future.
 
 #### Auxiliary Verbs
 
