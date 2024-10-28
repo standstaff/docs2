@@ -32,7 +32,11 @@ Latgalian uses all 17 universal POS categories.
 
 #### Pronouns and Determiners
 
-Effectively distinguishing [PRON]() and [DET]() categories in Latgalian (similarly as in Latvian) is very hard and currently no clear guidelines has been developed yet.
+Effectively distinguishing [PRON]() and [DET]() categories in Latgalian (similarly as in Latvian) is very hard and currently no clear guidelines has been developed yet. Following the example of Latvian, distinction is done by lemma. 
+
+Currently `DET` are: _itei_, _itys_, _kaida_, _kaids_, _kura_, _kurs_, _muna_, _muns_, _sova_, _sovs_, _tei_, _tis_, _toveja_, _tovejs_.
+			
+PRON `are`: _es_, _jei_, _jis_, _jī_, _kas_, _tu_.
 
 #### Auxiliary Verbs
 
