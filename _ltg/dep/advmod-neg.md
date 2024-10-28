@@ -19,5 +19,6 @@ The `advmod:neg` relation is used to confer negative polarity to any other eleme
 7	tū	tys	PRON	pd3msan	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	obj	8:obj	LvtbNodeId=a-ltg-Cairo-p12s1w7
 8	pīraksteja	pīraksteit	VERB	vmnist330an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	4	acl	4:acl	LvtbNodeId=a-ltg-Cairo-p12s1w8|SpaceAfter=No
 9	.	.	PUNCT	zs	_	2	punct	2:punct	LvtbNodeId=a-ltg-Cairo-p12s1w9
+
 ~~~
 
