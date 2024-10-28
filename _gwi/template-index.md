@@ -49,7 +49,7 @@ udver: "2"
 
 There is [one](../treebanks/gwi-comparison.html) Gwichin UD treebanks:
 
-  * [Gwichin-TueCL](../treebanks/gwi_a/index.html)
+  * [Gwichin-TueCL](../treebanks/gwi_tuecl/index.html)
 
 ---
 **Instruction**: Treebank-specific pages are generated automatically from the README file in the treebank repository and
