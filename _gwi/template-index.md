@@ -47,10 +47,9 @@ udver: "2"
 
 ## Treebanks
 
-There are [N](../treebanks/gwi-comparison.html) Gwichin UD treebanks:
+There is [one](../treebanks/gwi-comparison.html) Gwichin UD treebanks:
 
-  * [Gwichin-A](../treebanks/gwi_a/index.html)
-  * [Gwichin-B](../treebanks/gwi_b/index.html)
+  * [Gwichin-TueCL](../treebanks/gwi_a/index.html)
 
 ---
 **Instruction**: Treebank-specific pages are generated automatically from the README file in the treebank repository and
