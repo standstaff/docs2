@@ -1,15 +1,15 @@
 ---
 layout: base
-title:  'Gwichin UD'
+title:  'Gwich'in UD'
 udver: '2'
 ---
 
-# UD for Gwichin <span class="flagspan"><img class="flag" src="../../flags/svg/US-AK.svg" /></span> <span class="flagspan" style="padding-left:1em"><img class="flag" src="../../flags/svg/CA.svg" /></span>
+# UD for Gwich'in <span class="flagspan"><img class="flag" src="../../flags/svg/US-AK.svg" /></span> <span class="flagspan" style="padding-left:1em"><img class="flag" src="../../flags/svg/CA.svg" /></span>
 
 
 ## Tokenization and Word Segmentation
 
-*
+* In general, words are delimited by whitespace characters.
 
 ---
 **Instruction**: Describe the general rules for delimiting words (for example, based on whitespace and punctuation) and exceptions to these rules. Specify whether words with spaces and/or multiword tokens occur. Include links to further language-specific documentation if available.
