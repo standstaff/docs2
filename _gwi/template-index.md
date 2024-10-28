@@ -41,7 +41,8 @@ udver: "2"
 * Free standing personal pronouns are rare in the data. There is only one instance of these (_shįį_).
 * Interrogative pronouns are tagged PRON.
 * All words that take verbal inflection are tagged as VERB. This includes words that in English would take AUX.
-* PART is used for words that denote negation (_kwàa_) or plurality (_nąįį_). 
+* PART is used for words that denote negation (_kwàa_) or plurality (_nąįį_).
+* AUX and SYM are not used.
 
 ---
 **Instruction**: Specify any unused tags. Explain what words are tagged as PART. Describe how the AUX-VERB and DET-PRON distinctions are drawn, and specify whether there are (de)verbal forms tagged as ADJ, ADV or NOUN. Include links to language-specific tag definitions if any.
@@ -50,7 +51,7 @@ udver: "2"
 
 ### Features
 
-*
+* Features are not included at this time. Morpheme information can be found for many words in the MISC column. 
 
 ---
 **Instruction**: Describe inherent and inflectional features for major word classes (at least NOUN and VERB). Describe other noteworthy features. Include links to language-specific feature definitions if any.
