@@ -1,7 +1,7 @@
 ---
 layout: base
-title:  'Gwich'in UD'
-udver: '2'
+title:  "Gwich'in UD"
+udver: "2"
 ---
 
 # UD for Gwich'in <span class="flagspan"><img class="flag" src="../../flags/svg/US-AK.svg" /></span> <span class="flagspan" style="padding-left:1em"><img class="flag" src="../../flags/svg/CA.svg" /></span>
