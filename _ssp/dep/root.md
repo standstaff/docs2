@@ -14,7 +14,6 @@ In most trees, the root node is pos_tagged as VERB, but there are also ADJs and 
 2	SECO	_	ADJ	Adj	_	0	root	_	Gloss=DRY
 ~~~
 ~~~ conllu
-# user_id = JMGarciaMiguel
 # sent_id = HC-JRV#001
 # text = TÍTULO TRES CERDO OTRO UNO LOBO
 # gloss_en = TITLE THREE PIG OTHER  ONE WOLF
