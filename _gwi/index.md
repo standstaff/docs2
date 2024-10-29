@@ -37,7 +37,7 @@ udver: "2"
 * Verbal adjectives are tagged as VERB.
 * Free standing personal pronouns are rare in the data. There is only one instance of these (_shįį_).
 * Interrogative pronouns are tagged PRON.
-* All words that take verbal inflection are tagged as VERB. This includes words that in English would take AUX.
+* All words that take verbal inflection are tagged as VERB at this time. This includes words that in English would take AUX.
 * PART is used for words that denote negation (_kwàa_) or plurality (_nąįį_).
 * AUX and SYM are not used.
 
