@@ -26,13 +26,13 @@ udver: "2"
   * INTJ _Àąhą’_, etc.
   * NOUN _vadzaih_, _shidink’ee_, _shee’ii_, _kwaiitryah_, etc. 
   * NUM _ch’ìhłak_, _dǫǫ_, etc.
-  * PART _nąįį_, _kwàa_ 
+  * PART _nąįį_, _kwàa_
   * PRON _shįį_, _jidìi_, etc.
   * PROPN _Vashrąįį K'ǫǫ_, _Tsiigehtchic_, _Dr. Burke_, etc.
   * PUNCT _._, _?_, _,_, etc.
   * SCONJ _jì_, _geh’àn_, _aii_, etc.
   * VERB _ihtsàl_, _giyahąąh’yaa_, _vintł’ihihtin_, etc. 
-  * X is used for three words that could not be determined
+  * X is used for three words that could not be determined at this time.
 * ADJ is used for adjective enclitics following NOUN.
 * Verbal adjectives are tagged as VERB.
 * Free standing personal pronouns are rare in the data. There is only one instance of these (_shįį_).
@@ -70,10 +70,5 @@ udver: "2"
 There is [one](../treebanks/gwi-comparison.html) Gwich'in UD treebank:
 
   * [Gwichin-TueCL](../treebanks/gwi_tuecl/index.html)
-
----
-**Instruction**: Treebank-specific pages are generated automatically from the README file in the treebank repository and
-from the data in the latest release. Link to the respective `*-index.html` page in the `treebanks` folder, using the language code
-and the treebank code in the file name.
 
 ---
