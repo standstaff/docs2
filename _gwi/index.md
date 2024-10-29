@@ -53,7 +53,7 @@ udver: "2"
 * Inalienable nouns NOUN like body-parts and kinship terms must be marked with a possessor. Alienable nouns NOUN may or may not be marked with a possessor.
 * It has been suggested that Northern Athabascan languages allow noun incorporation, but the status of noun incorporation in Gwich'in is unclear at this time. The word meaning _palm_ in possessed form appears to be (partially?) incorporated to denote pronominal recipients in ditransitive verbs. This is how the equivalent of pronominal indirect objects in English are expressed. Whether or not other noun objects can be incorporated warrants further exploration. 
 * Postpositions ADP must be inflected for person and number with human objects. If there is an areal object, the postposition takes the prefix _gwï-_. The language-specific feature-value _Areal=Yes_ may be needed for this. 
-* Spatial adverbs known as _directionals_ encode three types of information: the direction itself (up/down, upstream/downstream, inland/upland, etc.), the orientation (allative, punctual, areal, ablative), and distance from the speaker (short, long, very long, straight). Language-specific features may be needed for these. 
+* Spatial adverbs known as _directionals_ encode three pieces of information: the direction itself (up/down, upstream/downstream, inland/upland, etc.), the orientation (allative, punctual, areal, ablative), and distance from the speaker (short, long, very long, straight). Language-specific features may be needed for these. 
 
 ---
 
