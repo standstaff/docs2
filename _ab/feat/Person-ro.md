@@ -11,28 +11,30 @@ This feature marks person agreement of the verb with the indirect object or of p
 
 #### Examples
 
-* [ab] _д-<b>сы</b>-з-гIа-р-г-х-тI_ [3SG.H.ABS-<b>1SG.IO</b>-BEN-CSL-3PL.ERG-carry-RE-DCL] ‘they carried him <b>to me</b>’ `Gender[abs]=Com|Number[abs]=Sing|Number[erg]=Plur|Number[io]=Sing|Person[abs]=3|Person[erg]=3|Person[io]=1|Tense=Aor|VerbForm=Fin`
+* [ab] _<b>(ø-)ҳа-з</b>ҭе-и-ҧсо.ит_ [DO.3-<b>RO.1Pl-For</b>-Pv-Subj.3SgM-pour.Pres] ‘he pours it <b>for us</b>’ `Dyn=Yes|Gender[subj]=Masc|Number[ro]=Plur|Number[subj]=Sing|Person[obj]=3|Person[ro]=1|Person[subj]=3|Reln=Ben|Tense=Pres|Trans=Yes|VerbForm=Fin`
 
 ### <a name="2">`2`</a>: Second Person
 
 #### Examples
 
-* [ab] _<b>швы</b>-з-гIа-з-г-х-пI_ [2PL.IO-BEN-CSL-1SG.ERG-carry-RE-NPST.DCL] ‘I carried <b>to you</b>’ `Number[erg]=Sing|Number[io]=Plur|Person[erg]=1|Person[io]=2|Tense=Fut2|VerbForm=Fin`
+* [ab] _и-у-зы-ҧш-у_ [Subj.3-RO.2SgM-wait-Pres.NonFin] ‘what is waiting for you.Masc’ `Dyn=No|Gender[ro]=Masc|Number[ro]=Sing|Person[ro]=2|Person[subj]=Rel|Reln=Ben|Tense=Pres|VerbForm=NonFin`
 
 ### <a name="3">`3`</a>: Third Person
 
 #### Examples
 
-* [ab] _<b>а</b>-пны_ [<b>3SG.M.IO</b>-near] ‘near <b>it</b>’ `Gender[io]=Masc|Number[io]=Sing|Person[io]=3`
+* [ab] _и-а-з-хәыц-ит_ [Subj.3-LO.3SgNH-For-think-Aor] ‘it/they think about it’ `Dyn=Yes|Gender[ro]=Neut|Number[ro]=Sing|Person[ro]=3|Person[subj]=3|Reln=Ben|Tense=Aor|Trans=No|VerbForm=Fin`
 
 ### <a name="Rel">`Rel`</a>: Relative Person marker
 
 #### Examples
 
-* [ab] _<b>а</b>-пны_ [<b>3SG.M.IO</b>-near] ‘near <b>it</b>’ `Gender[io]=Masc|Number[io]=Sing|Person[io]=3`
+* [ab] _шәы-з-л-еиҕь-у_ [Subj.2Pl-RO.Rel-With-better-Pres.NonFin] ‘who is better than us’ `Number=Sing|Number[subj]=Plur|Person[ro]=Rel|Person[subj]=2|Reln=Ins|Tense=Pres|VerbForm=NonFin`
 
-### <a name="Rec">`Rec`</a>: Recursive Person marker
+### <a name="Rec">`Rec`</a>: Reciprocal Person marker
 
 #### Examples
 
-* [ab] _<b>а</b>-пны_ [<b>3SG.M.IO</b>-near] ‘near <b>it</b>’ `Gender[io]=Masc|Number[io]=Sing|Person[io]=3`
+* [ab] _(и)-еи-зы-раз-ны_ [Subj.3-RO:Rec-For-agree-Cnv] ‘agreeing with each other’ `Number=Sing|Person[ro]=Rec|Person[subj]=3|Reln=Ben|Tense=Pres|VerbForm=NonFin`
+
+<!-- Interlanguage links updated Ne 5. května 2024, 18:20:15 CEST -->

@@ -5,17 +5,18 @@ shortdef: 'number of inner reflexive object'
 udver: '2'
 ---
 
-This feature marks number agreement of the verb with the indirect object or of postposition with its noun.
+This feature marks number agreement of the verb with the reflexive object.
 
 ### <a name="Sing">`Sing`</a>: Singular
 
 #### Examples
 
-* [ab] _хI-<b>и</b>-цIгIа-пI_ [1PL.ABS-<b>3SG.M.IO</b>-ask-NPST.DCL] ‘we'll ask <b>him</b>’ `Gender[io]=Masc|Number[abs]=Plur|Number[io]=Sing|Person[abs]=1|Person[io]=3|Tense=Fut2|VerbForm=Fin`
+* [ab] _<b>у-ҽ</b>-аа-ны-кыл(-ø)_ [<b>Refl.2SgM-Refl</b>-Mod-Pv-restrain-Impv] ‘restrain <b>yourself.Sg</b>!’ `Dyn=Yes|Gender[lo]=Neut|Gender[refl]=Masc|Mood=Imp|Number[lo]=Sing|Number[refl]=Sing|Person[lo]=3|Person[refl]=2|Trans=Yes|VerbForm=Fin`
 
 ### <a name="Plur">`Plur`</a>: Plural
 
 #### Examples
 
-* [ab] _д-гIа-<b>ра</b>-з-цIгIа-тI_ [3SG.H.ABS-CSL-<b>3PL.IO</b>-BEN-ask-DCL] ‘he asked <b>them</b>’ `Gender[abs]=Com|Number[abs]=Sing|Number[io]=Plur|Person[abs]=3|Person[io]=3|Tense=Aor|VerbForm=Fin`
+* [ab] _<b>шә-ҽ</b>-аа-ны-шә-кыл(-ø)_ [<b>Refl.2Pl-Refl</b>-Mod-Pv-Subj.2Pl-restrain-Impv] ‘restrain <b>yourself.Pl</b>!’ `Dyn=Yes|Gender[lo]=Neut|Mood=Imp|Number[lo]=Sing|Number[refl]=Plur|Number[subj]=Plur|Person[lo]=3|Person[refl]=2|Person[subj]=2|Trans=Yes|VerbForm=Fin`
 
+<!-- Interlanguage links updated Ne 5. května 2024, 18:20:09 CEST -->

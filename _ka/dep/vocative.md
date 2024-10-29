@@ -14,8 +14,8 @@ The relation links the addressee or the addressee’s name to its host sentence.
 vocative(მომიტანე, შვილო)
 ~~~
 ~~~ sdparse
-მარიამ, დღეს რა გეგმები გაქვს? \n 'Maria, what are your plans today?'
+მარიამ, დღეს რა გეგმები გაქვს? \n 'Maria, what plans do you have for today?'
 vocative(გაქვს, მარიამ)
 ~~~
 
-<!-- Interlanguage links updated Po 6. listopadu 2023, 21:43:28 CET -->
+<!-- Interlanguage links updated Ne 5. května 2024, 18:21:48 CEST -->

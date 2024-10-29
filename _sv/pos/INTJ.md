@@ -2,6 +2,7 @@
 layout: postag
 title: 'INTJ'
 shortdef: 'interjection'
+udver: '2'
 ---
 
 ### Definition
@@ -14,4 +15,4 @@ part of an exclamation.
 - _Tack!_ "Thanks!"
 - _Aj!_ "Ouch!"
 - _Pang!_ "Bam!"
-<!-- Interlanguage links updated Po 6. listopadu 2023, 21:41:25 CET -->
+<!-- Interlanguage links updated Ne 5. května 2024, 18:19:37 CEST -->

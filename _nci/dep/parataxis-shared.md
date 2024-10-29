@@ -2,7 +2,7 @@
 udver: '2'
 layout: relation
 title: 'parataxis:shared'
-shortdef: 'reported shared'
+shortdef: 'parataxis with shared arguments'
 ---
 
 The `parataxis:shared` subtype of the [parataxis]() relation is used to attach two clauses which
@@ -18,4 +18,4 @@ parataxis(mochiuhqui, quicenhuica)
 obj(quicenhuica, miquiztetzahuitl)
 ~~~
 
-<!-- Interlanguage links updated Po 6. listopadu 2023, 21:43:25 CET -->
+<!-- Interlanguage links updated Ne 5. května 2024, 18:21:46 CEST -->

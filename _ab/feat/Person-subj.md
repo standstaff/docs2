@@ -11,29 +11,31 @@ This feature marks person agreement of the verb with the indirect object or of p
 
 #### Examples
 
-* [ab] _д-<b>сы</b>-з-гIа-р-г-х-тI_ [3SG.H.ABS-<b>1SG.IO</b>-BEN-CSL-3PL.ERG-carry-RE-DCL] ‘they carried him <b>to me</b>’ `Gender[abs]=Com|Number[abs]=Sing|Number[erg]=Plur|Number[io]=Sing|Person[abs]=3|Person[erg]=3|Person[io]=1|Tense=Aor|VerbForm=Fin`
+* [ab] _и-ҟа-с-ҵо-ит_ [DO.3-Pv-Subj.1Sg-make-Pres.Fin] ‘I am making it’ `Dyn=Yes|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Tense=Pres|Trans=Yes|VerbForm=Fin`
 
 ### <a name="2">`2`</a>: Second Person
 
 #### Examples
 
-* [ab] _<b>швы</b>-з-гIа-з-г-х-пI_ [2PL.IO-BEN-CSL-1SG.ERG-carry-RE-NPST.DCL] ‘I carried <b>to you</b>’ `Number[erg]=Sing|Number[io]=Plur|Person[erg]=1|Person[io]=2|Tense=Fut2|VerbForm=Fin`
+* [ab] _у-<b>з</b>-ҿ-узеи_ [Subj.2SgM-LO.Rel-be.in-Pres.NonFin.Q] ‘in what are you?’ `Dyn=No|Gender[subj]=Masc|Number[subj]=Sing|Person[lo]=Rel|Person[subj]=2|Tense=Pres|VerbForm=NonFin`
 
 ### <a name="3">`3`</a>: Third Person
 
 #### Examples
 
-* [ab] _<b>а</b>-пны_ [<b>3SG.M.IO</b>-near] ‘near <b>it</b>’ `Gender[io]=Masc|Number[io]=Sing|Person[io]=3`
+* [ab] _и-неи-уа.н_ [Subj.3-go-Imp.Fin] ‘it was going’ `Dyn=Yes|Person[subj]=3|Tense=Imp|Trans=No|VerbForm=Fin`
 
 ### <a name="Rel">`Rel`</a>: Relative Person marker
 
 #### Examples
 
-* [ab] _<b>а</b>-пны_ [<b>3SG.M.IO</b>-near] ‘near <b>it</b>’ `Gender[io]=Masc|Number[io]=Sing|Person[io]=3`
+* [ab] _и-цо.з_ [Subj.Rel-go.Imp] ‘who went’ `Dyn=Yes|Person[subj]=Rel|Tense=Imp|Trans=No|VerbForm=NonFin`
 
-### <a name="Rec">`Rec`</a>: Recursive Person marker
+### <a name="Rec">`Rec`</a>: Reciprocal Person marker
 
 #### Examples
 
-* [ab] _<b>а</b>-пны_ [<b>3SG.M.IO</b>-near] ‘near <b>it</b>’ `Gender[io]=Masc|Number[io]=Sing|Person[io]=3`
+* [ab] _и-еиба-дыр-ит_ [DO.3-Subj.Rec-know-Aor] ‘they got acquainted with each other (they knew each other)’ `Dyn=Yes|Person[obj]=3|Person[subj]=Rec|Tense=Aor|Trans=Yes|VerbForm=Fin`
 
+
+<!-- Interlanguage links updated Ne 5. května 2024, 18:20:15 CEST -->

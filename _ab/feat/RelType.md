@@ -1,69 +1,34 @@
 ---
 layout: feature
 title: 'RelType'
-shortdef: 'type of relative participle'
+shortdef: 'type of relative converb'
 udver: '2'
 ---
 
 This marks type of relative participle.
 
-### <a name="Subj">`Subj`</a>: Subj
-
-#### Examples
-
-* [abq] _<b>й</b>-шв-тахъ-х-у_ [<b>REL.ABS</b>-2PL.IO-want-RE-PRS.NFIN] ‘[the thing] that you want’ `Number[io]=Plur|Person[io]=2|RelType=Abs|Tense=Pres|VerbForm=NonFin`
-
-### <a name="Obj">`Obj`</a>: Direct object
-
-#### Examples
-
-* [abq] _<b>й</b>-шв-тахъ-х-у_ [<b>REL.ABS</b>-2PL.IO-want-RE-PRS.NFIN] ‘[the thing] that you want’ `Number[io]=Plur|Person[io]=2|RelType=Abs|Tense=Pres|VerbForm=NonFin`
-
-### <a name="Io">`Io`</a>: Indirect object
-
-#### Examples
-
-* [abq] _<b>й</b>-шв-тахъ-х-у_ [<b>REL.ABS</b>-2PL.IO-want-RE-PRS.NFIN] ‘[the thing] that you want’ `Number[io]=Plur|Person[io]=2|RelType=Abs|Tense=Pres|VerbForm=NonFin`
-
-### <a name="Lo">`Lo`</a>: Local object
-
-#### Examples
-
-* [abq] _<b>й</b>-шв-тахъ-х-у_ [<b>REL.ABS</b>-2PL.IO-want-RE-PRS.NFIN] ‘[the thing] that you want’ `Number[io]=Plur|Person[io]=2|RelType=Abs|Tense=Pres|VerbForm=NonFin`
-
-### <a name="Ro">`Ro`</a>: Relational object
-
-#### Examples
-
-* [abq] _<b>й</b>-шв-тахъ-х-у_ [<b>REL.ABS</b>-2PL.IO-want-RE-PRS.NFIN] ‘[the thing] that you want’ `Number[io]=Plur|Person[io]=2|RelType=Abs|Tense=Pres|VerbForm=NonFin`
-
-### <a name="Po">`Po`</a>: Potential object
-
-#### Examples
-
-* [abq] _<b>й</b>-шв-тахъ-х-у_ [<b>REL.ABS</b>-2PL.IO-want-RE-PRS.NFIN] ‘[the thing] that you want’ `Number[io]=Plur|Person[io]=2|RelType=Abs|Tense=Pres|VerbForm=NonFin`
-
 ### <a name="Tmp">`Tmp`</a>: Temporal
 
 #### Examples
 
-* [abq] _д-<b>ан</b>-гIа-й-х_ [3SG.H.ABS-REL.TMP-CSL-come-RE] ‘when (s)he came back’ `Gender[abs]=Com|Number[abs]=Sing|Person[abs]=3|RelType=Tmp|Tense=Aor|VerbForm=NonFin`
+* [ab] _(ø-)<b>ан</b>-аа-ҟәы.ҵ(-ø)_ [Subj.3-When-Mod-stop-Aor.NonFin] ‘<b>when</b> it stopped’ `Dyn=Yes|Gender[lo]=Neut|Number[lo]=Sing|Person[lo]=3|Person[subj]=3|RelType=Tmp|Tense=Aor|Trans=No|VerbForm=NonFin`
 
 ### <a name="Cause">`Cause`</a>: Cause
 
 #### Examples
 
-* [abq] _й-<b>зы</b>-л-гвал-и-щд_ [3SG.N.ABS-REL.RSN-3SG.F.IO-hope-QN-EMP] ‘why she wanted it’ `Gender[abs]=Neut|Gender[io]=Fem|Int=Yes|Number[abs]=Sing|Number[io]=Sing|Person[abs]=3|Person[io]=3|RelType=Rsn|VerbForm=NonFin`
+* [ab] _и-<b>з</b>-у-ҭах-узеи_ [DO.3-Why-Subj.3SgM-want-Q.NonFin] ‘<why> do you want it?’ `Dyn=No|Gender[subj]=Masc|Mood=Int|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|RelType=Cause|Tense=Pres|Trans=Yes|VerbForm=NonFin`
 
 ### <a name="Mnr">`Mnr`</a>: Manner
 
 #### Examples
 
-* [abq] _й-<b>ш</b>-с-чпа-уа_ [3SG.N.ABS-REL.MNR-1SG.ERG-do-IPF] ‘how I do it’ `Gender[abs]=Neut|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=1|RelType=Mnr`
+* [ab] _д-<b>ш</b>-ааи-уа.з_ [Subj.3SgH-How-come-Imp.NonFin] ‘how he was coming’ `Dyn=Yes|Gender[subj]=Com|Number[subj]=Sing|Person[subj]=3|RelType=Mnr|Tense=Imp|Trans=No|VerbForm=NonFin`
 
 ### <a name="Loc">`Loc`</a>: Locative
 
 #### Examples
 
-* [abq] _й-<b>ъа</b>-та-з_ [3PL.ABS-<b>REL.LOC</b>-reside-PST.NFIN] ‘where they lived’ `Number[abs]=Plur|Person[abs]=3|RelType=Loc|Tense=Past|VerbForm=NonFin`
+* [ab] _и-<b>ахь</b>-и-го_ [DO.3-Where-Subj.3SgM-take.Pres.NonFin] ‘<b>where</b> he took it’ `Dyn=Yes|Gender[subj]=Masc|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|RelType=Loc|Tense=Pres|Trans=Yes|VerbForm=NonFin`
 
+<!-- Interlanguage links updated Ne 5. května 2024, 18:20:21 CEST -->

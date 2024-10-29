@@ -65,12 +65,14 @@ compound(driven, self)
 punct(driven, -)
 ~~~
 
+<!-- now part of `flat'
 - imitative reduplication
 
 ~~~ sdparse
 Does he go oink oink ?
 compound(oink-5, oink-4)
 ~~~
+-->
 
  - idiomatic verb-particle constructions are analyzed with a language-specific subtype, [compound:prt]()
 
@@ -78,4 +80,4 @@ compound(oink-5, oink-4)
 She just made up the answer .
 compound:prt(made, up)
 ~~~
-<!-- Interlanguage links updated Po 6. listopadu 2023, 21:42:36 CET -->
+<!-- Interlanguage links updated Ne 5. května 2024, 18:20:54 CEST -->

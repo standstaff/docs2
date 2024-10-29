@@ -50,6 +50,11 @@ det(president, the-4)
 ~~~
 
 Prepositionless, non-possessive nominals serving as adnominal modifiers
-are tagged with subtypes [nmod:tmod]() (temporal) or [nmod:npmod]() (other). See
-the definitions of these relations.
-<!-- Interlanguage links updated Po 6. listopadu 2023, 21:43:02 CET -->
+are tagged with the subtyped relation [nmod:unmarked]():
+
+~~~ sdparse
+IBM earned $ 5 a share
+nmod:unmarked($, share)
+~~~
+
+<!-- Interlanguage links updated Ne 5. května 2024, 18:21:20 CEST -->

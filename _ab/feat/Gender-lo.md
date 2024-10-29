@@ -1,26 +1,27 @@
 ---
 layout: feature
 title: 'Gender[lo]'
-shortdef: 'gender of indirect object'
+shortdef: 'gender of local object'
 udver: '2'
 ---
 
-This feature marks gender agreement of the verb with the indirect object or of postposition with its noun.
+This feature marks gender agreement of the verb with a local object.
 
 ### <a name="Masc">`Masc`</a>: Masculine
 
 #### Examples
 
-* [ab] _хI-<b>и</b>-цIгIа-пI_ [1PL.ABS-<b>3SG.M.LO</b>-ask-NPST.DCL] ‘we'll ask <b>him</b>’ `Gender[lo]=Masc|Number[abs]=Plur|Number[lo]=Sing|Person[abs]=1|Person[lo]=3|Tense=Fut2|VerbForm=Fin`
+* [ab] _и-у-гәа-ҧхо.ит_ [Subj.3-LO.2SgM-Pv-like.Pres] ‘<b>you (Masc)</b> like it’ `Dyn=Yes|Gender[lo]=Masc|Number[lo]=Sing|Person[lo]=2|Person[subj]=3|Tense=Pres|Trans=No|VerbForm=Fin`
 
 ### <a name="Fem">`Fem`</a>: Feminine
 
 #### Examples
 
-* [ab] _й-<b>л</b>-а-с-хIв-д_ [3SG.N.ABS-<b>3SG.F.LO</b>-DAT-1SG.ERG-say-DCL] ‘I said <b>to her</b>’ `Gender[abs]=Neut|Gender[lo]=Fem|Number[abs]=Sing|Number[erg]=Sing|Number[lo]=Sing|Person[abs]=3|Person[erg]=1|Person[lo]=3|Tense=Aor|VerbForm=Fin`
+* [ab] _и-б-гәа-ҧхо.ит_ [Subj.3-LO.2SgF-Pv-like.Pres] ‘<b>you (Fem)</b> like it’ `Dyn=Yes|Gender[lo]=Fem|Number[lo]=Sing|Person[lo]=2|Person[subj]=3|Tense=Pres|Trans=No|VerbForm=Fin`
 
 ### <a name="Neut">`Neut`</a>: Neuter = Non-human
 
 #### Examples
 
-* [ab] _й-<b>л</b>-а-с-хIв-д_ [3SG.N.ABS-<b>3SG.F.LO</b>-DAT-1SG.ERG-say-DCL] ‘I said <b>to her</b>’ `Gender[abs]=Neut|Gender[io]=Fem|Number[abs]=Sing|Number[erg]=Sing|Number[io]=Sing|Person[abs]=3|Person[erg]=1|Person[io]=3|Tense=Aor|VerbForm=Fin`
+* [ab] _д-а-ла-ло.ит_ [Subj.3SgH-LO.3SgNH-Pv-enter.Pres] ‘he is going <b>into it</b>’ `Dyn=Yes|Gender[lo]=Neut|Number[lo]=Sing|Person[lo]=3|Person[subj]=3|Tense=Pres|Trans=No|VerbForm=Fin`
+<!-- Interlanguage links updated Ne 5. května 2024, 18:19:58 CEST -->

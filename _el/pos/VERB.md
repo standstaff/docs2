@@ -17,7 +17,7 @@ A verb typically denotes events and actions, can constitute a minimal predicate 
 Participles in *-μένος* are productive in Modern Greek. These and the participles in *-θείς*  are assigned the tag VERB, the lemma in *-μένος*  and *-θείς*,  and the features Case=...|Gender=...|Number=...VerbForm=Part|Voice=Pass. 
 Ηowever, there are formations in *-μένος* not related to a verb in use, e.g., *χιλιοτραγουδισμένος* / *chiliotragoudismenos* “storied”, *ξακουσμένος* / _ksakousmenos_ “famous”, etc; these are assigned the  tag [ADJ]().
 
-*είμαι* "to be" is assigned the tag [AUX]() when it supports a participle or an adjective and otherwise the tag [VERB]().
+<!-- *είμαι* "to be" is assigned the tag [AUX]() when it supports a participle or an adjective and otherwise the tag [VERB](). -->
 
 Most verb forms inflect for <code>Number</code>, <code>Person</code> and are also tagged for <code>Aspect</code>, <code>Mood</code>, <code>Tense</code> and <code>Voice</code>. 
 
@@ -30,9 +30,12 @@ Non-inflecting verb forms ending in *-όντας, -ώντας* (adverbial partic
 -	*τρέχω, τρώει* / *trecho, troi* "I run/am running, he/she/it eats, is eating"
 -	*τρέχοντας, τρώγοντας* / *trechodas, trogodas* "running, eating"
 
+Occassionally, only a few or unique members of the inflectional paradigm of a verb are used, e.g.
+- *άει* in many fixed and productive expressions, e.g., *άει πάγαινε*, *άει στο καλό*, *άει στο διάολο*, etc. It is assigned the lemma "άει".
+  
 ### References
  
 Τζάρτζανος, Αχιλλέας, 2002. *Νεοελληνική Σύνταξις της Κοινής Δημοτικής*. Αθήνα: Εκδόσεις Κυριακίδη. σελ. 225.
 https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/
 
-<!-- Interlanguage links updated Po 6. listopadu 2023, 21:41:31 CET -->
+<!-- Interlanguage links updated Ne 5. května 2024, 18:19:43 CEST -->

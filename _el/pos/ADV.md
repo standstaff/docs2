@@ -39,6 +39,8 @@ Non-inflecting verb forms ending in *-όντας, -ώντας* (adverbial partic
 
 *μετά* and *εντός* may appear with a noun in the genitive case: the first denotes accompaniment, e.g.,  *μετά ληστείας* / meta listias "together with a robbery" while both are structures inherited from older versions of the language, e.g. *εντός δευτερολέπτων* / entos defterolepton "within minutes". In all these cases *μετά* and *εντός* are assigned the tag [ADV]().
 
+The adverb *εντάξει* often appears in the role of an interjection. In these cases it retains the ADV PoS and is related with the other elements in the sentence with the [discourse]() relation. 
+
 
 
 ### Examples
@@ -62,4 +64,4 @@ Mackridge, Peter. 1985. *The Modern Greek Language. A Descriptive Analysis of St
 https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/
 
 
-<!-- Interlanguage links updated Po 6. listopadu 2023, 21:41:21 CET -->
+<!-- Interlanguage links updated Ne 5. května 2024, 18:19:33 CEST -->

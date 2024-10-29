@@ -5,17 +5,19 @@ shortdef: 'number of indirect object'
 udver: '2'
 ---
 
-This feature marks number agreement of the verb with the indirect object or of postposition with its noun.
+This feature marks number agreement of the verb with the indirect object.
 
 ### <a name="Sing">`Sing`</a>: Singular
 
 #### Examples
 
-* [ab] _хI-<b>и</b>-цIгIа-пI_ [1PL.ABS-<b>3SG.M.IO</b>-ask-NPST.DCL] ‘we'll ask <b>him</b>’ `Gender[io]=Masc|Number[abs]=Plur|Number[io]=Sing|Person[abs]=1|Person[io]=3|Tense=Fut2|VerbForm=Fin`
+* [ab] _ø-<b>с</b>-аҳа-хье.ит_ [Subj.3-IO.1Sg-hear-Perfect] ‘I have heard it’ `Dyn=Yes|Gender[subj]=Neut|Number[io]=Sing|Number[subj]=Sing|Person[io]=1|Person[subj]=3|Tense=Prf|Trans=No|VerbForm=Fin`
 
 ### <a name="Plur">`Plur`</a>: Plural
 
 #### Examples
 
-* [ab] _д-гIа-<b>ра</b>-з-цIгIа-тI_ [3SG.H.ABS-CSL-<b>3PL.IO</b>-BEN-ask-DCL] ‘he asked <b>them</b>’ `Gender[abs]=Com|Number[abs]=Sing|Number[io]=Plur|Person[abs]=3|Person[io]=3|Tense=Aor|VerbForm=Fin`
+* [ab] _ø-<b>ҳ</b>-аҳа-хье.ит_ [Subj.3-IO.1Pl-hear-Perfect] ‘we have heard it’ `Dyn=Yes|Gender[subj]=Neut|Number[io]=Plur|Number[subj]=Sing|Person[io]=1|Person[subj]=3|Tense=Prf|Trans=No|VerbForm=Fin`
 
+
+<!-- Interlanguage links updated Ne 5. května 2024, 18:20:07 CEST -->

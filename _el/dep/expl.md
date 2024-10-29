@@ -19,12 +19,13 @@ dobj(έδωσε, αναπτήρα)
 Κι εγώ το προτιμώ που είμαστε όλοι μαζί:
 ccomp(προτιμώ, μαζί)
 expl(προτιμώ, το)
+mark(μαζί, που)
 ~~~
 
 ~~~ sdparse
 Της τον έδωσε.
 iobj(έδωσε, Της)
-dobj(έδωσε, τον)
+obj(έδωσε, τον)
 ~~~
 
 
@@ -45,4 +46,4 @@ obj(βάφτισε, παιδί)
 ~~~
 
 
-<!-- Interlanguage links updated Po 6. listopadu 2023, 21:42:53 CET -->
+<!-- Interlanguage links updated Ne 5. května 2024, 18:21:11 CEST -->

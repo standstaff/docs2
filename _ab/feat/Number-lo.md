@@ -11,11 +11,12 @@ This feature marks number agreement of the verb with the indirect object or of p
 
 #### Examples
 
-* [ab] _хI-<b>и</b>-цIгIа-пI_ [1PL.ABS-<b>3SG.M.IO</b>-ask-NPST.DCL] ‘we'll ask <b>him</b>’ `Gender[io]=Masc|Number[abs]=Plur|Number[io]=Sing|Person[abs]=1|Person[io]=3|Tense=Fut2|VerbForm=Fin`
+* [ab] _д-<b>а</b>-ла-ло-ит_ [Subj.3SgH-<b>LO.3Sg.NH</b>-go.into-Pres.Fin] ‘he/she goes into <b>it</b>’ `Dyn=Yes|Gender[lo]=Neut|Gender[subj]=Com|Number[lo]=Sing|Number[subj]=Sing|Person[lo]=3|Person[subj]=3|Tense=Pres|Trans=No|VerbForm=Fin`
 
 ### <a name="Plur">`Plur`</a>: Plural
 
 #### Examples
 
-* [ab] _д-гIа-<b>ра</b>-з-цIгIа-тI_ [3SG.H.ABS-CSL-<b>3PL.IO</b>-BEN-ask-DCL] ‘he asked <b>them</b>’ `Gender[abs]=Com|Number[abs]=Sing|Number[io]=Plur|Person[abs]=3|Person[io]=3|Tense=Aor|VerbForm=Fin`
+* [ab] _д-<b>ры</b>-ла-ло-ит_ [Subj.3SgH-<b>LO.3Pl</b>-go.into-Pres.Fin] ‘he/she goes into <b>them</b>’ `Dyn=Yes|Gender[subj]=Com|Number[lo]=Plur|Number[subj]=Sing|Person[lo]=3|Person[subj]=3|Tense=Pres|Trans=No|VerbForm=Fin`
 
+<!-- Interlanguage links updated Ne 5. května 2024, 18:20:08 CEST -->

@@ -5,23 +5,23 @@ shortdef: 'Gender of possessee in possessor'
 udver: '2'
 ---
 
-The feature marks the gender of the Relational Object of the verb.
+The feature marks the gender of the possessee in the possessor.
 
 ### <a name="Masc">`Masc`</a>: Masculine
 
 #### Examples
 
-* [ab] _иҟаиҵеит_ [3Sg.DO-PFX-3Sg.Masc.PSOR-make-PRS.FIN] ‘it is making it’ `Tense=Pres|Gender[psor]=Masc|VerbForm=Fin|Trans=Yes`
+* [ab] _и-ла_ [Poss.3SgM-dog] ‘his dog’ `Animacy=Nhum|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3`
 
 ### <a name="Fem">`Fem`</a>: Feminine
 
 #### Examples
 
-* [ab] _иҟалҵеит_ [3Sg.DO-PFX-3Sg.Fem.PSOR-make-PRS.FIN] ‘it is making it’ `Tense=Pres|Gender[psor]=Fem|VerbForm=Fin|Trans=Yes`
+* [ab] _бы-ҩны_ [Poss.2SgF-house] ‘your house’ `Animacy=Nhum|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=2`
 
 ### <a name="Neut">`Neut`</a>: Neuter = Non-human
 
 #### Examples
 
-* [ab] _иҟанаҵеит_ [3Sg.DO-PFX-3Sg.Neut.PSOR-make-PRS.FIN] ‘it is making it’ `Tense=Pres|Gender[psor]=Neut|VerbForm=Fin|Trans=Yes`
-
+* [ab] _аҟны_ [Poss.3SgNH-in] ‘in it’ `Gender[psor]=Neut|Number[psor]=Sing|Person[psor]=3`
+<!-- Interlanguage links updated Ne 5. května 2024, 18:19:59 CEST -->

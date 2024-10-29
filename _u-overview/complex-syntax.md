@@ -245,6 +245,18 @@ He was upset when I talked to him
 advcl(upset, talked)
 ~~~
 
+This relation is also used for optional depictives:
+
+~~~ sdparse
+She entered the room sad
+advcl(entered, sad)
+~~~
+
+~~~ sdparse
+He painted the model naked
+advcl(painted, naked)
+~~~
+
 ### Adnominal Clause Modifiers
 
 An adnominal clause modifier is a clause which modifies a nominal.
@@ -259,32 +271,18 @@ Cette affaire à suivre \n This case to follow
 acl(affaire, suivre)
 ~~~
 
-This relation is also used for optional depictives. The adjective is taken to modify the nominal of
-which it provides a secondary predication.
-
-~~~ sdparse
-She entered the room sad
-acl(She, sad)
-~~~
-
-~~~ sdparse
-He painted the model naked
-acl(model, naked)
-~~~
-
 A relative clause is a special type of adnominal clause, characterized by finiteness and usually omission of
-the modified noun in the embedded clause. Some languages use a language-particular subtype for
-the traditional class of relative clauses.
+the modified noun in the embedded clause. Some languages use the subtype [acl:relcl]() for relative clauses.
 
 ~~~ sdparse
 I saw the man you love
-acl(man, love)
+acl:relcl(man, love)
 ~~~
 
 Some languages allow finite clausal complements for nouns with
 a subset of nouns like *fact* or *report*. These look roughly like relative clauses, but do not have any
 omitted role in the dependent clause. This is the class of "content
-clauses" in Huddleston and Pullum 2002). These are also analyzed as `acl`.
+clauses" in Huddleston and Pullum (2002). These are also analyzed as `acl`.
 
 ~~~ sdparse
 the fact that nobody cares
@@ -413,7 +411,7 @@ xcomp(jmenovat, generálem)
 
 The relation `xcomp` is used for core arguments of clausal predicates,
 so it will not be used for some other instances of secondary predication.
-Optional depictives are analyzed as adjuncts, and made the [acl]() of the nominal that they semantically modify (if one is present).
+Optional depictives are analyzed as [advcl]() adjuncts.
 
 For instance, in _She entered the room sad_ we also have a double predication
 (she entered the room; she was sad).

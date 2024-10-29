@@ -5,7 +5,7 @@ shortdef: 'Pronoun Class'
 udver: '2'
 ---
 
-Three different classes of infixed pronoun are used in Old Irish; A, B, and C, as well as one pseudo-class used only after certain negative particles. These classes of pronoun are only occur infixed within the verbal complex. All three classes of infixed pronoun, and the fourth pseudo-class, are therefore distinct from independent pronouns. Accordingly, this feature is not utilised with independent pronouns, only those which are infixed.
+Three different classes of infixed pronoun are used in Old Irish; A, B, and C, as well as one pseudo-class used only after certain negative particles. These classes of pronoun only occur infixed within the verbal complex. All three classes of infixed pronoun, and the fourth pseudo-class, are therefore distinct from independent pronouns. Accordingly, this feature is not utilised with independent pronouns, only those which are infixed.
 
 ### <a name="A">`A`</a>: Class A
 
@@ -55,4 +55,4 @@ Aspects of this negative class are comparable to those of other classes. For exa
 * _in + nád + <b>am</b> + carai_ = _innach<b>am</b>carai_ “do you not love <b>me</b>?”
 * _ná + <b>?</b> + dermainte_ = _nach ṅdermainte_ “do not forget <b>him</b>”
 
-<!-- Interlanguage links updated Po 6. listopadu 2023, 21:42:03 CET -->
+<!-- Interlanguage links updated Ne 5. května 2024, 18:20:18 CEST -->

@@ -27,13 +27,13 @@ Units that are not tokenized apart include:
 
 ## Morphology
 
-### Tags
+### [Tags](pos/)
 
 All corpora use the full range of UPOS tags. The XPOS column uses the Penn Treebank tagset (as extended in subsequent LDC corpus releases). Note that XPOS does not have a simple mapping to UPOS tags, as UD guidelines enforce complex relations between dependency relations and POS tags: for example, since the relation `advmod` must generally have the tag `ADV`, UPOS may have `ADV` for some non-adverbial XPOS tags, and vice versa.
 
 Some of the closed-class categories have detailed English-specific documentation pages: [AUX](), [DET](), [PART](), [PRON](). For other tags, the English-specific pages may be less informative than the universal pages.
 
-### Features
+### [Features](feat/)
 
 All treebanks currently contain whitespace information, except for English-ESL. Morphological features are included in all corpora except English-ESL. In some corpora these are added automatically using CoreNLP (EWT, GUM) and in some cases supplemented using information from other annotation layers (e.g. GUM).
 
@@ -41,7 +41,7 @@ The English-specific documentation pages for the tags [AUX](), [DET](), and [PRO
 
 ## Syntax
 
-Standard deprels are used, except for `clf` which is not used in any treebank. Commonly used custom subtypes include `obl:npmod` for oblique nominals (corresponds to Stanford Dependencies `npadvmod`), `nmod:tmod` and `obl:tmod` for temporal nouns used adverbially (e.g. "today"), based on the Stanford Dependencies label `tmod`. Additionally, passives are distinguished (`nsubj:pass`, `csubj:pass`), pre-nominal possessives (`nmod:poss`), predeterminers (`det:predet` for "both" in "both the children), preconj (`cc:preconj` for "either" in "either X or Y") and a special compound subtype for phrasal verb particles (`compound:prt` for "up" in "pick up").
+Standard deprels are used, except for `clf` which is not used in any treebank. Commonly used custom subtypes include `obl:unmarked` for prepositionless oblique nominals and `nmod:unmarked` for unmarked nominal modifiers. Additionally, passives are distinguished (`nsubj:pass`, `csubj:pass`), pre-nominal possessives (`nmod:poss`), predeterminers (`det:predet` for "both" in "both the children), preconj (`cc:preconj` for "either" in "either X or Y") and a special compound subtype for phrasal verb particles (`compound:prt` for "up" in "pick up").
 
 For more information, see the list of [English relations](dep/index.html).
 
