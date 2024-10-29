@@ -4,7 +4,7 @@ title: 'PronType'
 shortdef: 'pronominal type'
 udver: '2'
 ---
-Currently there are three pronominal types used in the Scottish Gaelic treebank.
+Currently there are four pronominal types used in the Scottish Gaelic treebank.
 
 ### <a name="Art">`Art`</a>: article
 
@@ -22,6 +22,10 @@ The interrogative pronouns include _dè_ "what", _cò_ "who" or "what" and _cuin
 
 * _<b>Dè</b> do bheachd air a’ chùis, a Mhurchaidh?_  "<b>What</b> is your opinion on the matter, Murdo?"
 
+
+### <a name="Prs">`Prs`</a>: personal
+
+These include _mi_ "I"/"me", _thu_ "you", _e_, "he", _i_ "she" and also the reflexive pronoun _fhèin_ and the possessives like _mo_ "my", _do_ "your", _ar_ "our" and so on.
 
 ### <a name="Rel">`Rel`</a>: relative
 

@@ -5,7 +5,9 @@ shortdef: 'mood'
 udver: '2'
 ---
 
-The default is the indicative mood which is not currently marked.
+### <a name="Ind">`Ind`</a>: indicative mood
+
+This the default mood and was unmarked before release 2.15.
 
 ### <a name="Cnd">`Cnd`</a>: conditional mood
 

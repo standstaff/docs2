@@ -5,7 +5,7 @@ shortdef: 'compound'
 udver: '2'
 ---
 
-The `compound` relation is presently used for three constructions.
+The `compound` relation is presently used for two constructions.
 
 * Reduplicated adjectives.
 * _deug_ 'ten' at the end of a numeric phrase (numbers to the left of the noun they are counting are `nummod`.
