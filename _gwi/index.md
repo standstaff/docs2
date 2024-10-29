@@ -60,7 +60,7 @@ udver: "2"
 ## Syntax
 
 * As a polysynthetic language, ideas that are expressed in many languages with multiple words are expressed in Gwich'in with one.
-* The verb occupies the final position in a clause, and the verb stem occupies the final position in a _verb word_. Prefixes provide other relevant information and together with the verb stem often form a _verb sentence_. 
+* The verb occupies the final position in a clause, and the verb stem occupies the final position in a _verb word_. Verb prefixes provide other relevant information and together with the verb stem often form a _verb sentence_. 
 * It is up for debate whether null arguments exist in Athabascan. Pronominal subject and object markers on the verb are often treated as core arguments with free noun phrases treated as adjuncts. However, this treebank remains consistent with current UD guidelines and treats words as the basic elements connected by dependency relations and as such, treats free subject, object, and indirect object nouns as core arguments when expressed. These take the dependency relations _nsubj_, _obj_, and _iobj_, respectively. When free noun phrases do not occur, nominal information expressed on the verb can only be annotated in the _FEATS_ or _MISC_ columns. 
 
 ---
