@@ -44,9 +44,11 @@ udver: '2'
 
 * Nouns have inherent [Gender](), `Masc` or`Fem`. They inflect for [Definite]() (definite or indefinite, marked as suffix), [Number]() (singular or plural) and [Case]() (nominative, genitive, dative, accusative, vocative and ablative). For those nouns that change gender in plural, the feature [NounType]()`=Het` has been provided additionally.
 * Verbs inflect for [Aspect]() (imperfect, perfect), [Mood]() (indicative, subjunctive, admirative, imperative, conditional, optative) [Number]() (singular or plural), [Person]() (first, second, third), [Tense]() (past or present) and [Voice]() (active or passive/mediopassive). There are three types of nonfinite forms: infinitives, past participle/supine (used to form perfect tenses together with the auxiliary to have/to be or other verb constructions, i.e. *për të shkruajtur* (in order to write). However, in case of non-finite verb forms only the feature [VerbForm]() has been provided.
- * The TSA treebank has the following features for verbs: [Aspect](), [Mood](), [Number](), [Person](), [Tense]() and [Voice]().
- * The STAF treebank has the following features for verbs: [Mood](), [Number](), [Person](), [Tense]() and [Voice](). [Voice]() has the `Act` (active) and `Mid` (mediopassive) features.
-* Adjectives agree with nouns with respect to the features [Gender](), [Number](), [Case]() and [Definite](). In addition, many adjectives inflect for [Degree]() (positive, comparative, superlative). In the TSA treebank, only the features [Gender](), [Number]() and [VerbForm]() were included in the morphological analysis. In the STAF treebank, the following features are available for adjectives: [Case](), [Degree](), [Gender]() and [Number]().
+  * The TSA treebank has the following features for verbs: [Aspect](), [Mood](), [Number](), [Person](), [Tense]() and [Voice]().
+  * The STAF treebank has the following features for verbs: [Mood](), [Number](), [Person](), [Tense]() and [Voice](). [Voice]() has the `Act` (active) and `Mid` (mediopassive) features.
+* Adjectives agree with nouns with respect to the features [Gender](), [Number](), [Case]() and [Definite](). In addition, many adjectives inflect for [Degree]() (positive, comparative, superlative). 
+  * In the TSA treebank, only the features [Gender](), [Number]() and [VerbForm]() were included in the morphological analysis. 
+  * In the STAF treebank, the following features are available for adjectives: [Case](), [Degree](), [Gender]() and [Number]().
 * Adverbs inflect only for [Degree]().
 * Personal pronouns inflect for [Case]() with four values (nominative, accusative, dative, ablative), [Number]() and [Gender](). Here, the following features were stated: [Gender](), [Number]() and [PronType]().
 * For Determiners, only [Gender]() has been provided in the TSA treebank, although number and case apply as well. In the STAF treebank, Determiners have [Case](), [Gender](), [Number]() and [PronType](). There is an exception:
@@ -72,7 +74,8 @@ udver: '2'
 
 ## Treebanks
 
-There is one Albanian UD treebank.
+There are two Albanian UD treebanks.
 
   * [Albanian-TSA](../treebanks/sq_tsa/index.html)
+  * [Albanian-STAF](../treebanks/sq_staf/index.html)
 
