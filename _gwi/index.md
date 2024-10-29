@@ -48,10 +48,10 @@ udver: "2"
 * Gwich’in is a polysynthetic, primarily prefixing, head-final language.
 * Language-specific features are not provided at this time. Morpheme information can be found for many words in the MISC column.
 * However, each VERB takes one of four voice/valency markers known as its _classifier_. The proposed feature _Classifier_ has the values _Ø_, _L_, _Ł_, or _D_, consistent with the Athabascan literature. It is important to note that this use of the word _classifier_ here is different than for Chinese.
-* Gwich'in and other Athabascan languages also have a noun classification system. However, this information is encoded on the VERB. These so-called _classificatory_ VERB stems belong to one of nine stem classes. The proposed feature _StemClass_ would have the values _1_ through _9_ for the following: stick-like, food, cloth-like, plural or rope-like, animate or dead, open container, sack of granules or enclosed/sheathed, compact, and deteroriated.
+* Gwich'in and other Athabascan languages also have a noun classification system. However, this information is encoded on the VERB. These so-called _classificatory_ VERB stems belong to one of nine stem classes. The proposed feature _StemClass_ would have the values _1_ through _9_ for the following: stick-like, food, cloth-like, plural or rope-like, animate or dead, open container, sack of granules or enclosed/sheathed, compact, and deteriorated.
 * Pronominal subject marking is mandatory on the VERB. Third-person pronominal object marking is mandatory but assumed for other persons when no free noun phrase is expressed.
 * Inalienable nouns NOUN like body-parts and family relations must be marked with a possessor. Alienable nouns NOUN may or may not be marked with a possessor.
-* It has been suggested that Northern Athabascan languages allow noun incorportation, but the status of noun incorporation in Gwich'in is unclear at this time. The word meaning _palm_ in possessed form appears to be (partially?) incorporated to denote noun recipients in ditransitive verbs. Whether or not other nouns can do this warrants further exploration. 
+* It has been suggested that Northern Athabascan languages allow noun incorporation, but the status of noun incorporation in Gwich'in is unclear at this time. The word meaning _palm_ in possessed form appears to be (partially?) incorporated to denote noun recipients in ditransitive verbs. Whether or not other nouns can do this warrants further exploration. 
 * Postpositions ADP must be inflected for person and number with human objects. If there is an areal object, the postposition takes the prefix _gwï-_.
 * Spatial adverbs known as _directionals_ encode three types of information: the direction itself (up/down, upstream/downstream, inland/upland, etc.), the orientation (allative, punctual, areal, ablative), and distance from the speaker (short, long, very long, straight).
 
@@ -67,7 +67,7 @@ udver: "2"
 
 ## Treebanks
 
-There is [one](../treebanks/gwi-comparison.html) Gwichin UD treebank:
+There is [one](../treebanks/gwi-comparison.html) Gwich'in UD treebank:
 
   * [Gwichin-TueCL](../treebanks/gwi_tuecl/index.html)
 
