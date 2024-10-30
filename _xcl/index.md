@@ -107,6 +107,7 @@ This is an overview only. For more detailed discussion and examples, follow the 
 ### Nominal dependents
 
 * Midifier words are linked to their heads with the relations [advmod](xcl-dep/advmod), [amod](xcl-dep/amod), and [discourse](xcl-dep/discourse).
+* According to UD guidelines, [determiners](xcl-pos/DET), which can have dependencies, cannot be linked to their head with the [det](xcl-dep/det) relation. In Classical Armenian, here belong all determiners except for enclitic articles. Therefore, pronominal adjectives and quantifiers are attached to their head with the [amod](xcl-dep/amod) relation, and only articles have the `det` relation.
 
 ### Function words
 * The analytic verb forms are built with the help of auxiliaries [aux](xcl-dep/aux). In the case of causative clauses, the auxiliary is labelled [aux:caus](xcl-dep/aux-caus).
@@ -116,7 +117,7 @@ This is an overview only. For more detailed discussion and examples, follow the 
 
 ## Other relations
 
-* Other relation tags used in the UD_Classical_Armenian-CAVaL treebanks include: [conj](xcl-dep/conj), [cc](xcl-dep/cc), [compound](xcl-dep/compound) and its specialized subtype [compound:redup](xcl-dep/compound-redup), [det](xcl-dep/det), [fixed](xcl-dep/fixed), [flat](xcl-dep/flat), [orphan](xcl-dep/orphan), [parataxis](xcl-dep/parataxis), [punct](xcl-dep/punct), [root](xcl-dep/root).
+* Other relation tags used in the UD_Classical_Armenian-CAVaL treebanks include: [conj](xcl-dep/conj), [cc](xcl-dep/cc), [compound](xcl-dep/compound) and its specialized subtype [compound:redup](xcl-dep/compound-redup), [fixed](xcl-dep/fixed), [flat](xcl-dep/flat), [orphan](xcl-dep/orphan), [parataxis](xcl-dep/parataxis), [punct](xcl-dep/punct), [root](xcl-dep/root).
 
 ## Treebanks
 
