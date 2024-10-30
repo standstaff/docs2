@@ -18,6 +18,8 @@ This is used for the article _an_ and its other forms _na_, _nam_, _nan_ and _a'
 
 The demonstrative pronouns in Gaelic include  _seo_ "this", _sin_ "that" and _siud_ "yon".
 
+#### Examples
+
 * _aig an àm <b>sin</b>_ "at <b>that</b> time"
 
 
