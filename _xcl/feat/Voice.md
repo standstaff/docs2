@@ -19,7 +19,7 @@ In Classical Armenian, voice is a mixed inflectional-derivational feature of [ve
 
 The inflectional voice characterises and has two values, `Act` (active voice) and `Pass` (mediopassive voice). Only part of verb forms is marked for inflectional voice; some forms are underspecified for inflectional voice (labile), for example, the imperfect tense forms. Thus, the labile forms of base verbs are not tagged for voice at all.
 
-Morphological causatives are derived from base verbs (excluding auxiliaries) with the help of the causative suffix -ուց-/_-owcՙ-_. At present, the tag `Voice=Cau` is used for both active and labile forms of the causative, whereas the passive forms of the causative are tagged as `Voice=CauPass`.
+Morphological causatives are derived from base verbs (excluding auxiliaries) with the help of the causative suffix -ուց-/_-owcՙ-_. At present, the tag `Voice=Cau` is used for both active and labile forms of the causative, whereas the passive forms of the causative are tagged as `Voice=CauPass`. Given that the morphological causative is a derivational catergory, `Voice=Cau` specifies non-personal verb forms too, including participles and verbal nouns.
 
 By contrast to <a href="https://universaldependencies.org/hy/feat/Voice.html">Modern Eastern Armenian</a>, the voice markers are tagged following the morphological principle. Active and passive forms take two different tags irrespective of their function in context. Thus, when a passive form is used in the transitive construction with active meaning it is still tagged as `Voice=Pass`, e.g. ծնանի/_cnani_ “she gives birth”.
 

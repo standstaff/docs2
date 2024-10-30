@@ -33,7 +33,7 @@ udver: '2'
 * Auxiliaries ([AUX]()) can be listed as follows:
   * The temporal auxiliary *kam* (to have), which combined with the supine forms periphrastically the perfect tense of the active voice.
   * The temporal/passive auxiliary *jam* (to be), which combined with the supine forms periphrastically the perfect tense of the mediopassive voice.
-  * The temporal auxiliary *u* (self), which  combined with a finite verb form builds periphrastically the Aorist of the mediopassive voice.
+  * The temporal auxiliary *u* (self), which combined with a finite verb form builds periphrastically the Aorist of the mediopassive voice.
   * The copula *jam* (to be)
 * The tag [DET]() is used for articles/clitics (*i/e/të/një*) both for those forming adjectival and pronomial multi-word units and those forming the genitive/ablative/dative case of nouns.
 * The tag [PRON]() is used for all types of pronouns.
@@ -49,10 +49,16 @@ udver: '2'
 * Adjectives agree with nouns with respect to the features [Gender](), [Number](), [Case]() and [Definite](). In addition, many adjectives inflect for [Degree]() (positive, comparative, superlative). 
   * In the TSA treebank, only the features [Gender](), [Number]() and [VerbForm]() were included in the morphological analysis. 
   * In the STAF treebank, the following features are available for adjectives: [Case](), [Degree](), [Gender]() and [Number]().
-* Adverbs inflect only for [Degree]().
-* Personal pronouns inflect for [Case]() with four values (nominative, accusative, dative, ablative), [Number]() and [Gender](). Here, the following features were stated: [Gender](), [Number]() and [PronType]().
-* For Determiners, only [Gender]() has been provided in the TSA treebank, although number and case apply as well. In the STAF treebank, Determiners have [Case](), [Gender](), [Number]() and [PronType](). There is an exception:
-  * In the possessive construction, Determiners are used as connective morphemes between the possessed item and the possessor and agree in [Gender]() and [Number]() with the possessed item, i.e. shkronjat (FEM, PL) e (FEM, PL) librit (MASC, SING) (The letters of the book). In the TSA treebank, the connective morphemes has the [Gender]() feature, while in the STAF treebank has the [Gender]() and the [Number]() features.
+* Adverbs inflect for [Degree]().
+  * In the TSA treebank, Adverbs have [Degree]().
+  * In the STAF treebank, Adverbs have [Degree]() and [AdvType]().
+* Personal pronouns inflect for [Case]() with four values (nominative, accusative, dative, ablative), [Number]() and [Gender]().
+  * In the TSA treebank, the following features were stated: [Gender](), [Number]() and [PronType]().
+  * In the STAF treebank, the following features were stated: [Case](), [Gender](), [Number]() and [PronType](). Possessive pronouns have the [Poss]() set to `Yes`.
+* Determiners agree in Case, Gender and Number with their nominal heads and encode (in)definiteness.
+  * In the TSA treebank, Deteminers have [Gender](). 
+  * In the STAF treebank, Determiners have [Case](), [Definite](), [Gender](), [Number]() and [PronType]().
+* In the possessive construction, Determiners are used as connective morphemes between the possessed item and the possessor and agree in [Gender]() and [Number]() with the possessed item, i.e. shkronjat (FEM, PL) e (FEM, PL) librit (MASC, SING) (The letters of the book). In the TSA treebank, the connective morphemes has the [Gender]() feature, while in the STAF treebank has the [Gender]() and the [Number]() features.
 
 ## Syntax
 
