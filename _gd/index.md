@@ -197,7 +197,7 @@ They have `Foreign=Yes` and no other features in the morphology column.
 
 ### _an ìre mhath_
 
-This means 'almost'. See s08_061b for an example. Use `nmod`.
+This means 'almost'. See s08\_061b for an example. Use `nmod`.
 
 ### _is_
 _'S_, _b'_, _bu_, _'se_, _'sann_ and so on are `cop` and the root is whatever has been fronted by it.
@@ -222,7 +222,7 @@ Where you have a big long sentence with lots of "ars' esan" and "ars' ise"s in i
 
 ### _an t-seachdain seo chaidh_ and others
 
-'last week', literally 'this week that went'. Treat _chaidh_ as being `acl:relcl` of _t-seachdain_ (pw05\_005, also _ceud_ in the sense of 'century': see fp01_034).
+'last week', literally 'this week that went'. Treat _chaidh_ as being `acl:relcl` of _t-seachdain_ (pw05\_005, also _ceud_ in the sense of 'century': see fp01\_034).
 
 ### _urrainn_
 
