@@ -9,6 +9,7 @@ udver: '2'
 <tr>
   <td style="background-color:cornflowerblue;color:white"><strong>Values:</strong> </td>¨¨
   <td><a href="#Nom">Nom</a></td>
+  <td><a href="#Loc">Loc</a></td>
   <td><a href="#Acc">Acc</a></td>
   <td><a href="#Abl">Abl</a></td>
   <td><a href="#Voc">Voc</a></td>
@@ -17,10 +18,10 @@ udver: '2'
 
 Case is an inflectional feature of nouns and infinitives
 and also of adjectives, participles, some pronouns and some numerals
-that mark agreement with them.
+that agree with them.
 It is also valency feature of prepositions (saying that
 the preposition requires its argument to be in that case).
-There are four values of case: direct, oblique, ablative and vocative.
+There are five values of case: direct, locative, oblique, ablative and vocative.
 
 <!--
 There are always at most three forms in the singular, because of shared forms.
@@ -73,20 +74,29 @@ Example of a noun with five different forms: تول _tol_ “weight”
 The direct case (tagged as nominative in UD) is the base form of declinable parts of speech.
 It serves as a lemma.
 It is used for subjects or objects except the cases described below for the oblique.
-Morever, it is used with some adpositions, for nominal parts of nominal predicates
-or in several other cases, like temporal ranges. 
+It is used also for nominal parts of nominal predicates, non-prepositional nominal modifiers
+temporal ranges and in several other cases.
+<!--
+* Other occurrences of the direct and oblique case are generally accompanied by an adposition, altghough various exceptions of nominals in the bare direct and oblique case, that are not a core argument, may exist:
+  * Temporal range (دوه ساعته خوب کوم _dwa **sâáta** xob kawë́m_ “I sleep for two hours”).
+  * Nominal part of a light verb !!!
+  * Fixed phrases.
+TODO doplnit priklady
+-->
 
 #### Examples
-* ex.: **زلمی هلک** _**zalmáy halë́k**_ “young boy”
-* ex.: **ړنده پېغله** _**ṛandá péġla**_ “blind girl”
-* ex.: **نوي کورونه** _**në́wi korúna**_ “new houses”
+* (a) **زلمی هلک** _**zalmáy halë́k**_ “young boy”
+* (b) **ړنده پېغله** _**ṛandá péġla**_ “blind girl”
+* (c) **نوي کورونه** _**në́wi korúna**_ “new houses”
+* (d) **سړی** راځي _**saṛáy** rấżi_ “the man comes”
+* (e) **سړی** راځي _**saṛáy** rấżi_ “the man comes”
 
 
 ### <a name="Acc">`Acc`</a>: oblique
 
-The oblique case (tagged as accusative in UD) for subjects of active transitive verbs in past tenses
-(language feature called _split ergativity_ occurring also in other Indo-Iranian langages). It is 
-It is used also with several adpositions or in fixed phrases.
+The oblique case (tagged as accusative in UD) is used for all subjects of active transitive verbs in past tenses
+and for pronouns ما _mâ_ “me” and تا _tâ_ “you (sg)” in the object position in non-past tenses.
+It is also used also with many adpositions or in fixed phrases.
 
 Singular formation from the direct case:
 * **Some** masculine nouns and adjectives with zero ending, may take a stressed ۀ _ë́_
@@ -103,9 +113,19 @@ Plural formation from the direct case (for both masculine and feminine):
     change this vowel to a not written _a_.
 
 #### Examples
-* ex.: د **زلمي هلک** _dë **zalmí halë́k**_ “of the young boy”
-* ex.: د **ړندې پېغلې** _dë **ṛandé péġle**_ “of the blind girl”
-* ex.: د **نوو کورونو** _dë **në́wo korúno**_ “of the new houses”
+* د **زلمي هلک** _dë **zalmí halë́k**_ “of the young boy”
+* د **ړندې پېغلې** _dë **ṛandé péġle**_ “of the blind girl”
+* د **نوو کورونو** _dë **në́wo korúno**_ “of the new houses”
+
+### <a name="Loc">`Loc`</a>: locative
+
+The locative case is used with a few adpositions.
+It is often not considered a separate case, because it always shares the same form
+with either direct or oblique case.
+
+
+
+#### Examples
 
 ### <a name="Abl">`Abl`</a>: ablative
 
@@ -117,9 +137,11 @@ change the ending to ي _i_ as in the oblique, instead of یه _aya/ya_
 as in the vocative.
 
 #### Examples
-* ex.: له **زلمي هلکه** _la **zalmí halë́ka**_ “from the young boy”
-* ex.: له **ړندې پېغلې** _la **ṛandé péġle**_ “from the blind girl”
-* ex.: له **نوو کورونو** _la **në́wo korúno**_ “from the new houses”
+* له **زلمي هلکه** _la **zalmí halë́ka**_ “from the young boy”
+* له **ړندې پېغلې** _la **ṛandé péġle**_ “from the blind girl”
+* له **نوو کورونو** _la **në́wo korúno**_ “from the new houses”
+
+
 
 ### <a name="Voc">`Voc`</a>: vocative
 
@@ -129,8 +151,8 @@ Masculine singular nouns and adjectives ending in consonant take an unstressed �
 Other nouns and adjectives (all masculine/feminine, singular/plural) share the form with the oblique.
 
 #### Examples
-* ex.: **زلمیه هلکه**، دلته راشه _**zalmáya halë́ka**, dë́lta rấša_ “young boy, come here”
-* ex.: **ړندې پېغلې**، دلته راشه _**ṛandé péġle**, dë́lta rấša_ “blind girl, come here”
-* ex.: **نوو کورونو**، دلته راشه _**në́wo korúno**, dë́lta rấša_ “new houses, come here”
+* **زلمیه هلکه**، دلته راشه _**zalmáya halë́ka**, dë́lta rấša_ “young boy, come here”
+* **ړندې پېغلې**، دلته راشه _**ṛandé péġle**, dë́lta rấša_ “blind girl, come here”
+* **نوو کورونو**، دلته راشه _**në́wo korúno**, dë́lta rấša_ “new houses, come here”
 
 <!-- Interlanguage links updated Ne 5. května 2024, 18:19:48 CEST -->

@@ -1,11 +1,10 @@
 ---
 layout: base
-title:  'Gwichin UD'
+title:  'Moldovan UD'
 udver: '2'
 ---
 
-# UD for Gwichin <span class="flagspan"><img class="flag" src="../../flags/svg/US-AK.svg" /></span> <span class="flagspan" style="padding-left:1em"><img class="flag" src="../../flags/svg/CA.svg" /></span>
-
+# UD for Moldovan <span class="flagspan"><img class="flag" src="../../flags/svg/MD.svg" /></span>
 
 ## Tokenization and Word Segmentation
 
@@ -47,10 +46,10 @@ udver: '2'
 
 ## Treebanks
 
-There are [N](../treebanks/gwi-comparison.html) Gwichin UD treebanks:
+There are [N](../treebanks/mo-comparison.html) Moldovan UD treebanks:
 
-  * [Gwichin-A](../treebanks/gwi_a/index.html)
-  * [Gwichin-B](../treebanks/gwi_b/index.html)
+  * [Moldovan-A](../treebanks/mo_a/index.html)
+  * [Moldovan-B](../treebanks/mo_b/index.html)
 
 ---
 **Instruction**: Treebank-specific pages are generated automatically from the README file in the treebank repository and
