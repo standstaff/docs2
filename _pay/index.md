@@ -20,13 +20,15 @@ This is an overview only. For more detailed discussion and examples, see the lis
 
 The language specific tagset is the original annotation made from the extended version of the Leipzig Glossing Rules. (Available at [here](https://corpafroas.huma-num.fr/glosses.html))
 The UD tagset is based on a conversion from the previous annotation to UPOS.
+There is no separate class of adjectives in Pesh. Adnominal modifiers expressing property concepts are tagged `NOUN`.
 Pesh uses 15 of the universal tags (SYM is not relevant for oral data).
 
 
 ### Features
 
 The Pesh treebank uses nine universal features: `AdvType`, `Animacy`, `Case`, `Clusivity`, `Person`, `PronType`, `Reflex`, `VerbForm`, `Voice`.
-One language specific values associated with the Pesh VERB has been added to the scheme:
+`Case` has 3 possible values: Erg, Abs, Nom. `Case` marking is optional except for interrogative clauses, relative clauses and the pseudo-passive construction. 
+One language specific value associated with the Pesh VERB has been added to the scheme:
 Appl = Applicative for the Valency feature
 
 ## Syntax
