@@ -46,7 +46,7 @@ udver: "2"
 ### Features
 
 * Gwich’in is a polysynthetic, primarily prefixing, head-final language.
-* Features are not provided at this time. Morpheme information can be found for many words in the MISC column. However, language-specific features may be needed for the following:
+* Features are not provided at this time. Morpheme information can be found for most words in the MISC column (Gloss=, MSeg=, MGloss=). However, language-specific features may be needed for the following:
 * Each VERB takes one of four voice/valency markers known as its _classifier_. The proposed language-specific feature _Classifier_ would have the values _Ø_, _L_, _Ł_, or _D_, consistent with the Athabascan literature. It is important to note that this use of the word _classifier_ is different than for Chinese.
 * Gwich'in and other Athabascan languages also have a noun classification system. However, this information is encoded on the VERB. These so-called _classificatory_ VERB stems belong to one of nine _stem classes_. The proposed language-specific feature _StemClass_ would have the values _1_ through _9_ for the following stem classes defined by Bushey (2021): stick-like, food, cloth-like, plural or rope-like, animate or dead, open container, sack of granules or enclosed/sheathed, compact, and deteriorated.
 * Pronominal subject marking is mandatory on the VERB. Third-person pronominal object marking is mandatory (but assumed for other persons) when no free noun phrase is expressed.

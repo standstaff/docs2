@@ -9,7 +9,7 @@ The _obl:cau_ relation is used for obliques with causative modality.
 See also `advmod:cau`.
 
 ~~~ sdparse
-Цебярь дружбаснон инкса тейст кармасть мярьгома кафтасть . \n Due to the cold, he did not learn in school for a week.
+Цебярь дружбаснон инкса тейст кармасть мярьгома кафтасть . \n Because of their friendship, people started calling them twins.
 obl:cau(кармасть-5, дружбаснон-2)
 obl:cau(they_began-5, frienship-2)
 case(дружбаснон-2, инкса-3)

@@ -11,6 +11,7 @@ udver: '2'
   <td><a href="#Nom">Nom</a></td>
   <td><a href="#Acc">Acc</a></td>
   <td><a href="#Abl">Abl</a></td>
+  <td><a href="#Loc">Loc</a></td>
   <td><a href="#Voc">Voc</a></td>
 </tr>
 </table>
@@ -120,6 +121,14 @@ as in the vocative.
 * له **زلمي هلکه** _la **zalmí halë́ka**_ “from the young boy”
 * له **ړندې پېغلې** _la **ṛandé péġle**_ “from the blind girl”
 * له **نوو کورونو** _la **në́wo korúno**_ “from the new houses”
+
+
+### <a name="Loc">`Loc`</a>: locative
+
+
+
+#### Examples
+
 
 ### <a name="Voc">`Voc`</a>: vocative
 
