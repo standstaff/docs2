@@ -5,7 +5,7 @@ shortdef : 'oblique argument'
 udver: '2'
 ---
 
-The relation `obl:arg` for oblique arguments and distinguishes them from adjuncts (such as specifications of time, location, manner or instrument), which use the plain `obl` [obl]() relation. Two types of oblique arguments are marked by `obl:arg` in the UD_Classical_Armenian-CAVaL treebank: 
+The relation `obl:arg` for oblique arguments and distinguishes them from adjuncts (such as specifications of time, location, manner or instrument), which use the plain [obl]() relation. Two types of oblique arguments are marked by `obl:arg` in the UD_Classical_Armenian-CAVaL treebank: 
 
 * Agents expressed by the genitive case in the periphrastic perfect tenses:
 
