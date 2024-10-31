@@ -13,7 +13,7 @@ amod(մեղր, վայրենի)
 amod(honey, wild)
 ~~~
 
-In UD_Classical_Armenian-CAVaL, `amod` is also applied to pronominal adjectives amd qualifiers. Although these word classes belong to [determiners](xcl-pos/DET), they can have adpositions and articles as their own dependencies, which disallows to assign them the [det](xcl-dep/det) relation.
+In UD_Classical_Armenian-CAVaL, `amod` is also applied to pronominal adjectives amd qualifiers. Although these word classes belong to [determiners](xcl-pos/DET), they can have adpositions and articles as their own dependencies, which disallows to assign them the [det]() relation.
 
 ~~~ sdparse
 ի քարանցս յ այսցանէ \n from these stones

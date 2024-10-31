@@ -8,7 +8,7 @@ udver: '2'
 Typically, the object is the noun phrase that denotes the entity acted upon or which undergoes a change of state or motion (the proto-patient). In Classical Armenian, the object is marked by the accusative case. 
 Classical Armenian is usually discribed as a language with a flexible (S)VO word order, and the position of the direct object is not fixed.
 
-Classical Armenian has a differential object marking. The referentially prominent direct object is marked by an adposition զ= / _z=_ (see [Case](xcl-feat/Case)).
+Classical Armenian has a differential object marking. The referentially prominent direct object is marked by an adposition զ= / _z=_ (see [Case]()).
 
 ~~~ sdparse
 Ի սկզբանէ արար Աստուած զ երկին եւ զ երկիր : \n In the beginning God created the heaven and the earth .

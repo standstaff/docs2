@@ -10,7 +10,7 @@ udver: '2'
 
 An `aux` (auxiliary) of a clause is a function word associated with a verbal predicate that expresses categories such as tense, mood, aspect, voice or evidentiality.
 
-The Classical Armenian, the relation is ascribed to some [AUX](xcl-pos/AUX), which function as parts of analytical verb forms. These include: եմ/_em_ “to be”, its perfective counterpart լինիմ/_linim_ “to become”, and տամ/_tam_ “to give”. The auxiliaries եմ and լինիմ are used in the following constructions:
+The Classical Armenian, the relation is ascribed to some [AUX](), which function as parts of analytical verb forms. These include: եմ/_em_ “to be”, its perfective counterpart լինիմ/_linim_ “to become”, and տամ/_tam_ “to give”. The auxiliaries եմ and լինիմ are used in the following constructions:
 * The copula with non-verbal predicates, including predicates of location.
 * Periphrastic past tenses (present form of եմ + past participle, imperfect form of եմ + past participle, aorist form of լինիմ + past participle of the main verb).
 * Periphrastic future/subjunctive tenses (present subjunctive form of եմ + past participle, present subjunctive form of լինիմ + past participle, aorist subjunctive form of լինիմ + past participle of the main verb).
@@ -21,7 +21,7 @@ aux(գրեալ, է)
 aux(written, is)
 ~~~
 
-The auxiliary տամ is used to form periphrastic causative and is labelled [aux:caus].
+The auxiliary տամ is used to form periphrastic causative and is labelled [aux:caus]().
 
 ### References
 
