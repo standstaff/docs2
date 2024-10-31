@@ -15,7 +15,7 @@ udver: '2'
 </tr>
 </table>
 
-In Classical Armenian, voice is a mixed inflectional-derivational feature of [verbs](xcl-pos/VERB) and ([auxiliaries] (xcl-pos/AUX) that helps map the traditional syntactic functions, such as subject and object, to semantic roles, such as agent and patient. 
+In Classical Armenian, voice is a mixed inflectional-derivational feature of [verbs](xcl-pos/VERB) and ([auxiliaries](xcl-pos/AUX) that helps map the traditional syntactic functions, such as subject and object, to semantic roles, such as agent and patient. 
 
 The inflectional voice characterises and has two values, `Act` (active voice) and `Pass` (mediopassive voice). Only part of verb forms is marked for inflectional voice; some forms are underspecified for inflectional voice (labile), for example, the imperfect tense forms. Thus, the labile forms of base verbs are not tagged for voice at all.
 
