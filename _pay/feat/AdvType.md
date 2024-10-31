@@ -5,14 +5,9 @@ shortdef: 'adverb type'
 udver: '2'
 ---
 
-<table class="typeindex" border="1">
-<tr>
-  <td style="background-color:cornflowerblue;color:white"><strong>Values:</strong> </td>
-  <td><a href="#Ideoph">Ideoph</a></td>
-</tr>
-</table>
+Semantic subclasses of adverbs.
 
-### <a name="Ideoph">`Deg`</a>: Ideophone
+### <a name="Ideoph">`Ideoph`</a>: Ideophone
 
 #### Examples
 
