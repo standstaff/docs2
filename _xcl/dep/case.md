@@ -5,7 +5,7 @@ shortdef: 'case marking'
 udver: '2'
 ---
 
-Classical Armenian uses combinations of inflectional case forms and adpositions [adpositions](xcl-pos/ADP) to express semantic case. In UD, adpositions are treated as dependents of the nominal, to which they are attached. The relation between the nominal and the adposition is labelled `case`.
+Classical Armenian uses combinations of inflectional case forms and [adpositions](xcl-pos/ADP) to express semantic case. In UD, adpositions are treated as dependents of the nominal, to which they are attached. The relation between the nominal and the adposition is labelled `case`.
 
 ~~~ sdparse
 ի Գաղիղեա \n into Galilee
