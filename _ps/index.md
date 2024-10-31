@@ -59,10 +59,12 @@ For the principles of transliteration of Pashto used in UD see the [Transliterat
   * The **object** in **all** tenses is almost always in the **direct** case `Nom`.
     * The only exceptions are pronouns of the first and second person singular in **non-past** tenses, where oblique forms ما _mâ_ “me”, تا _tâ_ “you” are used instead of the direct رۀ _zë_ “I”, تۀ _të_ “you”.
   * The subject usually comes before the object regardless of the case.
-<!-- * Other occurrences of the direct and oblique case are generally accompanied by an adposition, altghough various exceptions of nominals in the bare direct and oblique case, that are not a core argument, may exist:
+<!--
+* Other occurrences of the direct and oblique case are generally accompanied by an adposition, altghough various exceptions of nominals in the bare direct and oblique case, that are not a core argument, may exist:
   * Temporal range (دوه ساعته خوب کوم _dwa **sâáta** xob kawë́m_ “I sleep for two hours”).
   * Nominal part of a light verb !!!
-  * Fixed phrases. -->
+  * Fixed phrases.
+-->
 
 ### Non-verbal Clauses
 * The copula verb یم _yëm_ “be” (or more precisely “I am”) is used in most non-verbal clauses.
