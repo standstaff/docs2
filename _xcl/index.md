@@ -117,7 +117,7 @@ This is an overview only. For more detailed discussion and examples, follow the 
 
 ## Other relations
 
-* Other relation tags used in the UD_Classical_Armenian-CAVaL treebanks include: [conj](xcl-dep/conj), [cc](xcl-dep/cc), [compound](xcl-dep/compound) and its specialized subtype [compound:redup](xcl-dep/compound-redup), [fixed](xcl-dep/fixed), [flat](xcl-dep/flat), [orphan](xcl-dep/orphan), [parataxis](xcl-dep/parataxis), [punct](xcl-dep/punct), [root](xcl-dep/root).
+* Other relation tags used in the UD_Classical_Armenian-CAVaL treebanks include: [conj](xcl-dep/conj), [cc](xcl-dep/cc), [compound](xcl-dep/compound) and its specialized subtype [compound:redup](), [fixed](xcl-dep/fixed), [flat](xcl-dep/flat), [orphan](xcl-dep/orphan), [parataxis](xcl-dep/parataxis), [punct](xcl-dep/punct), [root](xcl-dep/root).
 
 ## Treebanks
 
