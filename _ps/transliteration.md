@@ -276,8 +276,8 @@ udver: '2'
 </table>
 
 NOTES:
-* The characters in brackets are often used istead of the proper ones.
-* The sign "ـ" denotes that the phoneme does/may not have the ortographic realization in that position.
+* The characters in brackets are often used instead of the proper ones.
+* The sign "ـ" denotes that the phoneme does/may not have the orthographic representation in that position.
 
 ## Consonants
 
