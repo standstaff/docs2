@@ -12,7 +12,7 @@ udver: '2'
 * The transliteration of word is given in the MISC column under the [Translit]() attribute.
 * The transliteration of each lemma is shown in the MISC column under the [LTranslit]() attribute, but only if it differs from `Translit`.
 
-<table>
+<table class="typeindex" border="1">
 <tr>
   <td align="middle"><b>Character</b></td>
   <td align="middle"><b>Corresponding phonemes</b></td>
@@ -213,7 +213,7 @@ udver: '2'
   * The usual orthographic realization depending on the position within the word: word-initial, word-central and word-final; the orthography of foreign words is not taken into account
 
 ## Vowels
-<table>
+<table class="typeindex" border="1">
 <tr>
   <td align="middle" rowspan="2"><b>Phoneme</b></td>
   <td align="middle" rowspan="2"><b>Phonetic realization</b></td>
@@ -282,7 +282,7 @@ NOTES:
 ## Consonants
 
 ### Nasals
-<table>
+<table class="typeindex" border="1">
 <tr>
   <td align="middle"><b>Phoneme</b></td>
   <td align="middle"><b>Phonetic realization</b></td>
@@ -306,7 +306,7 @@ NOTES:
 </table>
 
 ### Plosives
-<table>
+<table class="typeindex" border="1">
 <tr>
   <td align="middle"><b>Phoneme</b></td>
   <td align="middle"><b>Phonetic realization</b></td>
@@ -365,7 +365,7 @@ NOTES:
 </table>
 
 ### Fricatives
-<table>
+<table class="typeindex" border="1">
 <tr>
   <td align="middle"><b>Phoneme</b></td>
   <td align="middle"><b>Phonetic realization</b></td>
@@ -425,7 +425,7 @@ NOTES:
 
 
 ### Affricates
-<table>
+<table class="typeindex" border="1">
 <tr>
   <td align="middle"><b>Phoneme</b></td>
   <td align="middle"><b>Phonetic realization</b></td>
@@ -455,7 +455,7 @@ NOTES:
 
 
 ### Taps and Approximants
-<table>
+<table class="typeindex" border="1">
 <tr>
   <td align="middle"><b>Phoneme</b></td>
   <td align="middle"><b>Phonetic realization</b></td>
