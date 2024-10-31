@@ -7,12 +7,17 @@ udver: '2'
 
 The relation determiner (`det`) holds between a nominal head and its [determiner](DET). In Classical Armenian, only one subtype of words with UPOS DET, the articles, can take the relation `det`. By contrast, pronominal adjectives and quantifiers, which can have adpositions and articles as their own dependencies, are attached to their head with the [amod]() relation.
 
-~~~ sdparse
-Եւ փրկեցաւ կին ն ի ժամէ ն յ այնմանէ : \n And the woman was made whole from that [from] hour .
-amod(ժամէ, այնմանէ)
-det(ժամէ, ն)
-case(ժամէ, ի)
-case(այնոսիկ, յ)
+~~~ conllu
+1	Եւ	եւ	CCONJ	_	_	2	cc	_	_
+2	փրկեցաւ	փրկել	VERB	_	_	0	root	_	_
+3	կին	կին	NOUN	_	_	2	nsubj	_	_
+4	ն	ն	DET	_	_	3	det	_	_
+5	ի	ի	ADP	_	_	6	case	_	_
+6	ժամէ	ժամ	NOUN	_	_	2	obl	_	_
+7	ն	ն	DET	_	_	6	det	_	_
+8	յ	ի	ADP	_	_	9	case	_	_
+9	այնմանէ	այն	DET	_	_	6	amod	_	_
+10	:	:	PUNCT	_	_	2	punct	_	_
 ~~~
 
 In a relative clause, the enclitic definite article is commonly attached to the word occupying the second position in the clause, even when it is a personal verb form. In such cases, it is conventionally linked to the relative pronoun at the beginning of the cause:
