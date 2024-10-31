@@ -7,7 +7,7 @@ udver: '2'
 
 A nominal subject (`nsubj`) is a nominal which is the syntactic subject and the proto-agent of a clause. It is expressed by the nominative. Note that Classical Armenian is a pro-drop language and a personal pronoun as subject is often omitted. 
 The `nsubj` relation is also used for the nominal subject of a passive verb or verb group, even though the subject is then not typically the proto-agent argument due to valency changing operations. In Classical Armenian, the subtype [nsubj:pass]() is used in such cases. 
-In case of the syntactic subject of a causative verb, the subtype `nsubj:caus` [nsubj:caus]() is used.
+In case of the syntactic subject of a causative verb, the subtype [nsubj:caus]() is used.
 
 ~~~ sdparse
 հրեշտակ Տեառն ի տեսլեան երեւէր \n an angel of the Lord appeareth in a dream
