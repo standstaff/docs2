@@ -107,7 +107,7 @@ This is an overview only. For more detailed discussion and examples, follow the 
 ### Nominal dependents
 
 * Midifier words are linked to their heads with the relations [advmod](), [amod](), and [discourse]().
-* According to UD guidelines, [determiners](), which can have dependencies, cannot be linked to their head with the [det]() relation. In Classical Armenian, here belong all determiners except for enclitic articles. Therefore, pronominal adjectives and quantifiers are attached to their head with the [amod]() relation, and only articles have the `det` relation.
+* According to UD guidelines, [determiners](xcl-pos/DET), which can have dependencies, cannot be linked to their head with the [det]() relation. In Classical Armenian, here belong all determiners except for enclitic articles. Therefore, pronominal adjectives and quantifiers are attached to their head with the [amod]() relation, and only articles have the `det` relation.
 
 ### Function words
 * The analytic verb forms are built with the help of auxiliaries [aux](). In the case of causative clauses, the auxiliary is labelled [aux:caus]().
