@@ -7,7 +7,7 @@ udver: '2'
 
 ### Definition
 
-Determiners are words that modify [nouns]() or noun phrases and express the reference of the noun phrase in context. That is, a determiner may indicate whether the noun is referring to a definite or indefinite element of a class, to a closer or more distant element, to an element belonging to a specified person or thing, to a particular number or quantity, etc. Under this definition, determiners include _articles_ and _pronominal adjectives_. 
+Determiners are words that modify [nouns](xcl-pos/NOUN) or noun phrases and express the reference of the noun phrase in context. That is, a determiner may indicate whether the noun is referring to a definite or indefinite element of a class, to a closer or more distant element, to an element belonging to a specified person or thing, to a particular number or quantity, etc. Under this definition, determiners include _articles_ and _pronominal adjectives_. 
 In Classical Armenian, the tag [DET]() is used for: 
 * demonstrative/possessive particles;
 * pronominal adjectives, including indefinite pronominal adjectives;
