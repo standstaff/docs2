@@ -89,15 +89,15 @@ This is an overview only. For more detailed discussion and examples, follow the 
 ### Core Arguments, Oblique Arguments and Adjuncts
 
 * Nominal subject [nsubj](xcl-dep/nsubj) is a noun phrase (possibly headed by a deverbal nominal) typically in the nominative case, without preposition. 
-	* In the periphrastic past tenses, the subject of transitive verbs is typically coded by the genitive case and is tagged by a specialized relation [obl:arg](xcl-dep/obl-arg).
+	* In the periphrastic past tenses, the subject of transitive verbs is typically coded by the genitive case and is tagged by a specialized relation [obl:arg]().
 	* Clausal subjects [csubj](xcl-dep/csubj) are typically expressed by finite clauses, and clauses headed by infinitives or nonverbal predicates.
 * Objects ([obj](xcl-dep/obj)) are noun phrases in the accusative, which can take the proclitic determinate object marker զ=/_z_=.
-* Secondary objects ([iobj](xcl-dep/iobj)) are expressed by bare noun phrases in the dative. A functionally similar prepositional construction ց=/_cʽ_= + dative is tagged as [obl:arg](xcl-dep/obl-arg).
+* Secondary objects ([iobj](xcl-dep/iobj)) are expressed by bare noun phrases in the dative. A functionally similar prepositional construction ց=/_cʽ_= + dative is tagged as [obl:arg]().
 * Clausal complements are labelled [ccomp](xcl-dep/ccomp), whereas open clausal complements are linked with the relation [xcomp](xcl-dep/xcomp).
 * In passive clauses:
-	* the subject is labelled either [nsubj:pass](xcl-dep/nsubj-pass) or [csubj:pass](xcl-dep/csubj-pass);
-	* if the agent is present, it is typically expressed by an adpositional ablative noun phrase and is labeled [obl:agent](xcl-dep/obl-agent).
-* In causative clauses (both bare and periphrastic causative), the subject is labelled with [nsubj:caus](xcl-dep/nsubj-caus) or [csubj:caus](xcl-dep/csubj-caus).
+	* the subject is labelled either [nsubj:pass]() or [csubj:pass]();
+	* if the agent is present, it is typically expressed by an adpositional ablative noun phrase and is labeled [obl:agent]().
+* In causative clauses (both bare and periphrastic causative), the subject is labelled with [nsubj:caus]() or [csubj:caus]().
 * Other non-core arguments and adjuncts are linked to the head word by the following relations: oblique ([obl](xcl-dep/obl)), [vocative](xcl-dep/vocative), [dislocated](xcl-dep/dislocated), [advcl](xcl-dep/advcl) for clausal dependents. Arguments in the accusative that express spatial or temporal meanings are tagged as `obl` as well.
 
 ### Nominal dependents
