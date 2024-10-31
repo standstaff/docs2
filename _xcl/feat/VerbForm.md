@@ -26,7 +26,7 @@ The converb is a non-finite verb form that shares properties of verbs and adverb
 
 ### <a name="Fin">`Fin`</a>: finite verb
 
-Rule of thumb: if it has non-empty [Mood](xcl-feat/Mood), it is finite. In Classical Armenian, this applies to indicative, imperative, and subjunctive forms.
+Rule of thumb: if it has non-empty [Mood](), it is finite. In Classical Armenian, this applies to indicative, imperative, and subjunctive forms.
 
 #### Examples
 
@@ -43,7 +43,7 @@ It appears as the argument of modal and other verbs. In Classical Armenian, one 
 ### <a name="Part">`Part`</a>: participle
 
 Classical Armenian has one type of participles, the past participle, which is used either in an attributive or predicative function, alone or as part of periphrastic tenses.
-Participles inflect for [Number](xcl-feat/Number) and [Case](xcl-feat/Case).
+Participles inflect for [Number]() and [Case]().
 
 #### Examples
 
@@ -52,7 +52,7 @@ Participles inflect for [Number](xcl-feat/Number) and [Case](xcl-feat/Case).
 ### <a name="Vnoun">`Vnoun`</a>: verbal noun
 
 In the nominative case the verbal noun coincides with the infinitive.
-Its UPOS tag is [VERB](xcl-pos/VERB) (not [NOUN](xcl-pos/NOUN)). Adpositions and determiners apart, the dependents of verbal nouns are consistently tagged as verbal arguments and not as nominal modifiers.
+Its UPOS tag is [VERB]() (not [NOUN]()). Adpositions and determiners apart, the dependents of verbal nouns are consistently tagged as verbal arguments and not as nominal modifiers.
 
 #### Examples
 

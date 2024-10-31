@@ -13,7 +13,7 @@ udver: '2'
 </tr>
 </table>
 
-Tense is an inflectional feature that specifies the time when the action takes place, in relation to the moment of speaking or another action in the utterance. In Classical Armenian, it is tagged on finite [verbs](xcl-pos/VERB) and ([auxiliaries] (xcl-pos/AUX), and is intricately related to the features of [Aspect](xcl-feat/Aspect) and [Mood](xcl-feat/Mood). The feature has two values: present `Pres` and past `Past`. Classical Armenian does not have a dedicated future form; the future is typically expressed by the subjunctive mood forms (`Mood=Sub`), cf. future/subjunctive (perfective): ասացից/_asacʻicʻ_ “I will/would say”, future/subjunctive (imperfective): ասիցեմ/_asicʻem_ “I will/would be saying”.
+Tense is an inflectional feature that specifies the time when the action takes place, in relation to the moment of speaking or another action in the utterance. In Classical Armenian, it is tagged on finite [verbs](xcl-pos/VERB) and ([auxiliaries] (xcl-pos/AUX), and is intricately related to the features of [Aspect]() and [Mood](). The feature has two values: present `Pres` and past `Past`. Classical Armenian does not have a dedicated future form; the future is typically expressed by the subjunctive mood forms (`Mood=Sub`), cf. future/subjunctive (perfective): ասացից/_asacʻicʻ_ “I will/would say”, future/subjunctive (imperfective): ասիցեմ/_asicʻem_ “I will/would be saying”.
 
 ### <a name="Pres">`Pres`</a>: present tense
 
