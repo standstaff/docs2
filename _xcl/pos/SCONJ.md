@@ -17,7 +17,7 @@ The following types of subordinating conjunctions are found in Classical Armenia
 
 Complex subordinating conjunctions form multiword expressions, cf. վասն զի / _vasn zi_ “because”, որպէս զի / _orpēs zi_ “so that”. The status of component words as multiword expressions is accounted for by the <code>fixed</code> relation. Both component words are tagged as `SCONJ`.
 
-For coordinating conjunctions, see [CCONJ](xcl-pos/CCONJ).
+For coordinating conjunctions, see [CCONJ]().
 
 ### Examples
 
