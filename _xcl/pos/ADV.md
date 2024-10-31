@@ -7,7 +7,7 @@ udver: '2'
 
 ### Definition
 
-Adverbs are words that typically modify [verbs]() for time, place, direction or manner. They may also modify [adjectives]() and other adverbs. 
+Adverbs are words that typically modify [verbs](xcl-pos/VERB) for time, place, direction or manner. They may also modify [adjectives](xcl-pos/ADJ) and other adverbs. 
 
 Complex adverbs form multiword expression. The status of component words is accounted for in the syntactic annotation: the subsequent word is linked to the first one by the <code>fixed</code> relation. All component words are tagged as `ADV` (even in the case of fossilized prepositional phrases).
 
