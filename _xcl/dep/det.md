@@ -19,6 +19,7 @@ The relation determiner (`det`) holds between a nominal head and its [determiner
 9	այնմանէ	այն	DET	_	_	6	amod	_	_
 10	:	:	PUNCT	_	_	2	punct	_	_
 ~~~
+"And the woman was made whole from that hour." (Mt. 9:22)
 
 In a relative clause, the enclitic definite article is commonly attached to the word occupying the second position in the clause, even when it is a personal verb form. In such cases, it is conventionally linked to the relative pronoun at the beginning of the cause:
 
