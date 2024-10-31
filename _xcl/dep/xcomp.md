@@ -13,6 +13,6 @@ xcomp(կարէ, թաքչել)
 xcomp(cannot, hid)
 ~~~
 
-Contrast `xcomp` with other complement clauses where there is an overt subject or no obligatory control, which use [ccomp] ().
+Contrast `xcomp` with other complement clauses where there is an overt subject or no obligatory control, which use [ccomp]().
 
-Note that `xcomp` is used for core arguments of predicates so it will not be used for non-core instances of secondary predication with the relation [advcl] ().
+Note that `xcomp` is used for core arguments of predicates so it will not be used for non-core instances of secondary predication with the relation [advcl]().
