@@ -9,7 +9,7 @@ udver: '2'
 
 Punctuation marks are non-alphabetical characters and character groups used in many languages to delimit linguistic units in printed text.
 
-In Classical Armenian, there is _infixed punctuation_ (question, exclamation, emphasis and abbreviation marks). Such cases are annotated as multiword tokens, cf. զիա՞րդ = զիարդ_/_ziard_ + ՞ “why?” (for more details see the [tokenization page](http://universaldependencies.org/hy/tokenization.html)).
+In Classical Armenian, there is _infixed punctuation_ (question, exclamation, emphasis and abbreviation marks). Such cases are annotated as multiword tokens, cf. զիա՞րդ = զիարդ_/_ziard_ + ՞ “why?”.
 
 ### Examples
 
