@@ -78,6 +78,21 @@ case(ayscʻanē, i)
 ~~~
 
 
+### Pronoun has case, both are attached as det
+
+([Koichi Yasuoka](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2435696875))
+
+~~~conllu
+# text = 她的這本書
+1	她	她	PRON	PRP	Person=3	5	det	_	SpaceAfter=No
+2	的	的	PART	DEC	Case=Gen	1	case	_	SpaceAfter=No
+3	這	這	DET	DT	_	5	det	_	SpaceAfter=No
+4	本	本	NOUN	NNB	_	3	clf	_	SpaceAfter=No
+5	書	書	NOUN	NN	_	0	root	_	SpaceAfter=No
+
+~~~
+
+
 ### Spoken Data
 
 ([Sylvain Kahane](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2407036491))
@@ -115,6 +130,20 @@ Can we deactivate the validation rule if the child of `det` is a `flat` relation
 Dan: Why is [fixed]() not a good choice? I think it is the right choice here.
 
 
+### Semantic Coordination, Syntactic Flat?
+
+([Koichi Yasuoka](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2433801928))
+
+In Classical Chinese 彼此兵 “those and these soldiers” is invalidated by this rule. The English translation has coordinate determiners but there is no coordinating conjunction in the original and 彼此 “that this” are connected via [flat](). Then “that” is attached as [det]() to “soldier”.
+
+
+## Problems with Referentiality
+
+A large part of the discussion slipped to the related problem of deciding between [det]() and [nmod]() (or their `:poss` subtypes). Joakim believes that the guidelines imply, despite not saying it explicitly, that if the word is referential, it should be attached as `nmod` rather than `det`. It would be the case of all words referring to possessors, regardless whether they are tagged as [PRON](), [DET](), [NOUN]() or [ADJ](). But other people (including Dan) do not understand the guidelines this way.
+
+The referentiality criterion would nevertheless have the advantage that some problems with the `leaf-det` test would disappear. The problems belonging to this class are listed in this section. The occasional need to attach an apposition or a relative clause to a determiner are caused by the fact that the determiner is referential (because it is a possessive). If the referentiality criterion gains support and is approved via an amendment of the guidelines, many treebanks will require large changes. But in the current context, the `leaf-det` test should be probably relaxed for the special cases below.
+
+
 ### Relative Clause Modifying a Referent Hidden in a Possessive Determiner
 
 3. The phrase _nostra qui remansissemus caede_ 'the murder of us who are left (behind)', but more literally 'our who are left murder', since _nostra_ is the inflected possessive determiner for the 1st person plural. What happens here is that the possessive adds a nominal person, as it were, and this person is another referent beyond the noun _caede_ 'murder' in this phrase; as such, the relative can target it (or at least, Cicero pleases himself in doing so). We could not really justify an analysis where we shift the relative under the head noun, since the murder is not one of its arguments.
@@ -139,13 +168,6 @@ appos(сонзэ, Степан)
 ~~~
 
 [Koichi Yasuoka](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2437494587) provided a Chinese example of apposition.
-
-
-### Semantic Coordination, Syntactic Flat?
-
-([Koichi Yasuoka](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2433801928))
-
-In Classical Chinese 彼此兵 “those and these soldiers” is invalidated by this rule. The English translation has coordinate determiners but there is no coordinating conjunction in the original and 彼此 “that this” are connected via [flat](). Then “that” is attached as [det]() to “soldier”.
 
 
 ### Nominal Possessive Modifier of a Determiner
@@ -174,21 +196,6 @@ DZ: Is _iarem_ coreferential with _der Gemoene_? Attaching _Gemoene_ as [nmod:po
 The cited paper also says: “Among the UD languages, we have found comparable constructions in Afrikaans, Frisian Dutch, and Norwegian, but the annotation has been inconsistent across these languages.” The annotation indeed should be made consistent, but maybe one of those languages uses an analysis that works well under the UD guidelines?
 
 Subsequent comment by [Flavio](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2435696875).
-
-
-### Pronoun has case, both are attached as det
-
-([Koichi Yasuoka](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2435696875))
-
-~~~conllu
-# text = 她的這本書
-1	她	她	PRON	PRP	Person=3	5	det	_	SpaceAfter=No
-2	的	的	PART	DEC	Case=Gen	1	case	_	SpaceAfter=No
-3	這	這	DET	DT	_	5	det	_	SpaceAfter=No
-4	本	本	NOUN	NNB	_	3	clf	_	SpaceAfter=No
-5	書	書	NOUN	NN	_	0	root	_	SpaceAfter=No
-
-~~~
 
 
 ## Problematic Constructions that Do Not Deserve an Exception
