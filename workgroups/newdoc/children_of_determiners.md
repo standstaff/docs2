@@ -204,7 +204,8 @@ The alternative to change the determiners' tags to PRON in Low Saxon would go ag
 DZ: Is _iarem_ coreferential with _der Gemoene_? Attaching _Gemoene_ as [nmod:poss]() of _iarem_ is odd because it suggests that _Gemoene_ is the possessor of her, not of the service.
 The cited paper also says: “Among the UD languages, we have found comparable constructions in Afrikaans, Frisian Dutch, and Norwegian, but the annotation has been inconsistent across these languages.” The annotation indeed should be made consistent, but maybe one of those languages uses an analysis that works well under the UD guidelines?
 
-Subsequent comment by [Flavio](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2435696875).
+Subsequent comment by [Flavio](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2435696875)
+and [Dan](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2452688911).
 
 
 ## Problematic Constructions that Do Not Deserve an Exception
