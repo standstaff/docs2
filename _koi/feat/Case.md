@@ -31,6 +31,7 @@ udver: '2'
   <td><a href="#Ins">Ins</a></td>
   <td><a href="#Nom">Nom</a></td>
   <td><a href="#Prl">Prl</a></td>
+  <td><a href="#Prp">Prp</a></td>
   <td><a href="#Ter">Ter</a></td>
  <td><a href="#Tra">Tra</a></td>
 </tr>
@@ -232,6 +233,16 @@ In the central dialects it is often distinguished from the transitive.
 #### Examples
 
 * [koi] _<b>туйӧт</b>_ "along the road"
+
+
+### <a name="Prp">`Prp`</a>: proprietive
+
+The proprietive case is the 'having' case in <а>. It tends to be an adnominal case in range but may also occur in
+the predicative clause range.
+
+#### Examples
+
+* [koi] _<b>сьӧд тошока и гардчӧмкодь уссэза</b> мужик_ \n "a man <b>with a little black beard and mustache stubble</b>"
 
 
 ### <a name="Ter">`Ter`</a>: terminative / terminal allative
