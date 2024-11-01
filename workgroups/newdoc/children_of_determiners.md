@@ -45,7 +45,7 @@ Ideally, the validator should allow `advcl` specifically in English and only if 
 ([Joakim Nivre](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2452025700)) You have the choice of treating _such_ as [amod](), in which case it is unproblematic to attach an `advcl` to it. If you treat _such_ as `det`, you instead have to attach the clause to its head (that is, to the whole phrase). This is similar to how we treat some comparative constructions. (Dan Zeman) If _such_ is `amod`, then it should probably also have the [ADJ]() UPOS tag. Although it looks like the current validator will not complain if it sees a [DET]() attached as `amod` (it definitely does complain if it sees an `ADJ` attached as `det`).
 
 
-### Determiners under Determiners
+### Determiners under Determiners, Case under Determiners
 
 As the guidelines [say](/u/overview/syntax.html#the-status-of-function-words), multiple determiners are always attached directly to the head noun:
 
@@ -62,7 +62,18 @@ However, some languages have constructions that look quite different from the En
 
 In Hebrew (both Ancient and Modern), demonstrative pronouns have their own determiners, as in “the men the these” = “these men”. It is also parallel to how adjectival modification works in Modern Hebrew. Maybe determiners under demonstratives could be allowed in some languages but not the others?
 
-//(Petr had the same thing in Classical Armenian.)
+[Petr Kocharov](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2441260051) brought up a similar issue in Classical Armenian. Prepositions and articles can be repeated with modifiers, including demonstrative pronominal adjectives, within NP, cf.
+
+_i kʻarancʻ y ayscʻanē_
+from stone.ABL.PL from this.ABL.PL
+“from these (from) stones”
+
+~~~sdparse
+i kʻarancʻ y ayscʻanē
+det(kʻarancʻ, ayscʻanē)
+case(kʻarancʻ, i)
+case(ayscʻanē, i)
+~~~
 
 
 ### Spoken Data
