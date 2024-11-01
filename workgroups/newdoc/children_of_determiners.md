@@ -60,3 +60,19 @@ However, some languages have constructions that look quite different from the En
 In Hebrew (both Ancient and Modern), demonstrative pronouns have their own determiners, as in “the men the these” = “these men”. It is also parallel to how adjectival modification works in Modern Hebrew. Maybe determiners under demonstratives could be allowed in some languages but not the others?
 
 //(Petr had the same thing in Classical Armenian.)
+
+### Spoken Data
+
+([Sylvain Kahane](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2407036491))
+
+For spoken data, we need three relations to be added to the validator:
+
+- `discourse`, which is very common between two determiners in false starts: "a, uh, a gap", "my, uh, our friend"
+- `parataxis` for cases such as "a, I don't how to call that, a kiosk, …": here we have a `reparandum` link between the two "a"s and we would like to attach the parenthesis to the first "a". More exactly we use `parataxis:parenth` in our spoken French treebanks.
+- `dep` for false starts such as "the last, the last day": here "the last" forms a phrase the head of which is missing and we decided to have dep(the, last). I am not against another solution, as long as "the last" is still a phrase.
+
+### Vor allem
+
+([Leonie Weissweiler](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2405829551))
+
+German _vor allem_ and _unter anderem_ – resolved in a separate issue?
