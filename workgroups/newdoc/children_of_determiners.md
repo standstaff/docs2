@@ -109,6 +109,22 @@ Dan: Why is [fixed]() not a good choice? I think it is the right choice here.
 Can we deactivate this validation rule if the head element has the feature `Person`, at least for `acl:relcl`?
 
 
+### Apposition
+
+([Jack Rueter](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2426979819))
+
+A possessive determiner may have an appositional child: _His, Fred's, friends come from all over._ This is in fact not a problem in English where personal possessives are pronouns rather than determiners (and they are attached as [nmod:poss]) but in other languages it is a problem. For example in Erzya:
+
+_Конат-конат сонзэ (Степан Иваныч) ладсо сырелгадсть..._ / _Konat-konat sonzè (Stepan Ivanyč) ladso syrelgadstʹ..._ “such-such.PL his/her (Stepan Ivanych) way.INE become.older.3PL”
+
+~~~sdparse
+Конат-конат сонзэ ( Степан Иваныч ) ладсо сырелгадсть
+obl(сырелгадсть, ладсо)
+det(ладсо, сонзэ)
+appos(сонзэ, Степан)
+~~~
+
+
 ### Nominal Possessive Modifier of a Determiner
 
 ([Janine Siewert](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2424872098))
@@ -132,6 +148,7 @@ Attaching the possessor in dative case to the possessee instead of the determine
 The alternative to change the determiners' tags to PRON in Low Saxon would go against UD's own definition of determiners.
 
 DZ: Is _iarem_ coreferential with _der Gemoene_? Attaching _Gemoene_ as [nmod:poss]() of _iarem_ is odd because it suggests that _Gemoene_ is the possessor of her, not of the service.
+The cited paper also says: “Among the UD languages, we have found comparable constructions in Afrikaans, Frisian Dutch, and Norwegian, but the annotation has been inconsistent across these languages.” The annotation indeed should be made consistent, but maybe one of those languages uses an analysis that works well under the UD guidelines?
 
 
 ### Vor allem
