@@ -12,10 +12,33 @@ Determiners are generally considered function words in UD. As such, they are typ
 
 For several years, the [UD validator](/release_checklist.html#validation) did not enforce this rule for determiners while it was doing so for other function words. The test was finally [implemented in September 2024](https://github.com/UniversalDependencies/tools/commit/1e4debd) under the label `leaf-det-clf`, [later split](https://github.com/UniversalDependencies/tools/commit/c5b8cf5ecff55c27affa8ff0eac737cb799883c8) to two tests, `leaf-det` and `leaf-clf`; since this page is about determiners and not about classifiers, we are interested in `leaf-det`. Like other similar tests for function words, it allows determiners to have children if the (universal part of the) relation between the determiner and the child is in a predefined subset:
 
-*
+* [goeswith]() – Like any other word, determiner may be incorrectly split to multiple tokens in writing, then the pieces must be connected via `goeswith`.
+* [reparandum]() – Like any other word in spoken data, determiner may be the correct word after an incorrect fragment has been uttered, then the incorrect fragment must be attached to the determiner via `reparandum`.
+* [fixed]() – This relation is used to connect tokens in fixed multiword expression that act as a function word. Multiword determiners are not common but they do occur e.g. in French _lire <b>de la</b> documentation_ “to read documentation”.
+* [conj]() and [cc]() – Determiners can be coordinated (e.g. _<b>each and every</b> member_).
+* [punct]() – Punctuation should normally be attached to a content word, but it must be attached to a function word if
+  * the function word is the only word enclosed in paired punctuation such as brackets;
+  * or if it is the only way how to avoid non-projectivity;
+  * or if it separates coordinate function words.
 
+## Light Adverbials
 
+The [guidelines also acknowledge](/u/overview/syntax.html#function-word-modifiers) that “certain types of function words can take a restricted class of modifiers, mainly light adverbials (including negation).” They explicitly give one example that involves a determiner: _<b>not every</b> linguist_. Ideally the validator should have the list of permitted modifiers (light adverbials) for each language; as such lists are currently not available, the validator has additional deprel-level exceptions, although they potentially open the door for other adverbials that should not be allowed:
+
+* [advmod]() – It is used to attach negative particles such as _not_ in _not every linguist_.
+* [obl]() – A modifier could be semantically adverbial but syntactically expressed as a nominal rather than an adverb. In that case, it must be attached as `obl` and not as `advmod`. This exception was copied from other function words although it is unclear yet whether it is needed with determiners.
+
+## Problematic Constructions
+
+After the validation test was introduced, it identified problems in over 200 UD treebanks. For some of them, their maintainers suggested that the guidelines should be extended to allow additional specific constructions. The full discussion is in [Issue #1059](https://github.com/UniversalDependencies/docs/issues/1059); as it is extremely long and messy, we try to summarize the interesting points here.
+
+### Adverbial Clauses
+
+([Nathan Schneider](https://github.com/UniversalDependencies/docs/issues/1059#issue-2574038827))
+
+In English, _such_ is a demonstrative determiner and it may license an [advcl](), as in [these results](https://universal.grew.fr/?custom=66f9b53a31605). The guidelines on [sufficiency and excess](/u/overview/specific-syntax.html#sufficiency-and-excess) for _so_ and similar say the `advcl` should attach to the adjective or adverb, not the noun in a case like _sufficient flour_. Then in _such a high price **that nobody could afford it**_, we may want to attach the `advcl` dependent to _such_.
+
+Ideally, the validator should allow `advcl` specifically in English and only if the head is _such_. If there are similar constructions in other languages, they should be also registered specifically for those languages and not en bloc for the whole UD.
 
 //
-Nathan: "such" licenses an adverbial clause: "such a player that he could get away with that"
 Daniel Swanson (Hebrew): demonstrative pronouns have their own determiners. (Petr had the same thing in Classical Armenian.)
