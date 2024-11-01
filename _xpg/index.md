@@ -44,7 +44,7 @@ There are 3 VerbForms:
 
 ### Features
 
-NOUN is inflected for case, gender and number, so are ADJ, DET PRON and PROPN. The cases are nominative, accusative, genitive and dative. The genders are masculine, feminine and neuter. The numbers are singular and plural.
+NOUN is inflected for case, gender and number, so are ADJ, DET, PRON and PROPN. The cases are nominative, accusative, genitive and dative. The genders are masculine, feminine and neuter. The numbers are singular and plural.
 
 VERB is inflected for mood, number, person, tense, VerbForm and voice. The moods are indicative, subjunctive and imperative. The persons are 1st, 2nd and 3rd. The tenses are present and past. The voices are active and middle.
 * If the verb is an imperfect or perfect, aspect is specified. The aspects are respectively imperfect and perfect.
@@ -56,7 +56,7 @@ VERB is inflected for mood, number, person, tense, VerbForm and voice. The moods
 
 Standard deprels are used.
 
-Subjects are easily identified as nominatives. Direct objects are in the accusative. Indirect objects are mostly in the dative: there is only 1 attestation of the genitive used as an indirect object.
+Subjects are easily identified as nominatives. Direct objects are in the accusative. Indirect objects are mostly in the dative: there is only 1 attestation of the genitive used as an indirect object (TM931700|2|4).
 
 There is only 1 copula attested (_ituv_), which is also the only AUX (see above).
 
