@@ -131,7 +131,7 @@ det(Gemoene, der)
 Attaching the possessor in dative case to the possessee instead of the determiner does not represent the way this construction works because 1) the dative possessor cannot be attached to the possessee without the determiner and 2) the possessee can be dropped while the determiner cannot. E.g., in the example in my paper, "In der Gemoene iarem." (literally "in the parish hers") is a valid answer to a specification question in whose service the person stands. (A note to German speakers: Masculine and neuter nouns show that this is indeed a dative, not a genitive.)
 The alternative to change the determiners' tags to PRON in Low Saxon would go against UD's own definition of determiners.
 
-DZ: Is _iarem_ coreferential with _der Gemoene_?
+DZ: Is _iarem_ coreferential with _der Gemoene_? Attaching _Gemoene_ as [nmod:poss]() of _iarem_ is odd because it suggests that _Gemoene_ is the possessor of her, not of the service.
 
 
 ### Vor allem
