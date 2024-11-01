@@ -146,8 +146,17 @@ The referentiality criterion would nevertheless have the advantage that some pro
 
 ### Relative Clause Modifying a Referent Hidden in a Possessive Determiner
 
-3. The phrase _nostra qui remansissemus caede_ 'the murder of us who are left (behind)', but more literally 'our who are left murder', since _nostra_ is the inflected possessive determiner for the 1st person plural. What happens here is that the possessive adds a nominal person, as it were, and this person is another referent beyond the noun _caede_ 'murder' in this phrase; as such, the relative can target it (or at least, Cicero pleases himself in doing so). We could not really justify an analysis where we shift the relative under the head noun, since the murder is not one of its arguments.
+([Flavio Cecchini](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2419904450))
+
+Latin: The phrase _nostra qui remansissemus caede_ 'the murder of us who are left (behind)', but more literally 'our who are left murder', since _nostra_ is the inflected possessive determiner for the 1st person plural. What happens here is that the possessive adds a nominal person, as it were, and this person is another referent beyond the noun _caede_ 'murder' in this phrase; as such, the relative can target it (or at least, Cicero pleases himself in doing so). We could not really justify an analysis where we shift the relative under the head noun, since the murder is not one of its arguments.
     * **Problem:** the relative clause dependent of the determiner cannot be traced back to the referent of its head
+
+~~~sdparse
+nostra qui remansissemus caede
+det(caede, nostra)
+acl:relcl(nostra, remansissemus)
+nsubj(remansissemus, qui)
+~~~
 
 Can we deactivate this validation rule if the head element has the feature `Person`, at least for `acl:relcl`?
 
