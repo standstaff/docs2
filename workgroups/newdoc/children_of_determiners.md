@@ -40,5 +40,10 @@ In English, _such_ is a demonstrative determiner and it may license an [advcl]()
 
 Ideally, the validator should allow `advcl` specifically in English and only if the head is _such_. If there are similar constructions in other languages, they should be also registered specifically for those languages and not en bloc for the whole UD.
 
-//
-Daniel Swanson (Hebrew): demonstrative pronouns have their own determiners. (Petr had the same thing in Classical Armenian.)
+### Determiners under Determiners
+
+([Daniel Swanson](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2400694043))
+
+In Hebrew (both Ancient and Modern), demonstrative pronouns have their own determiners, as in “the men the these” = “these men”. It is also parallel to how adjectival modification works in Modern Hebrew.
+
+//(Petr had the same thing in Classical Armenian.)
