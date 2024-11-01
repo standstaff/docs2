@@ -11,7 +11,7 @@ We then use the `dep:flat` relation to get around this technical issue which goe
 
 ~~~ sdparse
 tamina faɖig =t jina \n fourteen days
-det:flat(faɖig,tamina)
+dep:flat(faɖig,tamina)
 ~~~
 
 <!-- Interlanguage links updated Ne 5. května 2024, 18:21:05 CEST -->

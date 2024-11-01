@@ -34,6 +34,8 @@ In Beja the negative optative is compulsory in dependent clauses.
 
 ### <a name="Pot">`Pot`</a>: Potential
 
+The Potential form expresses epistemic modalities of inference or near-certainty.
+
 #### Examples
 - _hinin rhisat =oːk <b>ʔeːnaj</b>_ "We are going to show you!"
 
