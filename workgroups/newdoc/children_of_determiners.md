@@ -71,6 +71,19 @@ For spoken data, we need three relations to be added to the validator:
 - `parataxis` for cases such as "a, I don't how to call that, a kiosk, …": here we have a `reparandum` link between the two "a"s and we would like to attach the parenthesis to the first "a". More exactly we use `parataxis:parenth` in our spoken French treebanks.
 - `dep` for false starts such as "the last, the last day": here "the last" forms a phrase the head of which is missing and we decided to have dep(the, last). I am not against another solution, as long as "the last" is still a phrase.
 
+### Compound Determiners
+
+([Laura Rituma](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2413484624))
+
+In Latvian, we have several expressions considered as compound pronouns in Latvian traditional grammar which consist of one particle and one pronoun. For example, _kaut kāds_ where _kaut_ is a particle and _kāds_ is a pronoun (this expression roughly means 'some kind of'). Currently, we annotate the particle as `discourse` which is dependent of pronoun, and pronoun occasionally becomes `det` if the expression describes a noun. This leads to validation error.
+
+The particles in these expressions usually are _kaut_, _diez_, _diezin_, _nez_, _nezin_, and they all have very fuzzy, hard to pin down semantics so we feel uncomfortable annotating them as adverbs.
+
+We would like to annotate these expressions as `compound` (instead of `fixed`) because the pronoun is the second element in the phrase and we feel that it is the head of the phrase  because the pronoun inflects together with a noun and bears the most of semantic meaning of the expression.
+
+Would you please consider allowing `compound` in this construction or is there any other option appropriate here?
+
+
 ### Vor allem
 
 ([Leonie Weissweiler](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2405829551))
