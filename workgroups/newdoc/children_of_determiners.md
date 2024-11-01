@@ -98,6 +98,10 @@ DZ: I don't have a strong position for the first two points above but here I do.
 
 [Laura Rituma](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2438448236) added a Latvian example where parataxis may be needed and it is not spoken data. But [Joakim Nivre](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2440023939) thinks that even here we see two determiners that should be attached as siblings to the head noun.
 
+_.. tādā godīgā iestādē ieperinājušies daži (tikai daži!) zagļi .. _ - "a **few (only a few!) thieves** have nested in such an honest institution"
+
+[Dan Zeman](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2452635054) thinks it may warrant a clarification/amendment of the guidelines, allowing parenthetical parataxis of determiners similar to coordination.
+
 
 ### Reduplication (flat)
 
