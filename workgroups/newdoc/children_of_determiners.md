@@ -75,6 +75,8 @@ For spoken data, we need three relations to be added to the validator:
 - `parataxis` for cases such as "a, I don't how to call that, a kiosk, …": here we have a `reparandum` link between the two "a"s and we would like to attach the parenthesis to the first "a". More exactly we use `parataxis:parenth` in our spoken French treebanks.
 - `dep` for false starts such as "the last, the last day": here "the last" forms a phrase the head of which is missing and we decided to have dep(the, last). I am not against another solution, as long as "the last" is still a phrase.
 
+[Laura Rituma](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2438448236) added a Latvian example where parataxis may be needed and it is not spoken data. But [Joakim Nivre](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2440023939) thinks that even here we see two determiners that should be attached as siblings to the head noun.
+
 
 ### Compound Determiners
 
@@ -123,6 +125,8 @@ obl(сырелгадсть, ладсо)
 det(ладсо, сонзэ)
 appos(сонзэ, Степан)
 ~~~
+
+[Koichi Yasuoka](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2437494587) provided a Chinese example of apposition.
 
 
 ### Semantic Coordination, Syntactic Flat?
