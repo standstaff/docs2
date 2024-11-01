@@ -12,21 +12,21 @@ Determiners are generally considered function words in UD. As such, they are typ
 
 For several years, the [UD validator](/release_checklist.html#validation) did not enforce this rule for determiners while it was doing so for other function words. The test was finally [implemented in September 2024](https://github.com/UniversalDependencies/tools/commit/1e4debd) under the label `leaf-det-clf`, [later split](https://github.com/UniversalDependencies/tools/commit/c5b8cf5ecff55c27affa8ff0eac737cb799883c8) to two tests, `leaf-det` and `leaf-clf`; since this page is about determiners and not about classifiers, we are interested in `leaf-det`. Like other similar tests for function words, it allows determiners to have children if the (universal part of the) relation between the determiner and the child is in a predefined subset:
 
-* [goeswith]() ñ Like any other word, determiner may be incorrectly split to multiple tokens in writing, then the pieces must be connected via `goeswith`.
-* [reparandum]() ñ Like any other word in spoken data, determiner may be the correct word after an incorrect fragment has been uttered, then the incorrect fragment must be attached to the determiner via `reparandum`.
-* [fixed]() ñ This relation is used to connect tokens in fixed multiword expression that act as a function word. Multiword determiners are not common but they do occur e.g. in French _lire <b>de la</b> documentation_ ìto read documentationî.
-* [conj]() and [cc]() ñ Determiners can be coordinated (e.g. _<b>each and every</b> member_).
-* [punct]() ñ Punctuation should normally be attached to a content word, but it must be attached to a function word if
+* [goeswith]() ‚Äì Like any other word, determiner may be incorrectly split to multiple tokens in writing, then the pieces must be connected via `goeswith`.
+* [reparandum]() ‚Äì Like any other word in spoken data, determiner may be the correct word after an incorrect fragment has been uttered, then the incorrect fragment must be attached to the determiner via `reparandum`.
+* [fixed]() ‚Äì This relation is used to connect tokens in fixed multiword expression that act as a function word. Multiword determiners are not common but they do occur e.g. in French _lire <b>de la</b> documentation_ ‚Äúto read documentation‚Äù.
+* [conj]() and [cc]() ‚Äì Determiners can be coordinated (e.g. _<b>each and every</b> member_).
+* [punct]() ‚Äì Punctuation should normally be attached to a content word, but it must be attached to a function word if
   * the function word is the only word enclosed in paired punctuation such as brackets;
   * or if it is the only way how to avoid non-projectivity;
   * or if it separates coordinate function words.
 
 ## Light Adverbials
 
-The [guidelines also acknowledge](/u/overview/syntax.html#function-word-modifiers) that ìcertain types of function words can take a restricted class of modifiers, mainly light adverbials (including negation).î They explicitly give one example that involves a determiner: _<b>not every</b> linguist_. Ideally the validator should have the list of permitted modifiers (light adverbials) for each language; as such lists are currently not available, the validator has additional deprel-level exceptions, although they potentially open the door for other adverbials that should not be allowed:
+The [guidelines also acknowledge](/u/overview/syntax.html#function-word-modifiers) that ‚Äúcertain types of function words can take a restricted class of modifiers, mainly light adverbials (including negation).‚Äù They explicitly give one example that involves a determiner: _<b>not every</b> linguist_. Ideally the validator should have the list of permitted modifiers (light adverbials) for each language; as such lists are currently not available, the validator has additional deprel-level exceptions, although they potentially open the door for other adverbials that should not be allowed:
 
-* [advmod]() ñ It is used to attach negative particles such as _not_ in _not every linguist_.
-* [obl]() ñ A modifier could be semantically adverbial but syntactically expressed as a nominal rather than an adverb. In that case, it must be attached as `obl` and not as `advmod`. This exception was copied from other function words although it is unclear yet whether it is needed with determiners.
+* [advmod]() ‚Äì It is used to attach negative particles such as _not_ in _not every linguist_.
+* [obl]() ‚Äì A modifier could be semantically adverbial but syntactically expressed as a nominal rather than an adverb. In that case, it must be attached as `obl` and not as `advmod`. This exception was copied from other function words although it is unclear yet whether it is needed with determiners.
 
 ## Problematic Constructions
 
@@ -44,6 +44,6 @@ Ideally, the validator should allow `advcl` specifically in English and only if 
 
 ([Daniel Swanson](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2400694043))
 
-In Hebrew (both Ancient and Modern), demonstrative pronouns have their own determiners, as in ìthe men the theseî = ìthese menî. It is also parallel to how adjectival modification works in Modern Hebrew.
+In Hebrew (both Ancient and Modern), demonstrative pronouns have their own determiners, as in ‚Äúthe men the these‚Äù = ‚Äúthese men‚Äù. It is also parallel to how adjectival modification works in Modern Hebrew.
 
 //(Petr had the same thing in Classical Armenian.)
