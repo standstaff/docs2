@@ -28,9 +28,11 @@ The [guidelines also acknowledge](/u/overview/syntax.html#function-word-modifier
 * [advmod]() – It is used to attach negative particles such as _not_ in _not every linguist_.
 * [obl]() – A modifier could be semantically adverbial but syntactically expressed as a nominal rather than an adverb. In that case, it must be attached as `obl` and not as `advmod`. This exception was copied from other function words although it is unclear yet whether it is needed with determiners.
 
+
 ## Problematic Constructions
 
 After the validation test was introduced, it identified problems in over 200 UD treebanks. For some of them, their maintainers suggested that the guidelines should be extended to allow additional specific constructions. The full discussion is in [Issue #1059](https://github.com/UniversalDependencies/docs/issues/1059); as it is extremely long and messy, we try to summarize the interesting points here.
+
 
 ### Adverbial Clauses
 
@@ -41,6 +43,7 @@ In English, _such_ is a demonstrative determiner and it may license an [advcl]()
 Ideally, the validator should allow `advcl` specifically in English and only if the head is _such_. If there are similar constructions in other languages, they should be also registered specifically for those languages and not en bloc for the whole UD.
 
 ([Joakim Nivre](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2452025700)) You have the choice of treating _such_ as [amod](), in which case it is unproblematic to attach an `advcl` to it. If you treat _such_ as `det`, you instead have to attach the clause to its head (that is, to the whole phrase). This is similar to how we treat some comparative constructions. (Dan Zeman) If _such_ is `amod`, then it should probably also have the [ADJ]() UPOS tag. Although it looks like the current validator will not complain if it sees a [DET]() attached as `amod` (it definitely does complain if it sees an `ADJ` attached as `det`).
+
 
 ### Determiners under Determiners
 
@@ -61,6 +64,7 @@ In Hebrew (both Ancient and Modern), demonstrative pronouns have their own deter
 
 //(Petr had the same thing in Classical Armenian.)
 
+
 ### Spoken Data
 
 ([Sylvain Kahane](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2407036491))
@@ -70,6 +74,7 @@ For spoken data, we need three relations to be added to the validator:
 - `discourse`, which is very common between two determiners in false starts: "a, uh, a gap", "my, uh, our friend"
 - `parataxis` for cases such as "a, I don't how to call that, a kiosk, …": here we have a `reparandum` link between the two "a"s and we would like to attach the parenthesis to the first "a". More exactly we use `parataxis:parenth` in our spoken French treebanks.
 - `dep` for false starts such as "the last, the last day": here "the last" forms a phrase the head of which is missing and we decided to have dep(the, last). I am not against another solution, as long as "the last" is still a phrase.
+
 
 ### Compound Determiners
 
@@ -82,6 +87,26 @@ The particles in these expressions usually are _kaut_, _diez_, _diezin_, _nez_, 
 We would like to annotate these expressions as `compound` (instead of `fixed`) because the pronoun is the second element in the phrase and we feel that it is the head of the phrase  because the pronoun inflects together with a noun and bears the most of semantic meaning of the expression.
 
 Would you please consider allowing `compound` in this construction or is there any other option appropriate here?
+
+
+### Reduplication (flat)
+
+([Flavio Cecchini](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2419904450))
+
+1. The already mentioned reduplication, which is treated through `flat:redup` in Latin treebanks. One example is _quot quot_ from _quot_: while the latter means 'as many as', the reduplication has a distributive sense as in 'for each possible one...' (this expression is sometimes even univerbated). I think to annotate them separately, each depending on the head, is not the right way to deal with them: here we do not have two or more different terms, but really the same one "clonating" itself. On the other hand, `flat` is really the closest relation we have to `fixed`, which would cause no problem, but is not a correct choice (well, in my opinion it is never the correct choice)
+    * **Problem:** horizontal relation
+
+Can we deactivate the validation rule if the child of `det` is a `flat` relation?
+
+Dan: Why is [fixed]() not a good choice? I think it is the right choice here.
+
+
+### Relative Clause Modifying a Referent Hidden in a Possessive Determiner
+
+3. The phrase _nostra qui remansissemus caede_ 'the murder of us who are left (behind)', but more literally 'our who are left murder', since _nostra_ is the inflected possessive determiner for the 1st person plural. What happens here is that the possessive adds a nominal person, as it were, and this person is another referent beyond the noun _caede_ 'murder' in this phrase; as such, the relative can target it (or at least, Cicero pleases himself in doing so). We could not really justify an analysis where we shift the relative under the head noun, since the murder is not one of its arguments.
+    * **Problem:** the relative clause dependent of the determiner cannot be traced back to the referent of its head
+
+Can we deactivate this validation rule if the head element has the feature `Person`, at least for `acl:relcl`?
 
 
 ### Vor allem
