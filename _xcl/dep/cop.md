@@ -5,7 +5,7 @@ shortdef: 'copula'
 udver: '2'
 ---
 
-A `cop` (copula) is the relation of a function word used to link a subject to a nonverbal predicate. The verbal copula եմ/_em_ “to be” and its perfective counterpart լինիմ/_linim_ “to become” are tagged AUX(xcl-pos/AUX). Pronominal negated copula չիք/_čʽikʽ_ (“there is no”) is tagged PRON(xcl-pos/PRON). The `cop` relation should only be used for pure copulas that add at most TAME categories to the meaning of the predicate, and only when the nonverbal predicate is treated as the head of the clause. In Classical Armenian, the auxiliary եմ has a defective paradigm and the auxiliary լինիմ is used instead for perfective predicates. Given that the [aspect](xcl-feat/Aspect) is a productive grammatical category, the two auxiliaries are considered as complementary copulas.
+A `cop` (copula) is the relation of a function word used to link a subject to a nonverbal predicate. The verbal copula եմ/_em_ “to be” and its perfective counterpart լինիմ/_linim_ “to become” are tagged [AUX](). Pronominal negated copula չիք/_čʽikʽ_ (“there is no”) is tagged [PRON](). The `cop` relation should only be used for pure copulas that add at most TAME categories to the meaning of the predicate, and only when the nonverbal predicate is treated as the head of the clause. In Classical Armenian, the auxiliary եմ has a defective paradigm and the auxiliary լինիմ is used instead for perfective predicates. Given that the [Aspect]() is a productive grammatical category, the two auxiliaries are considered as complementary copulas.
 
 ~~~ sdparse
 Եւ էին (եմ) արդարք երկոքին առաջի Աստուծոյ. ։ \n They were both righteous in the sight of God. .

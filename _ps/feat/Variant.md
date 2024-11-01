@@ -10,6 +10,8 @@ udver: '2'
   <td style="background-color:cornflowerblue;color:white"><strong>Values:</strong> </td>
   <td><a href="#Long">Long</a></td>
   <td><a href="#Short">Short</a></td>
+  <td><a href="#Weak">Weak</a></td>
+  <td><a href="#Dir">Dir</a></td>
 </tr>
 </table>
 
@@ -33,5 +35,14 @@ The short variant is used for special forms of several verbs, that do not have a
   * e.g.: ‏‏‎غواړم هلته **لاړ** شم _ġwâṛë́m hálta **lâṛ** šëm_ “I want to go there”
 * In the past potential mood, the finite forms of the auxiliary verb شول _šwël_ (perfective counterpart of کېدل _kedë́l_ “to become”) are often replaced with an invariable word شوای _šwây_, which is currently annotated as a "short participle", i.e. with `VerbForm=Part` and `Variant=Short`, in contrast to the proper participle شوی _šë́way_.
   * e.g.: **ما خوړلی **شوای _mâ xwaṛë́lay **šwây**_ “I could eat”
+ 
+
+### <a name="Weak">`Weak`</a>: weak
+
+#### Examples
+
+### <a name="Dir">`Dir`</a>: directional
+
+#### Examples
 
 <!-- Interlanguage links updated Ne 5. května 2024, 18:20:26 CEST -->

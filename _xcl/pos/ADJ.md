@@ -9,9 +9,9 @@ udver: '2'
 
 Adjectives are words that typically modify nouns and specify their properties or attributes. Besides, they may function as predicates, cf. <b>սուրբ</b> է անուն նորա / _<b>sowrb</b> ē anown nora_ “holy is his name” (Lk. 1:49).
 
-The `ADJ` tag is applied to adjectives and ordinal numerals, which the traditional grammar classifies as numerals (see [NUM](xcl-pos/NUM). See [DET](xcl-pos/DET) on determiners.
+The `ADJ` tag is applied to adjectives and ordinal numerals, which the traditional grammar classifies as numerals (see [NUM](). See [DET]() on determiners.
 
-Although participles have adjectival features they are treated as forms of the verb [VERB](xcl-pos/VERB). By contrast, the verbal adjective in -լի/_-li_ (e.g. սիրելի/_sireli_ ‘favorite’ derived from սիրել/_sirel_ ‘to love’) are tagged as adjectives.
+Although participles have adjectival features they are treated as forms of the verb [VERB](). By contrast, the verbal adjective in -լի/_-li_ (e.g. սիրելի/_sireli_ ‘favorite’ derived from սիրել/_sirel_ ‘to love’) are tagged as adjectives.
 
 ### Examples
 

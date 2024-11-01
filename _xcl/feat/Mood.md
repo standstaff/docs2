@@ -14,7 +14,7 @@ udver: '2'
 </tr>
 </table>
 
-In Classical Armenian, Mood is an inflectional feature that is tagged on finite [verbs](xcl-pos/VERB) and ([auxiliaries] (xcl-pos/AUX), and is intricately related to the features of [Aspect](xcl-feat/Aspect) and [Tense](xcl-feat/Tense).
+In Classical Armenian, Mood is an inflectional feature that is tagged on finite [verbs](xcl-pos/VERB) and [auxiliaries](xcl-pos/AUX), and is intricately related to the features of [Aspect]() and [Tense]().
 
 ### <a name="Ind">`Ind`</a>: indicative
 

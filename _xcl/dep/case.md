@@ -5,14 +5,14 @@ shortdef: 'case marking'
 udver: '2'
 ---
 
-Classical Armenian uses combinations of inflectional case forms and adpositions [adpositions](xcl-pos/ADP) to express semantic case. In UD, adpositions are treated as dependents of the nominal, to which they are attached. The relation between the nominal and the adposition is labelled `case`.
+Classical Armenian uses combinations of inflectional case forms and [adpositions](xcl-pos/ADP) to express semantic case. In UD, adpositions are treated as dependents of the nominal, to which they are attached. The relation between the nominal and the adposition is labelled `case`.
 
 ~~~ sdparse
 ի Գաղիղեա \n into Galilee
 case(Գաղիղեա, ի)
 ~~~
 
-Classical Armenian has prepositions, postpositions, and circumpositions. Prepositions can be simplex or multiword expressions. In case of multiword expressions, the subsequent word(s) is linked to the first one by the `fixed` relation.
+Classical Armenian has prepositions, postpositions, and circumpositions. Prepositions can be simplex or multiword expressions. In case of multiword expressions, the subsequent word(s) is linked to the first one by the [fixed]() relation.
 
 ~~~ sdparse
 ի վերայ նորա \n on him
@@ -28,7 +28,7 @@ case(որոյ, յ)
 case(որոյ, վերայ)
 ~~~
 
-A special case of complex adpositions are combinations of prepositional construction with demonstrative local adverbs that reinforce the meaning of the construction. When used in this function, local adverbs are tagged `ADP`, linked to the modified nominal by the `case` relation, and function as constituents of circumposition.
+A special case of complex adpositions are combinations of prepositional construction with demonstrative local adverbs that reinforce the meaning of the construction. When used in this function, local adverbs are tagged [ADP](), linked to the modified nominal by the `case` relation, and function as constituents of circumposition.
 
 ~~~ sdparse
 էջ ի լեռնէ անտի \n he came down from the mountain

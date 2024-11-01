@@ -9,11 +9,11 @@ udver: '2'
 
 Nouns are a part of speech typically denoting a person, place, thing, animal or idea.
 
-The `NOUN` tag is intended for common nouns only. See [PROPN](xcl-pos/PROPN) for proper nouns and [PRON](xcl-pos/PRON) for pronouns.
+The `NOUN` tag is intended for common nouns only. See [PROPN]() for proper nouns and [PRON]() for pronouns.
 
-Classical Armenian nouns inflect for [Case](xcl-feat/Case) and [Number](xcl-feat/Number).
+Classical Armenian nouns inflect for [Case]() and [Number]().
 
-Note that _verbal nouns_ and _participles_ share properties of nouns and verbs in Classical Armenian; they are tagged [VERB](xcl-pos/VERB) because they tend to have dependencies corresponding to verbal arguments.
+Note that _verbal nouns_ and _participles_ share properties of nouns and verbs in Classical Armenian; they are tagged [VERB]() because they tend to have dependencies corresponding to verbal arguments.
 
 ### Examples
 

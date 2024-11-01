@@ -9,7 +9,7 @@ udver: '2'
 
 A numeral is a word, functioning most typically as a determiner, adjective or pronoun, that expresses a number and a relation to the number, such as quantity, sequence, frequency or fraction.
 
-Cardinal numbers are tagged as `NUM` whether they are expressed by words (չորք/_čʻorkʻ_ “four”) or Armenian letters (Դ “four”). Following the UD guidelines, ordinal numbers are tagged as adjectives [ADJ](xcl-pos/ADJ), and adverb numerals have the tag [ADV](xcl-pos/ADV).
+Cardinal numbers are tagged as `NUM` whether they are expressed by words (չորք/_čʻorkʻ_ “four”) or Armenian letters (Դ “four”). Following the UD guidelines, ordinal numbers are tagged as adjectives [ADJ](), and adverb numerals have the tag [ADV]().
 
 ### Examples
 
@@ -18,7 +18,7 @@ Cardinal numbers are tagged as `NUM` whether they are expressed by words (չոր
 
 ### Counterexamples
 
-* առաջին/_aṙaǰin_ “first” (ordinal numeral, tagged [ADJ](xcl-pos/ADJ)).
+* առաջին/_aṙaǰin_ “first” (ordinal numeral, tagged [ADJ]()).
 
 ### References
 

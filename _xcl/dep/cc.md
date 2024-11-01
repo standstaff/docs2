@@ -5,7 +5,7 @@ shortdef: 'coordinating conjunction'
 udver: '2'
 ---
 
-For more on coordination, see the [conj](xcl-dep/conj) relation.
+For more on coordination, see the [conj]() relation.
 
 A `cc` is the relation between a conjunct and the [coordinating conjunction](xcl-pos/CCONJ) that precedes it.
 

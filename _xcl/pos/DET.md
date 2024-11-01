@@ -8,12 +8,12 @@ udver: '2'
 ### Definition
 
 Determiners are words that modify [nouns](xcl-pos/NOUN) or noun phrases and express the reference of the noun phrase in context. That is, a determiner may indicate whether the noun is referring to a definite or indefinite element of a class, to a closer or more distant element, to an element belonging to a specified person or thing, to a particular number or quantity, etc. Under this definition, determiners include _articles_ and _pronominal adjectives_. 
-In Classical Armenian, the tag [DET](xcl-pos/DET) is used for: 
+In Classical Armenian, the tag [DET]() is used for: 
 * demonstrative/possessive particles;
 * pronominal adjectives, including indefinite pronominal adjectives;
 * quantifiers.
   
-Adjectival pronouns and pronominal quantifiers are traditionally included into pronouns. However, the tag [PRON](xcl-pos/PRON) is reserved for pronouns occurring as the head of a noun phrase in UD. Pronominal adjectives of animate and inanimate indefinite pronouns inflect for [Animacy](xcl-feat/Animacy) and [Definite](xcl-feat/Definite) morphological features.
+Adjectival pronouns and pronominal quantifiers are traditionally included into pronouns. However, the tag [PRON]() is reserved for pronouns occurring as the head of a noun phrase in UD. Pronominal adjectives of animate and inanimate indefinite pronouns inflect for [Animacy]() and [Definite]() morphological features.
 
 ### Examples
 

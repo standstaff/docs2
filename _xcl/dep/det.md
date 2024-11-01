@@ -5,21 +5,21 @@ shortdef: 'determiner'
 udver: '2'
 ---
 
-The relation determiner (`det`) holds between a nominal head and its [determiner](DET). In Classical Armenian, words with UPOS DET usually have the relation `det` and vice versa. 
-Exceptions include substantivized determiners, as well as determiners linked to a nominal in an elliptical construction with a relation `orphan`, or to another determiner with a relation `conj`.
+The relation determiner (`det`) holds between a nominal head and its [determiner](DET). In Classical Armenian, only one subtype of words with UPOS DET, the articles, can take the relation `det`. By contrast, pronominal adjectives and quantifiers, which can have adpositions and articles as their own dependencies, are attached to their head with the [amod]() relation.
 
-~~~ sdparse
-Յ աւուրս յ այնոսիկ գայ Յովհաննէս մկրտիչ : \n In those days came John the Baptist. 
-det(աւուրս, այնոսիկ)
-det(days, those)
+~~~ conllu
+1	Եւ	եւ	CCONJ	_	_	2	cc	_	_
+2	փրկեցաւ	փրկել	VERB	_	_	0	root	_	_
+3	կին	կին	NOUN	_	_	2	nsubj	_	_
+4	ն	ն	DET	_	_	3	det	_	_
+5	ի	ի	ADP	_	_	6	case	_	_
+6	ժամէ	ժամ	NOUN	_	_	2	obl	_	_
+7	ն	ն	DET	_	_	6	det	_	_
+8	յ	ի	ADP	_	_	9	case	_	_
+9	այնմանէ	այն	DET	_	_	6	amod	_	_
+10	:	:	PUNCT	_	_	2	punct	_	_
 ~~~
-
-~~~ sdparse
-եւ քոյք (DET) դ , ուտեն եւ ըմպեն \n but thine eat and drink 
-nsubj(ուտեն, քոյք)
-conj(ուտեն, ըմպեն)
-cc(ըմպեն, եւ)
-~~~
+"And the woman was made whole from that hour." (Mt. 9:22)
 
 In a relative clause, the enclitic definite article is commonly attached to the word occupying the second position in the clause, even when it is a personal verb form. In such cases, it is conventionally linked to the relative pronoun at the beginning of the cause:
 

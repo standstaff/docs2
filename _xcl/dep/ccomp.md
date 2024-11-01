@@ -15,7 +15,7 @@ ccomp(said, Take)
 ccomp(Take, hear)
 ~~~
 
-If the speech verb interrupts the reported speech content, `parataxis` is used instead. The speech verb attaches to the root of the reported speech.
+If the speech verb interrupts the reported speech content, [parataxis]() is used instead. The speech verb attaches to the root of the reported speech.
 
 ~~~ sdparse
 Եւ ասէ ՝ պատանի դու ՝ քեզ ասեմ ՝ արի : \n And he said , Young man , I say unto thee , Arise .

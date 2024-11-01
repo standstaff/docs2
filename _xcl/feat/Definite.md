@@ -15,7 +15,7 @@ udver: '2'
 </tr>
 </table>
 
-In Classical Armenian, definiteness is a lexical feature of some [pronouns](xcl-pos/PRON), pronominal adjectives ([determiners] (xcl-pos/DET)), [adverbs](xcl-pos/ADV) as well as of the adposition զ=/_z=_ marking the referentially prominent direct object. The feature has three values: non-specific indefinite, specific indefinite, and definite.
+In Classical Armenian, definiteness is a lexical feature of some [pronouns](xcl-pos/PRON), pronominal adjectives ([determiners](xcl-pos/DET)), [adverbs](xcl-pos/ADV) as well as of the adposition զ=/_z=_ marking the referentially prominent direct object. The feature has three values: non-specific indefinite, specific indefinite, and definite.
 
 ### <a name="Ind">`Ind`</a>: indefinite
 
