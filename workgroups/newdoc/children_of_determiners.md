@@ -84,9 +84,17 @@ case(ayscʻanē, i)
 
 For spoken data, we need three relations to be added to the validator:
 
-- `discourse`, which is very common between two determiners in false starts: "a, uh, a gap", "my, uh, our friend"
+- [discourse](), which is very common between two determiners in false starts: "a, uh, a gap", "my, uh, our friend"
+
+[Dan Zeman](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2452618494): Does the interjection have to be attached to one of the determiners? The [discourse page](https://universaldependencies.org/u/dep/discourse.html) says that they are attached to the most relevant nearby unit, which is not very helpful, but I thought they would be attached at clause level (yes, it would be non-projective in this case).
+
 - `parataxis` for cases such as "a, I don't how to call that, a kiosk, …": here we have a `reparandum` link between the two "a"s and we would like to attach the parenthesis to the first "a". More exactly we use `parataxis:parenth` in our spoken French treebanks.
+
+DZ: Is attaching the parenthetical to the first determiner better than attaching it to the noun _(kiosk)_? Apart from the non-projectivity – I realize that there is similarity between this and the `discourse` point above.
+
 - `dep` for false starts such as "the last, the last day": here "the last" forms a phrase the head of which is missing and we decided to have dep(the, last). I am not against another solution, as long as "the last" is still a phrase.
+
+DZ: I don't have a strong position for the first two points above but here I do. I really don't think that [dep]() deserves any dedicated rule anywhere in UD, it is a last resort in datasets but its usage should be minimized. I don't understand what makes this case so different from cases where we use [reparandum]()? I always thought we would use it for false starts as well; the only thing that makes them different from true repairs is that the reparandum is identical with the repair, but I still see a strong analogy, when it is uttered for the second time, the first attempt is canceled in a sense. Moreover, here I would not attach the reparandum to the article but to the head of _the last day_, which would make it unproblematic w.r.t. the rule that determiners do not have children.
 
 [Laura Rituma](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2438448236) added a Latvian example where parataxis may be needed and it is not spoken data. But [Joakim Nivre](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2440023939) thinks that even here we see two determiners that should be attached as siblings to the head noun.
 
