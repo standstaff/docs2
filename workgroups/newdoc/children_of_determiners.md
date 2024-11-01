@@ -42,6 +42,17 @@ Ideally, the validator should allow `advcl` specifically in English and only if 
 
 ### Determiners under Determiners
 
+As the guidelines [say](/u/overview/syntax.html#the-status-of-function-words), multiple determiners are always attached directly to the head noun:
+
+<div id="s3c" class="sd-parse">
+All/DET these/DET three/NUM books/NOUN .
+det(books, All)
+det(books, these)
+nummod(books, three)
+</div>
+
+However some languages have constructions that look quite different from the English example above.
+
 ([Daniel Swanson](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2400694043))
 
 In Hebrew (both Ancient and Modern), demonstrative pronouns have their own determiners, as in “the men the these” = “these men”. It is also parallel to how adjectival modification works in Modern Hebrew.
