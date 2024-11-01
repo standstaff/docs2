@@ -34,15 +34,17 @@ The [guidelines also acknowledge](/u/overview/syntax.html#function-word-modifier
 After the validation test was introduced, it identified problems in over 200 UD treebanks. For some of them, their maintainers suggested that the guidelines should be extended to allow additional specific constructions. The full discussion is in [Issue #1059](https://github.com/UniversalDependencies/docs/issues/1059); as it is extremely long and messy, we try to summarize the interesting points here.
 
 
-### Adverbial Clauses
+### Compound Determiners
 
-([Nathan Schneider](https://github.com/UniversalDependencies/docs/issues/1059#issue-2574038827))
+([Laura Rituma](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2413484624))
 
-In English, _such_ is a demonstrative determiner and it may license an [advcl](), as in [these results](https://universal.grew.fr/?custom=66f9b53a31605). The guidelines on [sufficiency and excess](/u/overview/specific-syntax.html#sufficiency-and-excess) for _so_ and similar say the `advcl` should attach to the adjective or adverb, not the noun in a case like _sufficient flour_. Then in _such a high price **that nobody could afford it**_, we may want to attach the `advcl` dependent to _such_.
+In Latvian, we have several expressions considered as compound pronouns in Latvian traditional grammar which consist of one particle and one pronoun. For example, _kaut kāds_ where _kaut_ is a particle and _kāds_ is a pronoun (this expression roughly means 'some kind of'). Currently, we annotate the particle as `discourse` which is dependent of pronoun, and pronoun occasionally becomes `det` if the expression describes a noun. This leads to validation error.
 
-Ideally, the validator should allow `advcl` specifically in English and only if the head is _such_. If there are similar constructions in other languages, they should be also registered specifically for those languages and not en bloc for the whole UD.
+The particles in these expressions usually are _kaut_, _diez_, _diezin_, _nez_, _nezin_, and they all have very fuzzy, hard to pin down semantics so we feel uncomfortable annotating them as adverbs.
 
-([Joakim Nivre](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2452025700)) You have the choice of treating _such_ as [amod](), in which case it is unproblematic to attach an `advcl` to it. If you treat _such_ as `det`, you instead have to attach the clause to its head (that is, to the whole phrase). This is similar to how we treat some comparative constructions. (Dan Zeman) If _such_ is `amod`, then it should probably also have the [ADJ]() UPOS tag. Although it looks like the current validator will not complain if it sees a [DET]() attached as `amod` (it definitely does complain if it sees an `ADJ` attached as `det`).
+We would like to annotate these expressions as [compound]() (instead of [fixed]()) because the pronoun is the second element in the phrase and we feel that it is the head of the phrase  because the pronoun inflects together with a noun and bears the most of semantic meaning of the expression.
+
+It seems that the test should not report cases where a determiner has a `compound` child. After all, compound is just a signal that two nodes together act almost like one word, but in contrast to fixed, one of them can be considered the head.
 
 
 ### Determiners under Determiners, Case under Determiners
@@ -87,19 +89,6 @@ For spoken data, we need three relations to be added to the validator:
 - `dep` for false starts such as "the last, the last day": here "the last" forms a phrase the head of which is missing and we decided to have dep(the, last). I am not against another solution, as long as "the last" is still a phrase.
 
 [Laura Rituma](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2438448236) added a Latvian example where parataxis may be needed and it is not spoken data. But [Joakim Nivre](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2440023939) thinks that even here we see two determiners that should be attached as siblings to the head noun.
-
-
-### Compound Determiners
-
-([Laura Rituma](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2413484624))
-
-In Latvian, we have several expressions considered as compound pronouns in Latvian traditional grammar which consist of one particle and one pronoun. For example, _kaut kāds_ where _kaut_ is a particle and _kāds_ is a pronoun (this expression roughly means 'some kind of'). Currently, we annotate the particle as `discourse` which is dependent of pronoun, and pronoun occasionally becomes `det` if the expression describes a noun. This leads to validation error.
-
-The particles in these expressions usually are _kaut_, _diez_, _diezin_, _nez_, _nezin_, and they all have very fuzzy, hard to pin down semantics so we feel uncomfortable annotating them as adverbs.
-
-We would like to annotate these expressions as `compound` (instead of `fixed`) because the pronoun is the second element in the phrase and we feel that it is the head of the phrase  because the pronoun inflects together with a noun and bears the most of semantic meaning of the expression.
-
-Would you please consider allowing `compound` in this construction or is there any other option appropriate here?
 
 
 ### Reduplication (flat)
@@ -188,6 +177,20 @@ Subsequent comment by [Flavio](https://github.com/UniversalDependencies/docs/iss
 5	書	書	NOUN	NN	_	0	root	_	SpaceAfter=No
 
 ~~~
+
+
+## Problematic Constructions that Do Not Deserve an Exception
+
+
+### Adverbial Clauses
+
+([Nathan Schneider](https://github.com/UniversalDependencies/docs/issues/1059#issue-2574038827))
+
+In English, _such_ is a demonstrative determiner and it may license an [advcl](), as in [these results](https://universal.grew.fr/?custom=66f9b53a31605). The guidelines on [sufficiency and excess](/u/overview/specific-syntax.html#sufficiency-and-excess) for _so_ and similar say the `advcl` should attach to the adjective or adverb, not the noun in a case like _sufficient flour_. Then in _such a high price **that nobody could afford it**_, we may want to attach the `advcl` dependent to _such_.
+
+Ideally, the validator should allow `advcl` specifically in English and only if the head is _such_. If there are similar constructions in other languages, they should be also registered specifically for those languages and not en bloc for the whole UD.
+
+([Joakim Nivre](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2452025700)) You have the choice of treating _such_ as [amod](), in which case it is unproblematic to attach an `advcl` to it. If you treat _such_ as `det`, you instead have to attach the clause to its head (that is, to the whole phrase). This is similar to how we treat some comparative constructions. (Dan Zeman) If _such_ is `amod`, then it should probably also have the [ADJ]() UPOS tag. Although it looks like the current validator will not complain if it sees a [DET]() attached as `amod` (it definitely does complain if it sees an `ADJ` attached as `det`).
 
 
 ### Vor allem
