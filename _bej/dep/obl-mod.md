@@ -8,8 +8,8 @@ udver: '2'
 In Beja-NSC treebank, we use the `obl:mod` relation for nominal adjuncts.
 
 ~~~ sdparse
-da / bʔeː =b eːjaː -n =heːb i- ni //
+da / bʔeː =b eːjaːn =heːb ini // 
 text_en: Men came to me one day", he said.
-obl:mod(eːjaː, bʔeː) ("come", "day")
+obl:mod(eːjaːn, bʔeː) ("come", "day")
 ~~~
 <!-- Interlanguage links updated Ne 5. května 2024, 18:21:39 CEST -->
