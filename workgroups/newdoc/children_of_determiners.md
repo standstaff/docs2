@@ -125,6 +125,13 @@ appos(сонзэ, Степан)
 ~~~
 
 
+### Semantic Coordination, Syntactic Flat?
+
+([Koichi Yasuoka](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2433801928))
+
+In Classical Chinese 彼此兵 “those and these soldiers” is invalidated by this rule. The English translation has coordinate determiners but there is no coordinating conjunction in the original and 彼此 “that this” are connected via [flat](). Then “that” is attached as [det]() to “soldier”.
+
+
 ### Nominal Possessive Modifier of a Determiner
 
 ([Janine Siewert](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2424872098))
