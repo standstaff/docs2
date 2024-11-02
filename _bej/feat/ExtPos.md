@@ -36,4 +36,11 @@ It is kept in FEATS in the UD conversion.
 
 * _w= <b>alif</b> wi= dijaːb iːkti =jeːb eːjawna_ “They give her the thousand dinars that he had mentioned” (_<b>alif</b>_: `upos=NUM`, `ExtPos=NOUN`))
 
+### <a name="INTJ">`INTJ`</a>: interjection-like expression
+
+#### Example
+
+* _jaː iraːnaj / allaːji sallami =hoːk_ “oh gosh! God protected you!” (_jaː_ is `upos=PART` but as a fixed expression _jaː iraːnaj_, it has `ExtPos=INTJ` )
+
+
 <!-- Interlanguage links updated Ne 5. května 2024, 18:19:56 CEST -->
