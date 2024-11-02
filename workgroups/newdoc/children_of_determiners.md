@@ -66,11 +66,11 @@ In Hebrew (both Ancient and Modern), demonstrative pronouns have their own deter
 
 ~~~conllu
 # x- so the RTL text doesn't make this unreadable
-32	x-ה	x-ה	DET	art	PronType=Art	33	det	_	Gloss=the|Ref=GEN_19.8
-33	x-אֲנָשִׁ֤ים	x-אישׁ	NOUN	subs	Gender=Masc|Number=Plur	38	obl	_	Gloss=man|Ref=GEN_19.8
-34-35	x-הָאֵל֙	x-_	_	_	_	_	_	_	_
-34	x-הָ	x-ה	DET	art	PronType=Art	35	det	_	Gloss=the|Ref=GEN_19.8
-35	x-אֵל֙	x-אל	PRON	prde	Number=Plur|PronType=Dem	33	det	_	Gloss=these|Ref=GEN_19.8
+1	ה	x-ה	DET	art	PronType=Art	2	det	_	Gloss=the|Ref=GEN_19.8
+2	אֲנָשִׁ֤ים	x-אישׁ	NOUN	subs	Gender=Masc|Number=Plur	0	root	_	Gloss=man|Ref=GEN_19.8
+3-4	הָאֵל֙	_	_	_	_	_	_	_	_
+3	הָ	x-ה	DET	art	PronType=Art	4	det	_	Gloss=the|Ref=GEN_19.8
+4	אֵל֙	x-אל	PRON	prde	Number=Plur|PronType=Dem	2	det	_	Gloss=these|Ref=GEN_19.8
 
 ~~~
 
