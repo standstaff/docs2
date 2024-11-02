@@ -60,10 +60,10 @@ For the principles of transliteration of Pashto used in UD see the [Transliterat
   * The subject usually comes before the object regardless of the case.
   * The verb agrees in `Person` and `Number` (and also `Gender` in the third person of past tenses) with the subject in non-past tenses and with the object in past tenses.
 
-<table>
+<table class="typeindex" border="1">
 <tr>
   <td align="middle" rowspan="2"></td>
-  <td align="middle">intransitive</b></td>
+  <td align="middle">intransitive</td>
   <td align="middle" colspan="2">transitive</td>
 </tr>
 <tr>
