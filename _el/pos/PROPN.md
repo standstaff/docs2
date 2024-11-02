@@ -24,7 +24,21 @@ The words *κύριος, κυρία* / *kirios, kiria* 'mister, madam'  and thei
 
 The adjective *Άγιος* 'Saint' (all genders) and its shortened version *Αη* receive the same lemma  *Άγιος*, are assigned the tag <code>ADJ</code> and depend with the [amod]() dependency on the proper noun it modifies, e.g. *ο*.DET *Αγιος*.ADJ *Νικόλαος*.PROPN, *ο*.DET *Άη*.ADJ *Νικόλας*.PROPN. 
 
-The noun *παπάς* 'priest' and the adjective "γέρος" 'old' and *παλιός* 'old, bad' normally receive the respective PoS tag and syntactic dependency. Their  shortened versions *παπα-, γερο-, παλιο-* are  attached to nouns or proper nouns with or without a *-*, e.g., *παπα-Νικόλας*, *γεροναύτης* 'old sailor'. Similarly, the shortened versions *κυρ΄, κυρα* and *Άη, Αγια-* are sometimes spelled in this way (phonoligally they form units with the nouns they modify); such spellings are split into their two components and annotated like their full forms. 
+- For combinations with the forms *κυρ*, *γερο* and *παπα* as a first member and a PROPN or a NOUN as a second one; these combinations may be spelled with or without an '-'. The overall construct is "visible" with the PoS of the head of the compound  and this is the reason why the [flat]() dependency was not preferred because the construct would be visible with the PoS of the first member. Another reason is that these combinations may be spelled as one word, e.g., *γεροναύτης* 'old sailor', in which case they are assigned the PoS of the head of the compound.
+
+~~~ sdparse
+ο γερο-Αρτέμης
+punct(Αρτέμης, -)
+compound(Αρτέμης, γέρο)
+det(Αρτέμης, ο)
+~~~
+
+~~~ sdparse
+ο γερο Μαθιός
+compound(Μαθιός, γέρο)
+det(Μαθιός, ο)
+~~~
+
 
 ### Acronyms
 
