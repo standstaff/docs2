@@ -115,36 +115,9 @@ Unfortunately, if `case` under `det` is allowed in all languages and not just un
 [DZ](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2453383938): 她的 _tā de_ “of her” is a prototypical example of `nmod`. So changing the current `det(書, 她)` to `nmod(書, 她)` will solve it. (On the other hand, the classifier under the second determiner in this example is correct [according to the guidelines](/u/dep/clf.html).)
 
 
-### Spoken Data
+### Parentheticals
 
-([Sylvain Kahane](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2407036491))
-
-For spoken data, we need three relations to be added to the validator:
-
-- [discourse](), which is very common between two determiners in false starts: "a, uh, a gap", "my, uh, our friend"
-
-[Dan Zeman](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2452618494): Does the interjection have to be attached to one of the determiners? The [discourse page](https://universaldependencies.org/u/dep/discourse.html) says that they are attached to the most relevant nearby unit, which is not very helpful, but I thought they would be attached at clause level (yes, it would be non-projective in this case).
-
-[Sylvain](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2452929579): Yes, I really want to analyse the discourse marker as the marker of the reparandum. If you want to keep a constrained rule, we can allow `discourse` only when the determiner is a `reparandum`. Clearly the determiners around the discourse marker are "the most relevant nearby units".
-
-[Dan](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2453469086): I am not sure I understand. If the `discourse` child is attached to a parent that itself is a `reparandum`, we do not have a problem at all (regardless whether the UPOS tag of the parent is `DET`). We would have a problem only if the determiner parent were attached as `det`.
-
-- [parataxis]() for cases such as "a, I don't how to call that, a kiosk, …": here we have a `reparandum` link between the two "a"s and we would like to attach the parenthesis to the first "a". More exactly we use `parataxis:parenth` in our spoken French treebanks.
-
-DZ: Is attaching the parenthetical to the first determiner better than attaching it to the noun _(kiosk)_? Apart from the non-projectivity – I realize that there is similarity between this and the `discourse` point above.
-
-SK: Yes it is similar to the discourse marker case and I propose the same solution. Moreover, in this case, "_a, I don't know how to call that_" forms a kind of semantic and prosodic unit, which is not the case of "_I don't know how to call that, a kiosk_". I really want to attach the parenthesis to the first determiner.
-
-[DZ](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2453479477): Now I realize that here, too, we shouldn't have a problem because the first determiner should be attached to the kiosk as a `reparandum`:
-
-~~~ sdparse
-a , I do n't know how to call that , a kiosk
-reparandum(kiosk, a-1)
-det(kiosk, a-12)
-parataxis(a-1, know)
-~~~
-
-[Laura Rituma](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2438448236) added a Latvian example where parataxis may be needed and it is not spoken data. But [Joakim Nivre](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2440023939) thinks that even here we see two determiners that should be attached as siblings to the head noun.
+[Laura Rituma](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2438448236) added a Latvian example where [parataxis]() may be needed under a determiner. But [Joakim Nivre](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2440023939) thinks that even here we see two determiners that should be attached as siblings to the head noun.
 
 _tādā godīgā iestādē ieperinājušies daži (tikai daži!) zagļi_ “a **few (only a few!) thieves** have nested in such an honest institution”
 
@@ -155,6 +128,8 @@ parataxis(daži-5, daži-8)
 ~~~
 
 [Dan Zeman](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2452635054) thinks it may warrant a clarification/amendment of the guidelines, allowing parenthetical parataxis of determiners similar to coordination.
+
+[Sylvain Kahane](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2407036491) also had an example of [parataxis]() but that one turned out to be unproblematic (see below) because the parent node, although tagged [DET](), is not annotated syntactically as a [det]() but [reparandum]().
 
 
 ### Reduplication (flat)
@@ -247,7 +222,7 @@ Subsequent comment by [Flavio](https://github.com/UniversalDependencies/docs/iss
 and [Dan](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2452688911).
 
 
-## Problematic Constructions that Do Not Deserve an Exception
+## Problematic Constructions that Do Not Need an Exception
 
 
 ### Adverbial Clauses
@@ -266,6 +241,47 @@ Ideally, the validator should allow `advcl` specifically in English and only if 
 ([Leonie Weissweiler](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2405829551))
 
 German _vor allem_ and _unter anderem_ – resolved in a separate issue?
+
+
+### Parentheticals in Spoken Data
+
+([Sylvain Kahane](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2407036491))
+
+- [parataxis]() for cases such as "a, I don't how to call that, a kiosk, …": here we have a `reparandum` link between the two "a"s and we would like to attach the parenthesis to the first "a". More exactly we use `parataxis:parenth` in our spoken French treebanks.
+
+DZ: Is attaching the parenthetical to the first determiner better than attaching it to the noun _(kiosk)_? Apart from the non-projectivity – I realize that there is similarity between this and the `discourse` point above.
+
+SK: Yes it is similar to the discourse marker case and I propose the same solution. Moreover, in this case, "_a, I don't know how to call that_" forms a kind of semantic and prosodic unit, which is not the case of "_I don't know how to call that, a kiosk_". I really want to attach the parenthesis to the first determiner.
+
+[DZ](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2453479477): Now I realize that here, too, we shouldn't have a problem because the first determiner should be attached to the kiosk as a `reparandum`:
+
+~~~ sdparse
+a , I do n't know how to call that , a kiosk
+reparandum(kiosk, a-1)
+det(kiosk, a-12)
+parataxis(a-1, know)
+~~~
+
+[SK](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2453519235): My mistake! Your validator doesn't forbid [discourse](), [parataxis](), or [orphan]() depending on a [DET]() which is [reparandum](). And it is good like this.
+
+(DZ: Note however that the question of parentheticals depending on determiners is broader and one of the examples mentioned earlier shows that we may want to allow them anyway.)
+
+
+### Fillers in Spoken Data
+
+([Sylvain Kahane](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2407036491))
+
+For spoken data, we need the following to be added to the validator:
+
+- [discourse](), which is very common between two determiners in false starts: "a, uh, a gap", "my, uh, our friend"
+
+[Dan Zeman](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2452618494): Does the interjection have to be attached to one of the determiners? The [discourse page](https://universaldependencies.org/u/dep/discourse.html) says that they are attached to the most relevant nearby unit, which is not very helpful, but I thought they would be attached at clause level (yes, it would be non-projective in this case).
+
+[Sylvain](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2452929579): Yes, I really want to analyse the discourse marker as the marker of the reparandum. If you want to keep a constrained rule, we can allow `discourse` only when the determiner is a `reparandum`. Clearly the determiners around the discourse marker are "the most relevant nearby units".
+
+[Dan](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2453469086): I am not sure I understand. If the `discourse` child is attached to a parent that itself is a `reparandum`, we do not have a problem at all (regardless whether the UPOS tag of the parent is `DET`). We would have a problem only if the determiner parent were attached as `det`.
+
+[SK](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2453519235): My mistake! Your validator doesn't forbid [discourse](), [parataxis](), or [orphan]() depending on a [DET]() which is [reparandum](). And it is good like this.
 
 
 ### False Starts with the dep Relation
@@ -309,3 +325,5 @@ nsubj(voit, on-7)
 SK: Maybe a dedicated relation such as `flat:disfluency`?
 
 DZ: Right now I think I prefer the ellipsis solution sketched above, but `flat` would probably still be better than `dep`. None of the two solutions should trigger the `leaf-det` validation test.
+
+[SK](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2453519235): My mistake! Your validator doesn't forbid [discourse](), [parataxis](), or [orphan]() depending on a [DET]() which is [reparandum](). And it is good like this.
