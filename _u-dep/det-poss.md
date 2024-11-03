@@ -5,14 +5,7 @@ shortdef: 'possessive determiner'
 udver: '2'
 ---
 
-Whenever there is a possessive determiner, <code>det:poss</code> should be used instead of <code>det</code>. All possessive determiners have the feature <code>Possessive</code> defined as <code>Yes</code> and the only instances of the <code>det:poss</code> relation attested in the Italian Treebank appear with those elements.
+`det:mod` has been used for possessive determiners, but it must be replaced by `det` with the [feature](https://universaldependencies.org/en/feat/Poss.html) `Poss=Yes` on the determiner.
+See also `nmod:poss` about the [possessive construction](https://universaldependencies.org/u/dep/nmod-poss.html#nmod-poss-possessive-nominal-modifier).
 
-~~~ sdparse
-Sarà mia cura verificare . 
-det:poss(cura, mia)
-~~~
-~~~ sdparse
-Ha da poco annunciato le proprie dimissioni . 
-det:poss(dimissioni, proprie)
-~~~
 <!-- Interlanguage links updated Ne 5. května 2024, 18:21:07 CEST -->
