@@ -95,10 +95,7 @@ case(ayscʻanē, y)
 
 Attaching the case marker of the demonstrative to the head noun, which has its own copy of the case marker, would be odd.
 
-
-### Pronoun has case, both are attached as det
-
-([Koichi Yasuoka](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2435696875))
+Unfortunately, if `case` under `det` is allowed in all languages and not just under Classical Armenian demonstratives, it will open the door for cases that are clear errors. For example, the following is in the current Chinese data (brought up by [Koichi Yasuoka](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2435696875)).
 
 ~~~conllu
 # text = 她的這本書
@@ -109,6 +106,8 @@ Attaching the case marker of the demonstrative to the head noun, which has its o
 5	書	書	NOUN	NN	_	0	root	_	SpaceAfter=No
 
 ~~~
+
+[DZ](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2453383938): 她的 _tā de_ “of her” is a prototypical example of `nmod`. So changing the current `det(書, 她)` to `nmod(書, 她)` will solve it.
 
 
 ### Spoken Data
