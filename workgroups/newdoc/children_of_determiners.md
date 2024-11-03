@@ -295,7 +295,7 @@ det(day, the-4)
 amod(day, last-5)
 ~~~
 
-I understand your concern, although I would claim that the UD ellipsis policy provides a possible solution here, too: `orphan(on, qu')`.
+DZ: As for the French example, I understand your concern, although I would claim that the UD ellipsis policy provides a possible solution here, too: `orphan(on, qu')`.
 
 ~~~ sdparse
 les gens qu' on , qu' on voit pour la première fois
