@@ -177,6 +177,21 @@ det(books, these)
 nummod(books, three)
 </div>
 
+An exception from the rule that function words are not chained is the [demonstrative+classifier construction](/u/dep/clf.html), occurring e.g. in Chinese. Here the classifier forms a constituent with the demonstrative (which is a [det]()) and is attached as a child of the demonstrative.
+
+~~~ sdparse
+乘坐 這 輛 巴士 \n Chéngzuò zhè liàng bāshì \n Take this CLF bus
+obj(乘坐, 巴士)
+det(巴士, 這)
+clf(這, 輛)
+obj(Chéngzuò, bāshì)
+det(bāshì, zhè)
+clf(zhè, liàng)
+obj(Take, bus)
+det(bus, this)
+clf(this, CLF)
+~~~
+
 We are aware that the choice to treat function words formally as dependents of content words is at odds with many versions of dependency grammar, which prefer the opposite relation for many syntactic constructions.
 We prefer to view the relations between content words and function words, not as dependency relations in the narrow
 sense, but as operations that modify the grammatical category of the content word so that it can participate in

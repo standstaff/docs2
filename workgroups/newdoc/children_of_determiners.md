@@ -107,7 +107,7 @@ Unfortunately, if `case` under `det` is allowed in all languages and not just un
 
 ~~~
 
-[DZ](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2453383938): 她的 _tā de_ “of her” is a prototypical example of `nmod`. So changing the current `det(書, 她)` to `nmod(書, 她)` will solve it.
+[DZ](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2453383938): 她的 _tā de_ “of her” is a prototypical example of `nmod`. So changing the current `det(書, 她)` to `nmod(書, 她)` will solve it. (On the other hand, the classifier under the second determiner in this example is correct [according to the guidelines](/u/dep/clf.html).)
 
 
 ### Spoken Data

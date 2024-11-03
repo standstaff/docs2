@@ -80,7 +80,7 @@ clf(this, CLF)
 ~~~
 
 Classifier words also occur in various other constructions, and so it is important to distinguish the word in a particular
-language from the universal classifier function proposed in UD. We go through here some further examples with Chinese classifiers.
+language from the universal classifier function proposed in UD. We go here through some further examples with Chinese classifiers.
 
 The number and classifier may appear without the counted noun.
 In this case, the classifier takes the role of the missing noun, and we promote the classifier to be the head.
