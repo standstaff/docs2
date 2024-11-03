@@ -286,6 +286,15 @@ Here we have two pronouns _qu'_ and _on_, which form the false start together, a
 
 [DZ](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2453496870): It is not a complete phrase but I would still find it natural to apply the UD rules for ellipsis (=> for incomplete phrases), promote _last_ and draw the relation `det(last, the)`. I think the information that it is a false start is already encoded in the incoming `reparandum` relation (which could be further subtyped to `reparandum:falsestart` if it is needed).
 
+~~~ sdparse
+the last , the last day
+det(last-2, the-1)
+punct(last-2, ,)
+reparandum(day, last-2)
+det(day, the-4)
+amod(day, last-5)
+~~~
+
 I understand your concern, although I would claim that the UD ellipsis policy provides a possible solution here, too: `orphan(on, qu')`.
 
 ~~~ sdparse
