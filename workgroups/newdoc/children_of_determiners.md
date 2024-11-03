@@ -117,7 +117,7 @@ Unfortunately, if `case` under `det` is allowed in all languages and not just un
 
 ### Parentheticals
 
-[Laura Rituma](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2438448236) added a Latvian example where [parataxis]() may be needed under a determiner. But [Joakim Nivre](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2440023939) thinks that even here we see two determiners that should be attached as siblings to the head noun.
+[Laura Rituma](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2438448236) added a Latvian example where [parataxis]() may be needed under a determiner.
 
 _tādā godīgā iestādē ieperinājušies daži (tikai daži!) zagļi_ “a **few (only a few!) thieves** have nested in such an honest institution”
 
@@ -127,7 +127,7 @@ det(zagļi, daži-5)
 parataxis(daži-5, daži-8)
 ~~~
 
-[Dan Zeman](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2452635054) thinks it may warrant a clarification/amendment of the guidelines, allowing parenthetical parataxis of determiners similar to coordination.
+[Dan Zeman](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2452635054) thinks it may warrant a clarification/amendment of the guidelines, allowing parenthetical parataxis of determiners similar to coordination. But [Joakim Nivre](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2440023939) thinks that even here we see two determiners that should be attached as siblings to the head noun.
 
 [Sylvain Kahane](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2407036491) also had an example of [parataxis]() but that one turned out to be unproblematic (see below) because the parent node, although tagged [DET](), is not annotated syntactically as a [det]() but [reparandum]().
 
