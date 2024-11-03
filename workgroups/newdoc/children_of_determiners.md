@@ -125,9 +125,24 @@ For spoken data, we need three relations to be added to the validator:
 
 [Dan Zeman](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2452618494): Does the interjection have to be attached to one of the determiners? The [discourse page](https://universaldependencies.org/u/dep/discourse.html) says that they are attached to the most relevant nearby unit, which is not very helpful, but I thought they would be attached at clause level (yes, it would be non-projective in this case).
 
+[Sylvain](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2452929579): Yes, I really want to analyse the discourse marker as the marker of the reparandum. If you want to keep a constrained rule, we can allow `discourse` only when the determiner is a `reparandum`. Clearly the determiners around the discourse marker are "the most relevant nearby units".
+
+[Dan](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2453469086): I am not sure I understand. If the `discourse` child is attached to a parent that itself is a `reparandum`, we do not have a problem at all (regardless whether the UPOS tag of the parent is `DET`). We would have a problem only if the determiner parent were attached as `det`.
+
 - `parataxis` for cases such as "a, I don't how to call that, a kiosk, …": here we have a `reparandum` link between the two "a"s and we would like to attach the parenthesis to the first "a". More exactly we use `parataxis:parenth` in our spoken French treebanks.
 
 DZ: Is attaching the parenthetical to the first determiner better than attaching it to the noun _(kiosk)_? Apart from the non-projectivity – I realize that there is similarity between this and the `discourse` point above.
+
+SK: Yes it is similar to the discourse marker case and I propose the same solution. Moreover, in this case, "_a, I don't know how to call that_" forms a kind of semantic and prosodic unit, which is not the case of "_I don't know how to call that, a kiosk_". I really want to attach the parenthesis to the first determiner.
+
+[DZ](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2453479477): Now I realize that here, too, we shouldn't have a problem because the first determiner should be attached to the kiosk as a `reparandum`:
+
+~~~ sdparse
+a , I do n't know how to call that , a kiosk
+reparandum(kiosk, a-1)
+det(kiosk, a-12)
+parataxis(a-1, know)
+~~~
 
 - `dep` for false starts such as "the last, the last day": here "the last" forms a phrase the head of which is missing and we decided to have dep(the, last). I am not against another solution, as long as "the last" is still a phrase.
 
