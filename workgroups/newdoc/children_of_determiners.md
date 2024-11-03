@@ -47,7 +47,7 @@ We would like to annotate these expressions as [compound]() (instead of [fixed](
 It seems that the test should not report cases where a determiner has a `compound` child. After all, compound is just a signal that two nodes together act almost like one word, but in contrast to fixed, one of them can be considered the head.
 
 
-### Determiners under Determiners, Case under Determiners
+### Determiners under Determiners
 
 As the guidelines [say](/u/overview/syntax.html#the-status-of-function-words), multiple determiners are always attached directly to the head noun:
 
@@ -74,18 +74,26 @@ In Hebrew (both Ancient and Modern), demonstrative pronouns have their own deter
 
 ~~~
 
-[Petr Kocharov](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2441260051) brought up a similar issue in Classical Armenian. Prepositions and articles can be repeated with modifiers, including demonstrative pronominal adjectives, within NP, cf.
 
-_i kʻarancʻ y ayscʻanē_
-from stone.ABL.PL from this.ABL.PL
-“from these (from) stones”
+### Case under Determiners
+
+([Petr Kocharov](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2441260051))
+
+Somewhat similar to demonstratives with articles in Hebrew, Classical Armenian has repeated case markers on noun and its demonstrative.
+Prepositions and articles can be repeated with modifiers, including demonstrative pronominal adjectives, within NP, cf.
+
+* _i kʻarancʻ y ayscʻanē_
+* from stone.ABL.PL from this.ABL.PL
+* “from these (from) stones”
 
 ~~~sdparse
 i kʻarancʻ y ayscʻanē
 det(kʻarancʻ, ayscʻanē)
 case(kʻarancʻ, i)
-case(ayscʻanē, i)
+case(ayscʻanē, y)
 ~~~
+
+Attaching the case marker of the demonstrative to the head noun, which has its own copy of the case marker, would be odd.
 
 
 ### Pronoun has case, both are attached as det
