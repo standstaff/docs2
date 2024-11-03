@@ -156,10 +156,6 @@ parataxis(daži-5, daži-8)
 
 [Dan Zeman](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2452635054) thinks it may warrant a clarification/amendment of the guidelines, allowing parenthetical parataxis of determiners similar to coordination.
 
-- [dep]() for false starts such as "the last, the last day": here "the last" forms a phrase the head of which is missing and we decided to have dep(the, last). I am not against another solution, as long as "the last" is still a phrase.
-
-DZ: I don't have a strong position for the first two points above but here I do. I really don't think that [dep]() deserves any dedicated rule anywhere in UD, it is a last resort in datasets but its usage should be minimized. I don't understand what makes this case so different from cases where we use [reparandum]()? I always thought we would use it for false starts as well; the only thing that makes them different from true repairs is that the reparandum is identical with the repair, but I still see a strong analogy, when it is uttered for the second time, the first attempt is canceled in a sense. Moreover, here I would not attach the reparandum to the article but to the head of _the last day_, which would make it unproblematic w.r.t. the rule that determiners do not have children.
-
 
 ### Reduplication (flat)
 
@@ -270,3 +266,37 @@ Ideally, the validator should allow `advcl` specifically in English and only if 
 ([Leonie Weissweiler](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2405829551))
 
 German _vor allem_ and _unter anderem_ – resolved in a separate issue?
+
+
+### False Starts with the dep Relation
+
+([Sylvain Kahane](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2407036491))
+
+[dep]() for false starts such as "the last, the last day": here "the last" forms a phrase the head of which is missing and we decided to have dep(the, last). I am not against another solution, as long as "the last" is still a phrase.
+
+DZ: I don't have a strong position for the first two points above but here I do. I really don't think that [dep]() deserves any dedicated rule anywhere in UD, it is a last resort in datasets but its usage should be minimized. I don't understand what makes this case so different from cases where we use [reparandum]()? I always thought we would use it for false starts as well; the only thing that makes them different from true repairs is that the reparandum is identical with the repair, but I still see a strong analogy, when it is uttered for the second time, the first attempt is canceled in a sense. Moreover, here I would not attach the reparandum to the article but to the head of _the last day_, which would make it unproblematic w.r.t. the rule that determiners do not have children.
+
+[SK](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2452929579): The problem is not with _the last day_, the repandum starts from _day_. The problem is the analysis of _the last_, the false start itself. I don't like the idea to analyze it as a correct phrase, for instance with det(last,the). I want to keep the information that it is a false start and not a complete phrase. It is why we chose dep(the, last), but I am ok to use another relation.
+I give you another example of false start, which I would like to analyze similarly:
+
+> _les gens qu'on, qu'on voit pour la première fois_
+> 'people who we, who we see for the first time' (In French the relative pronoun cannot be omitted)
+
+Here we have two pronouns _qu'_ and _on_, which form the false start together, and I don't see what could be the link between them apart from `dep`. Maybe a dedicated relation such as `flat:disfluency`?
+
+[DZ](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2453496870): It is not a complete phrase but I would still find it natural to apply the UD rules for ellipsis (=> for incomplete phrases), promote _last_ and draw the relation `det(last, the)`. I think the information that it is a false start is already encoded in the incoming `reparandum` relation (which could be further subtyped to `reparandum:falsestart` if it is needed).
+
+I understand your concern, although I would claim that the UD ellipsis policy provides a possible solution here, too: `orphan(on, qu')`.
+
+~~~ sdparse
+les gens qu' on , qu' on voit pour la première fois
+orphan(on-4, qu'-3)
+punct(on-4, ,)
+reparandum(voit, on-4)
+obj(voit, qu'-6)
+nsubj(voit, on-7)
+~~~
+
+SK: Maybe a dedicated relation such as `flat:disfluency`?
+
+DZ: Right now I think I prefer the ellipsis solution sketched above, but `flat` would probably still be better than `dep`. None of the two solutions should trigger the `leaf-det` validation test.
