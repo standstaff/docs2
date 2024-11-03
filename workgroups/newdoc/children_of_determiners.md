@@ -47,6 +47,11 @@ We would like to annotate these expressions as [compound]() (instead of [fixed](
 It seems that the test should not report cases where a determiner has a `compound` child. After all, compound is just a signal that two nodes together act almost like one word, but in contrast to fixed, one of them can be considered the head.
 
 
+### Classifiers under Determiners
+
+According to [the guidelines on classifiers](/u/dep/clf.html), in the demonstrative + classifier construction in Chinese, the classifier forms a constituent with the demonstrative and must be attached as its child. Therefore, [clf]() must be added as an exception to the validation rule. This is also an exception to the general rule that function words are not chained in UD trees.
+
+
 ### Determiners under Determiners
 
 As the guidelines [say](/u/overview/syntax.html#the-status-of-function-words), multiple determiners are always attached directly to the head noun:
