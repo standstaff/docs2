@@ -132,6 +132,19 @@ parataxis(daži-5, daži-8)
 [Sylvain Kahane](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2407036491) also had an example of [parataxis]() but that one turned out to be unproblematic (see below) because the parent node, although tagged [DET](), is not annotated syntactically as a [det]() but [reparandum]().
 
 
+### Reduplication (flat)
+
+([Flavio Cecchini](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2419904450))
+
+1. The already mentioned reduplication, which is treated through `flat:redup` in Latin treebanks. One example is _quot quot_ from _quot_: while the latter means 'as many as', the reduplication has a distributive sense as in 'for each possible one...' (this expression is sometimes even univerbated). I think to annotate them separately, each depending on the head, is not the right way to deal with them: here we do not have two or more different terms, but really the same one "clonating" itself. On the other hand, `flat` is really the closest relation we have to `fixed`, which would cause no problem, but is not a correct choice (well, in my opinion it is never the correct choice)
+    * **Problem:** horizontal relation
+
+Can we deactivate the validation rule if the child of `det` is a `flat` relation?
+
+Dan: Why is [fixed]() not a good choice?
+[Flavio](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2455257882): Because it is productive and not idiosyncratic.
+
+
 ## Problems with Referentiality
 
 A large part of the discussion slipped to the related problem of deciding between [det]() and [nmod]() (or their `:poss` subtypes). Joakim believes that the guidelines imply, despite not saying it explicitly, that if the word is referential, it should be attached as `nmod` rather than `det`. It would be the case of all words referring to possessors, regardless whether they are tagged as [PRON](), [DET](), [NOUN]() or [ADJ](). But other people (including Dan) do not understand the guidelines this way.
@@ -310,22 +323,10 @@ DZ: Right now I think I prefer the ellipsis solution sketched above, but `flat` 
 [SK](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2453519235): My mistake! Your validator doesn't forbid [discourse](), [parataxis](), or [orphan]() depending on a [DET]() which is [reparandum](). And it is good like this.
 
 
-### Reduplication (flat)
-
-([Flavio Cecchini](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2419904450))
-
-1. The already mentioned reduplication, which is treated through `flat:redup` in Latin treebanks. One example is _quot quot_ from _quot_: while the latter means 'as many as', the reduplication has a distributive sense as in 'for each possible one...' (this expression is sometimes even univerbated). I think to annotate them separately, each depending on the head, is not the right way to deal with them: here we do not have two or more different terms, but really the same one "clonating" itself. On the other hand, `flat` is really the closest relation we have to `fixed`, which would cause no problem, but is not a correct choice (well, in my opinion it is never the correct choice)
-    * **Problem:** horizontal relation
-
-Can we deactivate the validation rule if the child of `det` is a `flat` relation?
-
-Dan: Why is [fixed]() not a good choice? I think it is the right choice here.
-
-
 ### Semantic Coordination, Syntactic Flat?
 
 ([Koichi Yasuoka](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2433801928))
 
 In Classical Chinese 彼此兵 “those and these soldiers” is invalidated by this rule. The English translation has coordinate determiners but there is no coordinating conjunction in the original and 彼此 “that this” are connected via [flat](). Then “that” is attached as [det]() to “soldier”.
 
-Flavio (and Dan): Here the simplest solution would be to use [conj]() instead of [flat]().
+Flavio (and Dan): Here the simplest solution would be to use [conj]() instead of [flat](). (But in the end, `flat` may be allowed because of other things, namely reduplication of function words.
