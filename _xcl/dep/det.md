@@ -5,7 +5,7 @@ shortdef: 'determiner'
 udver: '2'
 ---
 
-The relation determiner (`det`) holds between a nominal head and its [determiner](DET). In Classical Armenian, only one subtype of words with UPOS DET, the articles, can take the relation `det`. By contrast, pronominal adjectives and quantifiers, which can have adpositions and articles as their own dependencies, are attached to their head with the [amod]() relation.
+The relation determiner (`det`) holds between a nominal head and its [determiner](DET). In Classical Armenian, pronominal adjectives and quantifiers can have adpositions and articles as their own dependents, which are attached to their head with the [det]() relation. This is an exception from the general rule, according to which determiners cannot have dependents.
 
 ~~~ conllu
 1	Եւ	եւ	CCONJ	_	_	2	cc	_	_
@@ -16,7 +16,7 @@ The relation determiner (`det`) holds between a nominal head and its [determiner
 6	ժամէ	ժամ	NOUN	_	_	2	obl	_	_
 7	ն	ն	DET	_	_	6	det	_	_
 8	յ	ի	ADP	_	_	9	case	_	_
-9	այնմանէ	այն	DET	_	_	6	amod	_	_
+9	այնմանէ	այն	DET	_	_	6	det	_	_
 10	:	:	PUNCT	_	_	2	punct	_	_
 ~~~
 "And the woman was made whole from that hour." (Mt. 9:22)
