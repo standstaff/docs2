@@ -120,27 +120,24 @@ setfacl -m u:zeman:rw,u:www-data:rw evaluation-report.txt</pre>
     <pre>* 2018-04-15 v2.2
   * Repository renamed from UD_Czech to UD_Czech-PDT.</pre>
 7.  Commit and push the changes. This should also trigger an automatic re-validation of the treebank under the new name.
-    There will be a README error because the treebank is not recognized as previously released; see the next step.
-8.  Go to the `tools` repository to the Perl module `udlib.pm` and locate the function `check_metadata()`.
-    There is a back up list of treebanks and their "Data available since" metadata. Replace `UD_Czech` with `UD_Czech-PDT`,
-    keeping it in the list for the release where `UD_Czech` appeared for the first time. (We will probably change the way how this is checked in the future.)
-9.  Go to the `docs-automation` repository.
-    Open the file `valdan/releases.json`. In the line of the release where the new name will appear for the first time,
-    we need this at the end of the release record:
-    <pre>, "renamed": [["UD_Czech", "UD_Czech-PDT"]]</pre>
-    <strong>The problem is that at the time of renaming the repository, the release process probably has not started and there
-    is no line for the next release yet.</strong>
-10. If there are other places where you maintain local clones of UD repositories (e.g., one is your laptop and the other is your
+    There will be a README error because the treebank is not recognized as previously released
+    (in the function `check_metadata()` in `tools/udlib.pm`); see the next step.
+8.  Go to the `docs-automation` repository.
+    Open the file `valdan/releases.json` and go to its end where there is the key `renamed_after_release`.
+    At the end of the hash denoted by this key, we need a new record in the following form:
+    <pre>"2.1": [["UD_Czech", "UD_Czech-PDT]]</pre>
+    The release number identifying this record should be the last release where the treebank appeared under the old name.
+9.  If there are other places where you maintain local clones of UD repositories (e.g., one is your laptop and the other is your
     university network), go to each of them, do a new git clone ; git checkout dev ; rm old clone.
-11. Finally, we want to regenerate the title page of Universal Dependencies.
+10. Finally, we want to regenerate the title page of Universal Dependencies.
     Go to docs-automation. Assumption: all UD treebank repositories, and the docs repository are cloned as siblings of docs-automation
     in the file-folder hierarchy. They are switched to the dev branch. (It does not matter for us because we will switch them to
     master in any case; but we assume that we do this temporarily, and we will switch back to dev when we are done.)
-12. Remove the old cached metadata:
+11. Remove the old cached metadata:
     <pre>rm _corpus_metadata/UD_Czech.json</pre>
-13. Generate new metadata for the treebank (this script switches the repo temporarily to master):
+12. Generate new metadata for the treebank (this script switches the repo temporarily to master):
     <pre>./refresh_corpus_data.sh ../UD_Czech-PDT</pre>
-14. Regenerate the UD title page and push it to Github:
+13. Regenerate the UD title page and push it to Github:
     <pre>make dan
 cd ../docs
 git pull --no-edit</pre>
