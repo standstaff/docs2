@@ -64,7 +64,7 @@ See [here](release_checklist.html) for the checklist for data contributors.
   and prints only those that really have enhancements.
 
 	```bash
-	tools/survey_enhancements.pl --datapath `pwd -P` --tbklist released_treebanks.txt |& tee estats.log
+	tools/survey_enhancements.pl --datapath `pwd -P` --tbklist $(cat released_treebanks.txt) |& tee estats.log
 	```
 
 	```bash
