@@ -20,6 +20,11 @@ See [here](release_checklist.html) for the checklist for data contributors.
   back; if this is the case, you will see lists of modified files in the output and you
   will have to resolve it). Also make sure that you are working with the `dev` branch:<br />
   <code>for i in UD_* ; do echo $i ; cd $i ; git checkout dev ; git pull --no-edit ; cd .. ; echo ; done</code>
+
+	```bash
+	for i in UD_* ; do echo $i ; cd $i ; git checkout dev ; git pull --no-edit ; cd .. ; echo ; done
+	```
+
 * Make sure there are no untracked files in your local copies of the repositories.
   Otherwise they could be mistakenly picked for the release.<br />
   <code>for i in UD_* ; do echo $i ; cd $i ; git status ; if git status | grep -P '(Untracked files|ahead of)' > /dev/null ; then echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX UNCLEAN GIT STATUS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ; sleep 10 ; fi; cd .. ; echo ; done</code>
