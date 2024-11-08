@@ -19,7 +19,6 @@ See [here](release_checklist.html) for the checklist for data contributors.
   command assumes you have not modified your local copy of the data without pushing it
   back; if this is the case, you will see lists of modified files in the output and you
   will have to resolve it). Also make sure that you are working with the `dev` branch:<br />
-  <code>for i in UD_* ; do echo $i ; cd $i ; git checkout dev ; git pull --no-edit ; cd .. ; echo ; done</code>
 
 	```bash
 	for i in UD_* ; do echo $i ; cd $i ; git checkout dev ; git pull --no-edit ; cd .. ; echo ; done
@@ -27,7 +26,11 @@ See [here](release_checklist.html) for the checklist for data contributors.
 
 * Make sure there are no untracked files in your local copies of the repositories.
   Otherwise they could be mistakenly picked for the release.<br />
-  <code>for i in UD_* ; do echo $i ; cd $i ; git status ; if git status | grep -P '(Untracked files|ahead of)' > /dev/null ; then echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX UNCLEAN GIT STATUS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ; sleep 10 ; fi; cd .. ; echo ; done</code>
+
+	```bash
+	for i in UD_* ; do echo $i ; cd $i ; git status ; if git status | grep -P '(Untracked files|ahead of)' > /dev/null ; then echo XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX UNCLEAN GIT STATUS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ; sleep 10 ; fi; cd .. ; echo ; done
+	```
+
 * Update version numbers in the commands in this file (`docs/infrastructure/how_to_build_release.md`).
   In the example here in this point (intentionally made up so that bulk replacements will not alter them)
   we assume that we are going to build release 1.13 in November 2020.
@@ -36,16 +39,33 @@ See [here](release_checklist.html) for the checklist for data contributors.
   with 1.12). Furthermore, the next step mentions the month when the next release is expected
   (replace November 2020 with May 2021) and one of the steps below mentions the current release
   date (replace 2020-05-15 with 2020-11-15).
-* Run `tools/check_release.pl --release 2.15 --next-expected 'May 2025' --oldpath /net/data/universal-dependencies-2.14 |& tee release-2.15-report.txt | less`.
+* Run `check_release.pl`.
   The script will visit all repositories and report any missing files, unexpected or unexpectedly named files.
   It will download the [online validation report](http://quest.ms.mff.cuni.cz/udvalidator/)
   and check whether the treebanks are valid (prerequisite: all UD repositories are registered
   on the validation server `quest.ms.mff.cuni.cz`).
   It will also collect information such as the list of contributors (we need this metadata for Lindat).
+
+	```bash
+	tools/check_release.pl --release 2.15 --next-expected 'May 2025' --oldpath /net/data/universal-dependencies-2.14 |& tee release-2.15-report.txt | less
+	```
+
 * In addition, you can get an estimate of what the treebanks do in enhanced graphs by calling this:<br />
-  <code>( for i in UD_* ; do echo $i ; ( cat $i/*.conllu | enhanced_graph_properties.pl ) ; echo ; done ) |& tee estats.log</code>
+
+	```bash
+	tools/survey_enhancements.pl --datapath . |& tee estats.log
+	```
+
+	```bash
+	( for i in UD_* ; do echo $i ; ( cat $i/*.conllu | enhanced_graph_properties.pl ) ; echo ; done ) |& tee estats.log
+	```
+
   * Or, alternatively, this:<br />
-    <code>( for i in UD_* ; do echo $i ; ( cat $i/*.conllu | enhanced_classify_relations.pl > /dev/null ) ; echo ; done ) |& tee estats.log</code>
+
+	```bash
+	( for i in UD_* ; do echo $i ; ( cat $i/*.conllu | enhanced_classify_relations.pl > /dev/null ) ; echo ; done ) |& tee estats.log
+	```
+
 * Freeze the list of treebanks that will be released (i.e., contain valid data).
   Take the list from the output of `tools/check_release.pl` and save it as
   `released_treebanks.txt` (just one line, names of UD folders separated by whitespace).
