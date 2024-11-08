@@ -50,25 +50,31 @@ See [here](release_checklist.html) for the checklist for data contributors.
 	tools/check_release.pl --release 2.15 --next-expected 'May 2025' --oldpath /net/data/universal-dependencies-2.14 |& tee release-2.15-report.txt | less
 	```
 
-* In addition, you can get an estimate of what the treebanks do in enhanced graphs by calling this:<br />
+* Freeze the list of treebanks that will be released (i.e., contain valid data).
+  Take the list from the output of `tools/check_release.pl` and save it as
+  `released_treebanks.txt` (just one line, names of UD folders separated by whitespace).
+* You can get an estimate of what the treebanks do in enhanced graphs. There are several scripts in
+  the `tools` repository that try to figure that out. Both `enhanced_graph_properties.pl` and
+  `enhanced_classify_relations.pl` can do it for individual treebanks, each using slightly different
+  heuristics (the latter script is newer and I tend to trust it more). These scripts can be applied
+  in a loop on all UD subfolders of the current folder; but then one has to examine the log by naked
+  eye and locate treebanks that actually have enhanced representation. There is also another script,
+  `survey_enhancements.pl`, which takes care of the loop (using `enhanced_graph_properties.pl` on
+  individual treebanks), can take the subset of treebanks we are interested in (the ones to be released)
+  and prints only those that really have enhancements.
 
 	```bash
-	tools/survey_enhancements.pl --datapath . |& tee estats.log
+	tools/survey_enhancements.pl --datapath `pwd -P` --tbklist released_treebanks.txt |& tee estats.log
 	```
 
 	```bash
 	( for i in UD_* ; do echo $i ; ( cat $i/*.conllu | enhanced_graph_properties.pl ) ; echo ; done ) |& tee estats.log
 	```
 
-  * Or, alternatively, this:<br />
-
 	```bash
 	( for i in UD_* ; do echo $i ; ( cat $i/*.conllu | enhanced_classify_relations.pl > /dev/null ) ; echo ; done ) |& tee estats.log
 	```
 
-* Freeze the list of treebanks that will be released (i.e., contain valid data).
-  Take the list from the output of `tools/check_release.pl` and save it as
-  `released_treebanks.txt` (just one line, names of UD folders separated by whitespace).
 * Check the [validation report](http://quest.ms.mff.cuni.cz/udvalidator/)
   for legacy exceptions that are no longer needed.
   Edit [valdan/dispensations.json](https://github.com/UniversalDependencies/docs-automation/blob/master/valdan/dispensations.json)
