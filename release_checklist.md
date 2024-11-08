@@ -482,8 +482,6 @@ language-specific documentation.](contributing_language_specific.html) Also see 
 [how to contribute](contributing.html) (which covers the conventions used in writing UD
 documentation, such as how to format examples).
 
-# Building the release
+# For the maintenance crew
 
-Documentation of the steps to be taken by the release task force is [on a separate page](release_checklist_task_force.html).
-
-Documentation of adding languages or treebanks by the maintenance crew is [here](release_checklist_add_language.html).
+Documentation of the infrastructure is [here](infrastructure/index.html).
