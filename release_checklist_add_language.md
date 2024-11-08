@@ -143,6 +143,7 @@ cd ../docs
 git pull --no-edit</pre>
 15. Rename the folder with the treebank hub page in the `docs` repository. Then push the changes.
     <pre>git mv treebanks/cs treebanks/cs_pdt
+for i in treebanks/cs_pdt/cs-* ; do git mv $i `echo -n $i | perl -pe 's/cs-/cs_pdt-/'` ; done
 git status
 git diff</pre> then press Q and
     <pre>git commit -a -m 'Renamed treebank repository.'
