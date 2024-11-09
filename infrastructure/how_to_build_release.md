@@ -75,6 +75,14 @@ See [here](release_checklist.html) for the checklist for data contributors.
 	( for i in UD_* ; do echo $i ; ( cat $i/*.conllu | enhanced_classify_relations.pl > /dev/null ) ; echo ; done ) |& tee estats.log
 	```
 
+  * If a treebank fills the DEPS column by mistake and it has not been caught by the validator
+    (for example, only two enhanced edges in the treebank differ from their basic counterparts
+    and it does not correspond to any of the defined enhancements), clear DEPS:
+
+	```bash
+	for i in UD_Bad-XXX/*.conllu ; do echo $i ; cp $i backup.conllu ; udapy -s util.Eval node='node.deps = {}' < backup.conllu > $i ; rm backup.conllu ; done
+	```
+
 * Check the [validation report](http://quest.ms.mff.cuni.cz/udvalidator/)
   for legacy exceptions that are no longer needed.
   Edit [valdan/dispensations.json](https://github.com/UniversalDependencies/docs-automation/blob/master/valdan/dispensations.json)
