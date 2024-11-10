@@ -83,14 +83,21 @@ See [here](release_checklist.html) for the checklist for data contributors.
 	for i in UD_Bad-XXX/*.conllu ; do echo $i ; cp $i backup.conllu ; udapy -s util.Eval node='node.deps = {}' < backup.conllu > $i ; rm backup.conllu ; done
 	```
 
-* Check the [validation report](http://quest.ms.mff.cuni.cz/udvalidator/)
-  for legacy exceptions that are no longer needed.
+* Check the [validation report](http://quest.ms.mff.cuni.cz/udvalidator/) for legacy exceptions that are no longer needed.
   Edit [valdan/dispensations.json](https://github.com/UniversalDependencies/docs-automation/blob/master/valdan/dispensations.json)
-  and remove those exceptions:<br />
-  <code>cd docs-automation/valdan ; git pull --no-edit ; update-dispensations.pl --json dispensations.json ; git commit -a -m 'Updated validation dispensations.' ;  git push ; cd ../..</code>
+  and remove those exceptions:
+
+	```bash
+	cd docs-automation/valdan ; git pull --no-edit ; update-dispensations.pl --json dispensations.json ; git commit -a -m 'Updated validation dispensations.' ;  git push ; cd ../..
+	```
+
 * Save the list of the released treebanks in [valdan/releases.json](https://github.com/UniversalDependencies/docs-automation/blob/master/valdan/releases.json)
-  by running<br />
-  <code>docs-automation/valdan/save-release-json.pl --json docs-automation/valdan/releases.json --releasenum 2.15 --releasedate 2024-11-15 $(cat released_treebanks.txt) ; cd docs-automation ; git commit -a -m 'Updated release list.' ; git push ; cd ..</code><br />
+  by running
+
+	```bash
+	docs-automation/valdan/save-release-json.pl --json docs-automation/valdan/releases.json --releasenum 2.15 --releasedate 2024-11-15 $(cat released_treebanks.txt) ; cd docs-automation ; git commit -a -m 'Updated release list.' ; git push ; cd ..
+	```
+
   Note that if a treebank was renamed between the last two releases, it must be entered manually in a separate structure in `releases.json` before running the script!
 
 ## Processing the data before releasing them
