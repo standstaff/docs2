@@ -1,6 +1,7 @@
 source:       .
 destination:  ./_site
 markdown:     kramdown
+highlighter:  rouge
 # don't change the following; coderay will break the embedded
 # annotations.
 kramdown:
