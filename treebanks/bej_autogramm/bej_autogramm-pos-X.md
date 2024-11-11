@@ -1,56 +1,71 @@
 ---
 layout: base
-title:  'Statistics of X in UD_Beja-NSC'
+title:  'Statistics of X in UD_Beja-Autogramm'
 udver: '2'
 ---
 
-## Treebank Statistics: UD_Beja-NSC: POS Tags: `X`
+## Treebank Statistics: UD_Beja-Autogramm: POS Tags: `X`
 
-There are 1 `X` lemmas (6%), 17 `X` types (1%) and 18 `X` tokens (0%).
-Out of 16 observed tags, the rank of `X` is: 16 in number of lemmas, 12 in number of types and 16 in number of tokens.
+There are 1 `X` lemmas (6%), 56 `X` types (3%) and 73 `X` tokens (1%).
+Out of 16 observed tags, the rank of `X` is: 16 in number of lemmas, 5 in number of types and 13 in number of tokens.
 
 The 10 most frequent `X` lemmas: <em>_</em>
 
-The 10 most frequent `X` types:  <em>/, aa#, aː#, hahadn#, har#, ifi#, igam#, kaː#, rif#, tʔanoː#</em>
+The 10 most frequent `X` types:  <em>{laughter}, e#, /, XXX, a#, alla, aː#, issalaːt, siddik, ssalaːm</em>
 
-The 10 most frequent ambiguous lemmas: <em>_</em> (<tt><a href="bej_nsc-pos-PUNCT.html">PUNCT</a></tt> 1126, <tt><a href="bej_nsc-pos-VERB.html">VERB</a></tt> 1097, <tt><a href="bej_nsc-pos-DET.html">DET</a></tt> 933, <tt><a href="bej_nsc-pos-NOUN.html">NOUN</a></tt> 894, <tt><a href="bej_nsc-pos-ADP.html">ADP</a></tt> 408, <tt><a href="bej_nsc-pos-PRON.html">PRON</a></tt> 395, <tt><a href="bej_nsc-pos-SCONJ.html">SCONJ</a></tt> 298, <tt><a href="bej_nsc-pos-PART.html">PART</a></tt> 167, <tt><a href="bej_nsc-pos-CCONJ.html">CCONJ</a></tt> 160, <tt><a href="bej_nsc-pos-AUX.html">AUX</a></tt> 125, <tt><a href="bej_nsc-pos-ADV.html">ADV</a></tt> 104, <tt><a href="bej_nsc-pos-ADJ.html">ADJ</a></tt> 77, <tt><a href="bej_nsc-pos-PROPN.html">PROPN</a></tt> 32, <tt><a href="bej_nsc-pos-INTJ.html">INTJ</a></tt> 28, <tt><a href="bej_nsc-pos-NUM.html">NUM</a></tt> 26, <tt><a href="bej_nsc-pos-X.html">X</a></tt> 18)
+The 10 most frequent ambiguous lemmas: <em>_</em> (<tt><a href="bej_autogramm-pos-VERB.html">VERB</a></tt> 2410, <tt><a href="bej_autogramm-pos-PUNCT.html">PUNCT</a></tt> 2363, <tt><a href="bej_autogramm-pos-DET.html">DET</a></tt> 1737, <tt><a href="bej_autogramm-pos-NOUN.html">NOUN</a></tt> 1719, <tt><a href="bej_autogramm-pos-PRON.html">PRON</a></tt> 820, <tt><a href="bej_autogramm-pos-ADP.html">ADP</a></tt> 766, <tt><a href="bej_autogramm-pos-SCONJ.html">SCONJ</a></tt> 592, <tt><a href="bej_autogramm-pos-CCONJ.html">CCONJ</a></tt> 338, <tt><a href="bej_autogramm-pos-PART.html">PART</a></tt> 321, <tt><a href="bej_autogramm-pos-AUX.html">AUX</a></tt> 284, <tt><a href="bej_autogramm-pos-ADV.html">ADV</a></tt> 191, <tt><a href="bej_autogramm-pos-ADJ.html">ADJ</a></tt> 149, <tt><a href="bej_autogramm-pos-X.html">X</a></tt> 73, <tt><a href="bej_autogramm-pos-INTJ.html">INTJ</a></tt> 66, <tt><a href="bej_autogramm-pos-PROPN.html">PROPN</a></tt> 63, <tt><a href="bej_autogramm-pos-NUM.html">NUM</a></tt> 59)
 
-The 10 most frequent ambiguous types:  <em>/</em> (<tt><a href="bej_nsc-pos-PUNCT.html">PUNCT</a></tt> 773, <tt><a href="bej_nsc-pos-X.html">X</a></tt> 2), <em>əəə</em> (<tt><a href="bej_nsc-pos-INTJ.html">INTJ</a></tt> 3, <tt><a href="bej_nsc-pos-X.html">X</a></tt> 1)
+The 10 most frequent ambiguous types:  <em>/</em> (<tt><a href="bej_autogramm-pos-PUNCT.html">PUNCT</a></tt> 1631, <tt><a href="bej_autogramm-pos-X.html">X</a></tt> 2), <em>alla</em> (<tt><a href="bej_autogramm-pos-X.html">X</a></tt> 2, <tt><a href="bej_autogramm-pos-NOUN.html">NOUN</a></tt> 1), <em>ajwa</em> (<tt><a href="bej_autogramm-pos-PART.html">PART</a></tt> 1, <tt><a href="bej_autogramm-pos-X.html">X</a></tt> 1), <em>dh#</em> (<tt><a href="bej_autogramm-pos-ADP.html">ADP</a></tt> 1, <tt><a href="bej_autogramm-pos-X.html">X</a></tt> 1), <em>əəə</em> (<tt><a href="bej_autogramm-pos-INTJ.html">INTJ</a></tt> 7, <tt><a href="bej_autogramm-pos-X.html">X</a></tt> 1)
 
 
 * <em>/</em>
-  * <tt><a href="bej_nsc-pos-PUNCT.html">PUNCT</a></tt> 773: <em>tak <b>/</b> kaːm =i <b>/</b> hoː kʷiɖja ini //</em>
-  * <tt><a href="bej_nsc-pos-X.html">X</a></tt> 2: <em>uː= mbʔaɖ han / waʤʤa =i gaw iːkti =jeːt <b>/</b> toː= na / akan / hoːj amoːk ini //</em>
+  * <tt><a href="bej_autogramm-pos-PUNCT.html">PUNCT</a></tt> 1631: <em>tak <b>/</b> kaːm =i <b>/</b> hoː kʷiɖja ini //</em>
+  * <tt><a href="bej_autogramm-pos-X.html">X</a></tt> 2: <em>uː= mbʔaɖ han / waːʤʤa =i gaw iːkti =jeːt <b>/</b> toː= na / akan / hoːj amoːk ini //</em>
+* <em>alla</em>
+  * <tt><a href="bej_autogramm-pos-X.html">X</a></tt> 2: <em>siddik <b>alla</b> XXX istaːfer <b>alla</b> XXX istaːf# /</em>
+  * <tt><a href="bej_autogramm-pos-NOUN.html">NOUN</a></tt> 1: <em><b>alla</b> sallami =hoːk //</em>
+* <em>ajwa</em>
+  * <tt><a href="bej_autogramm-pos-PART.html">PART</a></tt> 1: <em>ontʔa // bak ʔabkin / w= hi ini =oː =hoːb // <b>ajwa</b> / adi =t</em>
+  * <tt><a href="bej_autogramm-pos-X.html">X</a></tt> 1: <em>waswaːs / xannaːs / indi =hoːb / <b>ajwa</b> / ijadna eːn //</em>
+* <em>dh#</em>
+  * <tt><a href="bej_autogramm-pos-ADP.html">ADP</a></tt> 1: <em>dhaːj jʔan =hoːb oː= tak / meːk <b>dh#</b> ## eːja =ajt oː= gaw / tamja eːn //</em>
+  * <tt><a href="bej_autogramm-pos-X.html">X</a></tt> 1: <em>dhaːj halla~lafoːji =hoːb // ʔaːmansi =hoːb // ontʔa / <b>dh#</b> dh =i hadiːda ti= rhitaːn =i //</em>
 * <em>əəə</em>
-  * <tt><a href="bej_nsc-pos-INTJ.html">INTJ</a></tt> 3: <em><b>əəə</b> dabaloː =t ʔoːr geːb / tiːfi =aj //</em>
-  * <tt><a href="bej_nsc-pos-X.html">X</a></tt> 1: <em>uː= dhaj daːjeːb aːmaliːna akoː / oː= tak =wa / j= ʔar =eː eː= mhaj =wa // <b>əəə</b> eːdn =eːt halla =t tikati oː= mhiːn /</em>
+  * <tt><a href="bej_autogramm-pos-INTJ.html">INTJ</a></tt> 7: <em><b>əəə</b> dabaloː =t ʔoːr geːb / tiːfi =aj //</em>
+  * <tt><a href="bej_autogramm-pos-X.html">X</a></tt> 1: <em>uː= dhaj daːjeːb aːmaliːna akoː / oː= tak =wa / j= ʔar =eː eː= mhaj =wa // <b>əəə</b> eːdn =eːt halla =t tikati oː= mhiːn /</em>
 
 ## Morphology
 
-The form / lemma ratio of `X` is 17.000000 (the average of all parts of speech is 76.500000).
+The form / lemma ratio of `X` is 56.000000 (the average of all parts of speech is 126.812500).
 
-The 1st highest number of forms (17) was observed with the lemma “_”: <em>/, aa#, aː#, hahadn#, har#, ifi#, igam#, kaː#, rif#, tʔanoː#, uʔeː#, əddew#, əgəg#, əl#, ət#, əəə, ʔo#</em>.
+The 1st highest number of forms (56) was observed with the lemma “_”: <em>/, XXX, a#, aa#, aaa#, aaaj#, aga#, ago#, ajwa, alamdulilla, alla, am#, astoːfor, aw#, aː#, aːn#, beːtalmaːl, dh#, e#, eː#, fira#, ha#, hahadn#, har#, ifi#, igam#, issalaːt, istaːf#, istaːfer, kaː#, malaːʔik, rif#, siddik, sima#, simas#, ssalaːm, tʔanoː#, uʔeː#, w#, wa, wauːːː#, weːːː#, {laughter}, {noise}, əddew#, əgəg#, əl#, ət#, əəə, ʃibi#, ʃɛːka#, ʃʔibaː#, ʔa#, ʔo#, ʔuweːːːh#, ʕalehu</em>.
 
-`X` does not occur with any features.
+`X` occurs with 2 features: <tt><a href="bej_autogramm-feat-Foreign.html">Foreign</a></tt> (20; 27% instances), <tt><a href="bej_autogramm-feat-Number.html">Number</a></tt> (1; 1% instances)
+
+`X` occurs with 2 feature-value pairs: `Foreign=Yes`, `Number=Plur`
+
+`X` occurs with 3 feature combinations.
+The most frequent feature combination is `_` (53 tokens).
+Examples: <em>{laughter}, e#, /, a#, aː#, XXX, aa#, aaa#, aaaj#, aga#</em>
 
 
 ## Relations
 
-`X` nodes are attached to their parents using 9 different relations: <tt><a href="bej_nsc-dep-obj.html">obj</a></tt> (4; 22% instances), <tt><a href="bej_nsc-dep-dep.html">dep</a></tt> (3; 17% instances), <tt><a href="bej_nsc-dep-dep-comp.html">dep:comp</a></tt> (3; 17% instances), <tt><a href="bej_nsc-dep-dep-conj.html">dep:conj</a></tt> (2; 11% instances), <tt><a href="bej_nsc-dep-fixed.html">fixed</a></tt> (2; 11% instances), <tt><a href="bej_nsc-dep-acl-relcl.html">acl:relcl</a></tt> (1; 6% instances), <tt><a href="bej_nsc-dep-nmod.html">nmod</a></tt> (1; 6% instances), <tt><a href="bej_nsc-dep-nsubj.html">nsubj</a></tt> (1; 6% instances), <tt><a href="bej_nsc-dep-root.html">root</a></tt> (1; 6% instances)
+`X` nodes are attached to their parents using 17 different relations: <tt><a href="bej_autogramm-dep-dep-comp.html">dep:comp</a></tt> (11; 15% instances), <tt><a href="bej_autogramm-dep-discourse.html">discourse</a></tt> (10; 14% instances), <tt><a href="bej_autogramm-dep-nsubj.html">nsubj</a></tt> (9; 12% instances), <tt><a href="bej_autogramm-dep-dep-conj.html">dep:conj</a></tt> (7; 10% instances), <tt><a href="bej_autogramm-dep-reparandum.html">reparandum</a></tt> (7; 10% instances), <tt><a href="bej_autogramm-dep-obj.html">obj</a></tt> (5; 7% instances), <tt><a href="bej_autogramm-dep-obl-arg.html">obl:arg</a></tt> (4; 5% instances), <tt><a href="bej_autogramm-dep-dep.html">dep</a></tt> (3; 4% instances), <tt><a href="bej_autogramm-dep-nmod.html">nmod</a></tt> (3; 4% instances), <tt><a href="bej_autogramm-dep-root.html">root</a></tt> (3; 4% instances), <tt><a href="bej_autogramm-dep-cc.html">cc</a></tt> (2; 3% instances), <tt><a href="bej_autogramm-dep-fixed.html">fixed</a></tt> (2; 3% instances), <tt><a href="bej_autogramm-dep-obl-mod.html">obl:mod</a></tt> (2; 3% instances), <tt><a href="bej_autogramm-dep-parataxis.html">parataxis</a></tt> (2; 3% instances), <tt><a href="bej_autogramm-dep-advcl.html">advcl</a></tt> (1; 1% instances), <tt><a href="bej_autogramm-dep-dislocated-obj.html">dislocated:obj</a></tt> (1; 1% instances), <tt><a href="bej_autogramm-dep-xcomp.html">xcomp</a></tt> (1; 1% instances)
 
-Parents of `X` nodes belong to 7 different parts of speech: <tt><a href="bej_nsc-pos-NOUN.html">NOUN</a></tt> (5; 28% instances), <tt><a href="bej_nsc-pos-VERB.html">VERB</a></tt> (5; 28% instances), <tt><a href="bej_nsc-pos-SCONJ.html">SCONJ</a></tt> (3; 17% instances), <tt><a href="bej_nsc-pos-ADP.html">ADP</a></tt> (2; 11% instances), <tt><a href="bej_nsc-pos-ADJ.html">ADJ</a></tt> (1; 6% instances), <tt><a href="bej_nsc-pos-PRON.html">PRON</a></tt> (1; 6% instances),  (1; 6% instances)
+Parents of `X` nodes belong to 9 different parts of speech: <tt><a href="bej_autogramm-pos-VERB.html">VERB</a></tt> (22; 30% instances), <tt><a href="bej_autogramm-pos-X.html">X</a></tt> (19; 26% instances), <tt><a href="bej_autogramm-pos-NOUN.html">NOUN</a></tt> (13; 18% instances), <tt><a href="bej_autogramm-pos-SCONJ.html">SCONJ</a></tt> (8; 11% instances), <tt><a href="bej_autogramm-pos-ADP.html">ADP</a></tt> (5; 7% instances),  (3; 4% instances), <tt><a href="bej_autogramm-pos-ADJ.html">ADJ</a></tt> (1; 1% instances), <tt><a href="bej_autogramm-pos-AUX.html">AUX</a></tt> (1; 1% instances), <tt><a href="bej_autogramm-pos-PRON.html">PRON</a></tt> (1; 1% instances)
 
-2 (11%) `X` nodes are leaves.
+24 (33%) `X` nodes are leaves.
 
-5 (28%) `X` nodes have one child.
+17 (23%) `X` nodes have one child.
 
-10 (56%) `X` nodes have two children.
+20 (27%) `X` nodes have two children.
 
-1 (6%) `X` nodes have three or more children.
+12 (16%) `X` nodes have three or more children.
 
-The highest child degree of a `X` node is 3.
+The highest child degree of a `X` node is 5.
 
-Children of `X` nodes are attached using 3 different relations: <tt><a href="bej_nsc-dep-reparandum.html">reparandum</a></tt> (18; 64% instances), <tt><a href="bej_nsc-dep-punct.html">punct</a></tt> (9; 32% instances), <tt><a href="bej_nsc-dep-case.html">case</a></tt> (1; 4% instances)
+Children of `X` nodes are attached using 14 different relations: <tt><a href="bej_autogramm-dep-reparandum.html">reparandum</a></tt> (45; 45% instances), <tt><a href="bej_autogramm-dep-punct.html">punct</a></tt> (36; 36% instances), <tt><a href="bej_autogramm-dep-dep-conj.html">dep:conj</a></tt> (3; 3% instances), <tt><a href="bej_autogramm-dep-cc.html">cc</a></tt> (2; 2% instances), <tt><a href="bej_autogramm-dep-discourse.html">discourse</a></tt> (2; 2% instances), <tt><a href="bej_autogramm-dep-nmod.html">nmod</a></tt> (2; 2% instances), <tt><a href="bej_autogramm-dep-nsubj.html">nsubj</a></tt> (2; 2% instances), <tt><a href="bej_autogramm-dep-obl-arg.html">obl:arg</a></tt> (2; 2% instances), <tt><a href="bej_autogramm-dep-aux.html">aux</a></tt> (1; 1% instances), <tt><a href="bej_autogramm-dep-ccomp.html">ccomp</a></tt> (1; 1% instances), <tt><a href="bej_autogramm-dep-dep.html">dep</a></tt> (1; 1% instances), <tt><a href="bej_autogramm-dep-det.html">det</a></tt> (1; 1% instances), <tt><a href="bej_autogramm-dep-dislocated-subj.html">dislocated:subj</a></tt> (1; 1% instances), <tt><a href="bej_autogramm-dep-parataxis.html">parataxis</a></tt> (1; 1% instances)
 
-Children of `X` nodes belong to 7 different parts of speech: <tt><a href="bej_nsc-pos-NOUN.html">NOUN</a></tt> (9; 32% instances), <tt><a href="bej_nsc-pos-PUNCT.html">PUNCT</a></tt> (9; 32% instances), <tt><a href="bej_nsc-pos-DET.html">DET</a></tt> (4; 14% instances), <tt><a href="bej_nsc-pos-VERB.html">VERB</a></tt> (3; 11% instances), <tt><a href="bej_nsc-pos-ADJ.html">ADJ</a></tt> (1; 4% instances), <tt><a href="bej_nsc-pos-PRON.html">PRON</a></tt> (1; 4% instances), <tt><a href="bej_nsc-pos-SCONJ.html">SCONJ</a></tt> (1; 4% instances)
+Children of `X` nodes belong to 11 different parts of speech: <tt><a href="bej_autogramm-pos-PUNCT.html">PUNCT</a></tt> (36; 36% instances), <tt><a href="bej_autogramm-pos-NOUN.html">NOUN</a></tt> (20; 20% instances), <tt><a href="bej_autogramm-pos-X.html">X</a></tt> (19; 19% instances), <tt><a href="bej_autogramm-pos-VERB.html">VERB</a></tt> (10; 10% instances), <tt><a href="bej_autogramm-pos-DET.html">DET</a></tt> (5; 5% instances), <tt><a href="bej_autogramm-pos-PRON.html">PRON</a></tt> (3; 3% instances), <tt><a href="bej_autogramm-pos-ADP.html">ADP</a></tt> (2; 2% instances), <tt><a href="bej_autogramm-pos-ADV.html">ADV</a></tt> (2; 2% instances), <tt><a href="bej_autogramm-pos-AUX.html">AUX</a></tt> (1; 1% instances), <tt><a href="bej_autogramm-pos-INTJ.html">INTJ</a></tt> (1; 1% instances), <tt><a href="bej_autogramm-pos-SCONJ.html">SCONJ</a></tt> (1; 1% instances)
 

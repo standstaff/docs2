@@ -1,66 +1,97 @@
 ---
 layout: base
-title:  'Statistics of Case in UD_Beja-NSC'
+title:  'Statistics of Case in UD_Beja-Autogramm'
 udver: '2'
 ---
 
-## Treebank Statistics: UD_Beja-NSC: Features: `Case`
+## Treebank Statistics: UD_Beja-Autogramm: Features: `Case`
 
 This feature is universal.
-It occurs with 8 different values: `Abl`, `Acc`, `Com`, `Dat`, `Gen`, `Loc`, `Nom`, `Voc`.
+It occurs with 9 different values: `Abl`, `Acc`, `Com`, `Dat`, `Dis`, `Gen`, `Loc`, `Nom`, `Voc`.
 
-945 tokens (16%) have a non-empty value of `Case`.
-78 types (7%) occur at least once with a non-empty value of `Case`.
+1782 tokens (15%) have a non-empty value of `Case`.
+111 types (6%) occur at least once with a non-empty value of `Case`.
 1 lemmas (0) occur at least once with a non-empty value of `Case`.
-The feature is used with 3 part-of-speech tags: <tt><a href="bej_nsc-pos-DET.html">DET</a></tt> (456; 8% instances), <tt><a href="bej_nsc-pos-PRON.html">PRON</a></tt> (286; 5% instances), <tt><a href="bej_nsc-pos-ADP.html">ADP</a></tt> (203; 3% instances).
+The feature is used with 6 part-of-speech tags: <tt><a href="bej_autogramm-pos-DET.html">DET</a></tt> (734; 6% instances), <tt><a href="bej_autogramm-pos-PRON.html">PRON</a></tt> (607; 5% instances), <tt><a href="bej_autogramm-pos-ADP.html">ADP</a></tt> (437; 4% instances), <tt><a href="bej_autogramm-pos-INTJ.html">INTJ</a></tt> (2; 0% instances), <tt><a href="bej_autogramm-pos-PART.html">PART</a></tt> (1; 0% instances), <tt><a href="bej_autogramm-pos-SCONJ.html">SCONJ</a></tt> (1; 0% instances).
 
 ### `DET`
 
-456 <tt><a href="bej_nsc-pos-DET.html">DET</a></tt> tokens (49% of all `DET` tokens) have a non-empty value of `Case`.
+734 <tt><a href="bej_autogramm-pos-DET.html">DET</a></tt> tokens (42% of all `DET` tokens) have a non-empty value of `Case`.
 
-The most frequent other feature values with which `DET` and `Case` co-occurred: <tt><a href="bej_nsc-feat-Gender.html">Gender</a></tt><tt>=Masc</tt> (399; 88%), <tt><a href="bej_nsc-feat-Deixis.html">Deixis</a></tt><tt>=EMPTY</tt> (330; 72%), <tt><a href="bej_nsc-feat-PronType.html">PronType</a></tt><tt>=EMPTY</tt> (327; 72%), <tt><a href="bej_nsc-feat-Number.html">Number</a></tt><tt>=Sing</tt> (317; 70%), <tt><a href="bej_nsc-feat-Definite.html">Definite</a></tt><tt>=Def</tt> (235; 52%).
+The most frequent other feature values with which `DET` and `Case` co-occurred: <tt><a href="bej_autogramm-feat-Gender.html">Gender</a></tt><tt>=Masc</tt> (608; 83%), <tt><a href="bej_autogramm-feat-Number.html">Number</a></tt><tt>=Sing</tt> (555; 76%), <tt><a href="bej_autogramm-feat-Deixis.html">Deixis</a></tt><tt>=EMPTY</tt> (456; 62%), <tt><a href="bej_autogramm-feat-PronType.html">PronType</a></tt><tt>=EMPTY</tt> (452; 62%), <tt><a href="bej_autogramm-feat-Definite.html">Definite</a></tt><tt>=Def</tt> (394; 54%).
 
 `DET` tokens may have the following values of `Case`:
 
-* `Acc` (313; 69% of non-empty `Case`): <em>oː=, =b, oːn, toː=, eː=, eːn, oːt, toːt, =eː, beːt</em>
-* `Gen` (4; 1% of non-empty `Case`): <em>oːnaːj, baliːnaːj</em>
-* `Nom` (139; 30% of non-empty `Case`): <em>uː=, uːn, tuː=, aːn, beːn, aː=, tuːt, taː=, uːt</em>
-* `EMPTY` (477): <em>=t, i=, w=, ti=, t=, j=, =b, deː, mhasi, u=</em>
+* `Acc` (457; 62% of non-empty `Case`): <em>oː=, oːn, =b, toː=, eːn, eː=, oːt, eːt, toːt, teː=</em>
+* `Gen` (6; 1% of non-empty `Case`): <em>oːnaːj, baliːnaːj</em>
+* `Nom` (271; 37% of non-empty `Case`): <em>uː=, uːn, aː=, aːn, tuː=, beːn, tuːt, taː=, uːt, aːt</em>
+* `EMPTY` (1003): <em>=t, i=, w=, ti=, t=, j=, -a, -aː, =b, mhasi</em>
 
 ### `PRON`
 
-286 <tt><a href="bej_nsc-pos-PRON.html">PRON</a></tt> tokens (72% of all `PRON` tokens) have a non-empty value of `Case`.
+607 <tt><a href="bej_autogramm-pos-PRON.html">PRON</a></tt> tokens (74% of all `PRON` tokens) have a non-empty value of `Case`.
 
-The most frequent other feature values with which `PRON` and `Case` co-occurred: <tt><a href="bej_nsc-feat-Number.html">Number</a></tt><tt>=Sing</tt> (227; 79%), <tt><a href="bej_nsc-feat-Poss.html">Poss</a></tt><tt>=Yes</tt> (193; 67%), <tt><a href="bej_nsc-feat-Person.html">Person</a></tt><tt>=1</tt> (149; 52%).
+The most frequent other feature values with which `PRON` and `Case` co-occurred: <tt><a href="bej_autogramm-feat-Gender.html">Gender</a></tt><tt>=EMPTY</tt> (551; 91%), <tt><a href="bej_autogramm-feat-Number.html">Number</a></tt><tt>=Sing</tt> (444; 73%), <tt><a href="bej_autogramm-feat-Poss.html">Poss</a></tt><tt>=Yes</tt> (365; 60%).
 
 `PRON` tokens may have the following values of `Case`:
 
-* `Abl` (8; 3% of non-empty `Case`): <em>=iːsi, =iːsiː, =siːsi, =iːsoː, =saj</em>
-* `Acc` (173; 60% of non-empty `Case`): <em>=oː, =i, =eː, =hoːk, =oːk, =joː, =heːb, =oːn, =jeː, =hoːn</em>
-* `Dat` (2; 1% of non-empty `Case`): <em>hoː</em>
-* `Gen` (19; 7% of non-empty `Case`): <em>=iji, =ihi, =ji, =iheː, =ijoː, =hi, aniː</em>
-* `Nom` (82; 29% of non-empty `Case`): <em>ani, =i, =uːn, umbaruːk, =ji, baruːk, hinin, =uː, baruː, =aː</em>
-* `Voc` (2; 1% of non-empty `Case`): <em>jhaː</em>
-* `EMPTY` (109): <em>=heːb, kna, =oː, naːn, hoː, i=, nafs, wi=, =b, =joː</em>
+* `Abl` (18; 3% of non-empty `Case`): <em>hoːka, =eːsoː, =iːsi, =iːsiː, =iːsoːn, =jeːsoːn, =siːsi, =iːsoː, =iːsoːk, =saj</em>
+* `Acc` (376; 62% of non-empty `Case`): <em>=oː, =eː, =heːb, =hoːk, =i, =oːk, =oːn, aneːb, =joː, =hoːn</em>
+* `Dat` (3; 0% of non-empty `Case`): <em>hoː</em>
+* `Gen` (32; 5% of non-empty `Case`): <em>=iji, =ijoː, =ihi, =iheː, =ji, =eːhi, =eːheː, =hi, =ijoːk, =joː</em>
+* `Nom` (178; 29% of non-empty `Case`): <em>ani, =i, =uːn, =aː, hinin, baruːk, umbaruːk, =aːn, =uːk, =ji</em>
+* `EMPTY` (213): <em>=heːb, kna, hoːj, ti=, wi=, =oː, naːn, i=, hoː, hoːk</em>
 
 ### `ADP`
 
-203 <tt><a href="bej_nsc-pos-ADP.html">ADP</a></tt> tokens (50% of all `ADP` tokens) have a non-empty value of `Case`.
+437 <tt><a href="bej_autogramm-pos-ADP.html">ADP</a></tt> tokens (57% of all `ADP` tokens) have a non-empty value of `Case`.
 
-The most frequent other feature values with which `ADP` and `Case` co-occurred: <tt><a href="bej_nsc-feat-Number.html">Number</a></tt><tt>=EMPTY</tt> (107; 53%).
+The most frequent other feature values with which `ADP` and `Case` co-occurred: <tt><a href="bej_autogramm-feat-Number.html">Number</a></tt><tt>=EMPTY</tt> (278; 64%).
 
 `ADP` tokens may have the following values of `Case`:
 
-* `Abl` (33; 16% of non-empty `Case`): <em>hoːj, =iː, hoːs, =eː, =jeː</em>
-* `Com` (21; 10% of non-empty `Case`): <em>haːj</em>
-* `Gen` (82; 40% of non-empty `Case`): <em>=i, =ji, =eː, =jeː</em>
-* `Loc` (66; 33% of non-empty `Case`): <em>=iːb, =eːb, =jeːb</em>
-* `Voc` (1; 0% of non-empty `Case`): <em>=aj</em>
-* `EMPTY` (205): <em>=ka, hoːj, =da, dhaːj, dh, geːb, harʔiː, khiː, whiː, =had</em>
+* `Abl` (64; 15% of non-empty `Case`): <em>=iː, hoːj, hoːs, =eː, =jeː</em>
+* `Com` (57; 13% of non-empty `Case`): <em>haːj</em>
+* `Dis` (18; 4% of non-empty `Case`): <em>=ka</em>
+* `Gen` (165; 38% of non-empty `Case`): <em>=i, =ji, =eː, =jeː</em>
+* `Loc` (124; 28% of non-empty `Case`): <em>hoːj, =iːb, =eːb, =jeːb</em>
+* `Voc` (9; 2% of non-empty `Case`): <em>=i, =aj</em>
+* `EMPTY` (329): <em>dhaːj, =da, =ka, dh, hoːj, geːb, whiː, =d, harʔiː, =had</em>
+
+### `INTJ`
+
+2 <tt><a href="bej_autogramm-pos-INTJ.html">INTJ</a></tt> tokens (3% of all `INTJ` tokens) have a non-empty value of `Case`.
+
+`INTJ` tokens may have the following values of `Case`:
+
+* `Voc` (2; 100% of non-empty `Case`): <em>jhaː</em>
+* `EMPTY` (64): <em>iraːnaj, əəə, ahaː, jhaː, mmm, iraːni, jaːbi, hawawawawa, mmmmm, nʔalla</em>
+
+### `PART`
+
+1 <tt><a href="bej_autogramm-pos-PART.html">PART</a></tt> tokens (0% of all `PART` tokens) have a non-empty value of `Case`.
+
+The most frequent other feature values with which `PART` and `Case` co-occurred: <tt><a href="bej_autogramm-feat-Aspect.html">Aspect</a></tt><tt>=EMPTY</tt> (1; 100%), <tt><a href="bej_autogramm-feat-Mood.html">Mood</a></tt><tt>=EMPTY</tt> (1; 100%), <tt><a href="bej_autogramm-feat-Polarity.html">Polarity</a></tt><tt>=EMPTY</tt> (1; 100%).
+
+`PART` tokens may have the following values of `Case`:
+
+* `Acc` (1; 100% of non-empty `Case`): <em>=hoːk</em>
+* `EMPTY` (320): <em>bak, ka=, han, ontʔa, ki=, baː=, bi=, jaː, bass, tʔa</em>
+
+### `SCONJ`
+
+1 <tt><a href="bej_autogramm-pos-SCONJ.html">SCONJ</a></tt> tokens (0% of all `SCONJ` tokens) have a non-empty value of `Case`.
+
+The most frequent other feature values with which `SCONJ` and `Case` co-occurred: <tt><a href="bej_autogramm-feat-Gender.html">Gender</a></tt><tt>=Masc</tt> (1; 100%), <tt><a href="bej_autogramm-feat-PronType.html">PronType</a></tt><tt>=Rel</tt> (1; 100%).
+
+`SCONJ` tokens may have the following values of `Case`:
+
+* `Acc` (1; 100% of non-empty `Case`): <em>=b</em>
+* `EMPTY` (591): <em>=hoːb, =eːb, =ajt, =jeːb, =eːk, =aj, =it, =eːt, =jeːk, =eː</em>
 
 ## Relations with Agreement in `Case`
 
 The 10 most frequent relations where parent and child node agree in `Case`:
-<tt>PRON --[<tt><a href="bej_nsc-dep-discourse.html">discourse</a></tt>]--> DET</tt> (5; 100%),
-<tt>ADP --[<tt><a href="bej_nsc-dep-dep-conj.html">dep:conj</a></tt>]--> ADP</tt> (1; 100%).
+<tt>PRON --[<tt><a href="bej_autogramm-dep-discourse.html">discourse</a></tt>]--> DET</tt> (7; 100%),
+<tt>ADP --[<tt><a href="bej_autogramm-dep-dep-conj.html">dep:conj</a></tt>]--> ADP</tt> (1; 100%).
 

@@ -1,63 +1,59 @@
 ---
 layout: base
-title:  'Statistics of INTJ in UD_Beja-NSC'
+title:  'Statistics of INTJ in UD_Beja-Autogramm'
 udver: '2'
 ---
 
-## Treebank Statistics: UD_Beja-NSC: POS Tags: `INTJ`
+## Treebank Statistics: UD_Beja-Autogramm: POS Tags: `INTJ`
 
-There are 1 `INTJ` lemmas (6%), 12 `INTJ` types (1%) and 28 `INTJ` tokens (0%).
+There are 1 `INTJ` lemmas (6%), 17 `INTJ` types (1%) and 66 `INTJ` tokens (1%).
 Out of 16 observed tags, the rank of `INTJ` is: 7 in number of lemmas, 13 in number of types and 14 in number of tokens.
 
 The 10 most frequent `INTJ` lemmas: <em>_</em>
 
-The 10 most frequent `INTJ` types:  <em>iraːnaj, iraːni, əəə, ahaː, nʔalla, wuː, hisik, jaːbi, jhaː, miaːw</em>
+The 10 most frequent `INTJ` types:  <em>iraːnaj, jhaː, əəə, ahaː, mmm, iraːni, jaːbi, hawawawawa, mmmmm, nʔalla</em>
 
-The 10 most frequent ambiguous lemmas: <em>_</em> (<tt><a href="bej_nsc-pos-PUNCT.html">PUNCT</a></tt> 1126, <tt><a href="bej_nsc-pos-VERB.html">VERB</a></tt> 1097, <tt><a href="bej_nsc-pos-DET.html">DET</a></tt> 933, <tt><a href="bej_nsc-pos-NOUN.html">NOUN</a></tt> 894, <tt><a href="bej_nsc-pos-ADP.html">ADP</a></tt> 408, <tt><a href="bej_nsc-pos-PRON.html">PRON</a></tt> 395, <tt><a href="bej_nsc-pos-SCONJ.html">SCONJ</a></tt> 298, <tt><a href="bej_nsc-pos-PART.html">PART</a></tt> 167, <tt><a href="bej_nsc-pos-CCONJ.html">CCONJ</a></tt> 160, <tt><a href="bej_nsc-pos-AUX.html">AUX</a></tt> 125, <tt><a href="bej_nsc-pos-ADV.html">ADV</a></tt> 104, <tt><a href="bej_nsc-pos-ADJ.html">ADJ</a></tt> 77, <tt><a href="bej_nsc-pos-PROPN.html">PROPN</a></tt> 32, <tt><a href="bej_nsc-pos-INTJ.html">INTJ</a></tt> 28, <tt><a href="bej_nsc-pos-NUM.html">NUM</a></tt> 26, <tt><a href="bej_nsc-pos-X.html">X</a></tt> 18)
+The 10 most frequent ambiguous lemmas: <em>_</em> (<tt><a href="bej_autogramm-pos-VERB.html">VERB</a></tt> 2410, <tt><a href="bej_autogramm-pos-PUNCT.html">PUNCT</a></tt> 2363, <tt><a href="bej_autogramm-pos-DET.html">DET</a></tt> 1737, <tt><a href="bej_autogramm-pos-NOUN.html">NOUN</a></tt> 1719, <tt><a href="bej_autogramm-pos-PRON.html">PRON</a></tt> 820, <tt><a href="bej_autogramm-pos-ADP.html">ADP</a></tt> 766, <tt><a href="bej_autogramm-pos-SCONJ.html">SCONJ</a></tt> 592, <tt><a href="bej_autogramm-pos-CCONJ.html">CCONJ</a></tt> 338, <tt><a href="bej_autogramm-pos-PART.html">PART</a></tt> 321, <tt><a href="bej_autogramm-pos-AUX.html">AUX</a></tt> 284, <tt><a href="bej_autogramm-pos-ADV.html">ADV</a></tt> 191, <tt><a href="bej_autogramm-pos-ADJ.html">ADJ</a></tt> 149, <tt><a href="bej_autogramm-pos-X.html">X</a></tt> 73, <tt><a href="bej_autogramm-pos-INTJ.html">INTJ</a></tt> 66, <tt><a href="bej_autogramm-pos-PROPN.html">PROPN</a></tt> 63, <tt><a href="bej_autogramm-pos-NUM.html">NUM</a></tt> 59)
 
-The 10 most frequent ambiguous types:  <em>əəə</em> (<tt><a href="bej_nsc-pos-INTJ.html">INTJ</a></tt> 3, <tt><a href="bej_nsc-pos-X.html">X</a></tt> 1), <em>ahaː</em> (<tt><a href="bej_nsc-pos-INTJ.html">INTJ</a></tt> 2, <tt><a href="bej_nsc-pos-VERB.html">VERB</a></tt> 1), <em>jhaː</em> (<tt><a href="bej_nsc-pos-PRON.html">PRON</a></tt> 2, <tt><a href="bej_nsc-pos-INTJ.html">INTJ</a></tt> 1)
+The 10 most frequent ambiguous types:  <em>əəə</em> (<tt><a href="bej_autogramm-pos-INTJ.html">INTJ</a></tt> 7, <tt><a href="bej_autogramm-pos-X.html">X</a></tt> 1)
 
 
 * <em>əəə</em>
-  * <tt><a href="bej_nsc-pos-INTJ.html">INTJ</a></tt> 3: <em><b>əəə</b> dabaloː =t ʔoːr geːb / tiːfi =aj //</em>
-  * <tt><a href="bej_nsc-pos-X.html">X</a></tt> 1: <em>uː= dhaj daːjeːb aːmaliːna akoː / oː= tak =wa / j= ʔar =eː eː= mhaj =wa // <b>əəə</b> eːdn =eːt halla =t tikati oː= mhiːn /</em>
-* <em>ahaː</em>
-  * <tt><a href="bej_nsc-pos-INTJ.html">INTJ</a></tt> 2: <em>ʃaːwi uːn uː= tak =wa // oːn i= gaw =hi =wa // <b>ahaː</b> / oː= mhiːn w= hoːj hiːn =eːb =wa // lawwaːwaː =b ka= aki // ini //</em>
-  * <tt><a href="bej_nsc-pos-VERB.html">VERB</a></tt> 1: <em>ʃeː =b sana <b>ahaː</b> =b =u /</em>
-* <em>jhaː</em>
-  * <tt><a href="bej_nsc-pos-PRON.html">PRON</a></tt> 2: <em>jaː iraːni / bak tʔiit =eː =na ini =hoːb <b>jhaː</b> / oːn oː= gaw suːriː / dhaj hanka =oːk // hoːj akaː =b =a /</em>
-  * <tt><a href="bej_nsc-pos-INTJ.html">INTJ</a></tt> 1: <em>uːn w= ʔeːga / daːjeːb bak tageːgeːtiːt / tak ikati =hoːb // <b>jhaː</b> ʔaːw =wa indi eːn baruːk /</em>
+  * <tt><a href="bej_autogramm-pos-INTJ.html">INTJ</a></tt> 7: <em><b>əəə</b> dabaloː =t ʔoːr geːb / tiːfi =aj //</em>
+  * <tt><a href="bej_autogramm-pos-X.html">X</a></tt> 1: <em>uː= dhaj daːjeːb aːmaliːna akoː / oː= tak =wa / j= ʔar =eː eː= mhaj =wa // <b>əəə</b> eːdn =eːt halla =t tikati oː= mhiːn /</em>
 
 ## Morphology
 
-The form / lemma ratio of `INTJ` is 12.000000 (the average of all parts of speech is 76.500000).
+The form / lemma ratio of `INTJ` is 17.000000 (the average of all parts of speech is 126.812500).
 
-The 1st highest number of forms (12) was observed with the lemma “_”: <em>ahaː, hisik, iraːnaj, iraːni, jaːbi, jhaː, miaːw, mmm, nʔalla, sss, wuː, əəə</em>.
+The 1st highest number of forms (17) was observed with the lemma “_”: <em>ahaː, hawawawawa, hisik, iraːnaj, iraːni, jaːbi, jhaː, miaːw, mmm, mmmmm, nʔalla, oːw, sss, wheːli, wuː, ǝǝǝ, əəə</em>.
 
-`INTJ` occurs with 2 features: <tt><a href="bej_nsc-feat-Gender.html">Gender</a></tt> (1; 4% instances), <tt><a href="bej_nsc-feat-Number.html">Number</a></tt> (1; 4% instances)
+`INTJ` occurs with 4 features: <tt><a href="bej_autogramm-feat-Gender.html">Gender</a></tt> (5; 8% instances), <tt><a href="bej_autogramm-feat-Number.html">Number</a></tt> (5; 8% instances), <tt><a href="bej_autogramm-feat-Case.html">Case</a></tt> (2; 3% instances), <tt><a href="bej_autogramm-feat-ExtPos.html">ExtPos</a></tt> (1; 2% instances)
 
-`INTJ` occurs with 2 feature-value pairs: `Gender=Masc`, `Number=Sing`
+`INTJ` occurs with 4 feature-value pairs: `Case=Voc`, `ExtPos=INTJ`, `Gender=Masc`, `Number=Sing`
 
-`INTJ` occurs with 2 feature combinations.
-The most frequent feature combination is `_` (27 tokens).
-Examples: <em>iraːnaj, iraːni, əəə, ahaː, nʔalla, wuː, hisik, jaːbi, miaːw, mmm</em>
+`INTJ` occurs with 4 feature combinations.
+The most frequent feature combination is `_` (60 tokens).
+Examples: <em>iraːnaj, əəə, ahaː, mmm, iraːni, jaːbi, hawawawawa, jhaː, mmmmm, nʔalla</em>
 
 
 ## Relations
 
-`INTJ` nodes are attached to their parents using 6 different relations: <tt><a href="bej_nsc-dep-discourse.html">discourse</a></tt> (19; 68% instances), <tt><a href="bej_nsc-dep-vocative.html">vocative</a></tt> (4; 14% instances), <tt><a href="bej_nsc-dep-parataxis.html">parataxis</a></tt> (2; 7% instances), <tt><a href="bej_nsc-dep-dep-conj.html">dep:conj</a></tt> (1; 4% instances), <tt><a href="bej_nsc-dep-reparandum.html">reparandum</a></tt> (1; 4% instances), <tt><a href="bej_nsc-dep-xcomp.html">xcomp</a></tt> (1; 4% instances)
+`INTJ` nodes are attached to their parents using 11 different relations: <tt><a href="bej_autogramm-dep-discourse.html">discourse</a></tt> (34; 52% instances), <tt><a href="bej_autogramm-dep-fixed.html">fixed</a></tt> (12; 18% instances), <tt><a href="bej_autogramm-dep-obj.html">obj</a></tt> (7; 11% instances), <tt><a href="bej_autogramm-dep-root.html">root</a></tt> (3; 5% instances), <tt><a href="bej_autogramm-dep-reparandum.html">reparandum</a></tt> (2; 3% instances), <tt><a href="bej_autogramm-dep-vocative.html">vocative</a></tt> (2; 3% instances), <tt><a href="bej_autogramm-dep-xcomp.html">xcomp</a></tt> (2; 3% instances), <tt><a href="bej_autogramm-dep-dep.html">dep</a></tt> (1; 2% instances), <tt><a href="bej_autogramm-dep-dep-comp.html">dep:comp</a></tt> (1; 2% instances), <tt><a href="bej_autogramm-dep-dep-conj.html">dep:conj</a></tt> (1; 2% instances), <tt><a href="bej_autogramm-dep-dep-redup.html">dep:redup</a></tt> (1; 2% instances)
 
-Parents of `INTJ` nodes belong to 5 different parts of speech: <tt><a href="bej_nsc-pos-VERB.html">VERB</a></tt> (15; 54% instances), <tt><a href="bej_nsc-pos-NOUN.html">NOUN</a></tt> (9; 32% instances), <tt><a href="bej_nsc-pos-PRON.html">PRON</a></tt> (2; 7% instances), <tt><a href="bej_nsc-pos-ADJ.html">ADJ</a></tt> (1; 4% instances), <tt><a href="bej_nsc-pos-INTJ.html">INTJ</a></tt> (1; 4% instances)
+Parents of `INTJ` nodes belong to 11 different parts of speech: <tt><a href="bej_autogramm-pos-NOUN.html">NOUN</a></tt> (21; 32% instances), <tt><a href="bej_autogramm-pos-VERB.html">VERB</a></tt> (21; 32% instances), <tt><a href="bej_autogramm-pos-PART.html">PART</a></tt> (12; 18% instances),  (3; 5% instances), <tt><a href="bej_autogramm-pos-INTJ.html">INTJ</a></tt> (2; 3% instances), <tt><a href="bej_autogramm-pos-PRON.html">PRON</a></tt> (2; 3% instances), <tt><a href="bej_autogramm-pos-ADJ.html">ADJ</a></tt> (1; 2% instances), <tt><a href="bej_autogramm-pos-ADP.html">ADP</a></tt> (1; 2% instances), <tt><a href="bej_autogramm-pos-PROPN.html">PROPN</a></tt> (1; 2% instances), <tt><a href="bej_autogramm-pos-SCONJ.html">SCONJ</a></tt> (1; 2% instances), <tt><a href="bej_autogramm-pos-X.html">X</a></tt> (1; 2% instances)
 
-9 (32%) `INTJ` nodes are leaves.
+32 (48%) `INTJ` nodes are leaves.
 
-13 (46%) `INTJ` nodes have one child.
+28 (42%) `INTJ` nodes have one child.
 
-6 (21%) `INTJ` nodes have two children.
+4 (6%) `INTJ` nodes have two children.
 
-The highest child degree of a `INTJ` node is 2.
+2 (3%) `INTJ` nodes have three or more children.
 
-Children of `INTJ` nodes are attached using 6 different relations: <tt><a href="bej_nsc-dep-punct.html">punct</a></tt> (16; 64% instances), <tt><a href="bej_nsc-dep-dep-comp.html">dep:comp</a></tt> (4; 16% instances), <tt><a href="bej_nsc-dep-vocative.html">vocative</a></tt> (2; 8% instances), <tt><a href="bej_nsc-dep-advmod.html">advmod</a></tt> (1; 4% instances), <tt><a href="bej_nsc-dep-dep-conj.html">dep:conj</a></tt> (1; 4% instances), <tt><a href="bej_nsc-dep-obj.html">obj</a></tt> (1; 4% instances)
+The highest child degree of a `INTJ` node is 3.
 
-Children of `INTJ` nodes belong to 5 different parts of speech: <tt><a href="bej_nsc-pos-PUNCT.html">PUNCT</a></tt> (16; 64% instances), <tt><a href="bej_nsc-pos-PART.html">PART</a></tt> (6; 24% instances), <tt><a href="bej_nsc-pos-ADV.html">ADV</a></tt> (1; 4% instances), <tt><a href="bej_nsc-pos-INTJ.html">INTJ</a></tt> (1; 4% instances), <tt><a href="bej_nsc-pos-NOUN.html">NOUN</a></tt> (1; 4% instances)
+Children of `INTJ` nodes are attached using 6 different relations: <tt><a href="bej_autogramm-dep-punct.html">punct</a></tt> (31; 74% instances), <tt><a href="bej_autogramm-dep-reparandum.html">reparandum</a></tt> (7; 17% instances), <tt><a href="bej_autogramm-dep-advmod.html">advmod</a></tt> (1; 2% instances), <tt><a href="bej_autogramm-dep-dep-conj.html">dep:conj</a></tt> (1; 2% instances), <tt><a href="bej_autogramm-dep-dep-redup.html">dep:redup</a></tt> (1; 2% instances), <tt><a href="bej_autogramm-dep-discourse.html">discourse</a></tt> (1; 2% instances)
+
+Children of `INTJ` nodes belong to 8 different parts of speech: <tt><a href="bej_autogramm-pos-PUNCT.html">PUNCT</a></tt> (31; 74% instances), <tt><a href="bej_autogramm-pos-NOUN.html">NOUN</a></tt> (3; 7% instances), <tt><a href="bej_autogramm-pos-INTJ.html">INTJ</a></tt> (2; 5% instances), <tt><a href="bej_autogramm-pos-VERB.html">VERB</a></tt> (2; 5% instances), <tt><a href="bej_autogramm-pos-ADV.html">ADV</a></tt> (1; 2% instances), <tt><a href="bej_autogramm-pos-DET.html">DET</a></tt> (1; 2% instances), <tt><a href="bej_autogramm-pos-PART.html">PART</a></tt> (1; 2% instances), <tt><a href="bej_autogramm-pos-PRON.html">PRON</a></tt> (1; 2% instances)
 

@@ -12,15 +12,15 @@ udver: '2'
 # UD Greek GUD
 
 Language: [Greek](/el/index.html) (code: `el`)<br/>
-Family: Indo-European, Greek
+Family: IE
 
 This treebank has been part of Universal Dependencies since the UD v2.12 release.
 
 The following people have contributed to making this treebank part of UD: Stella Markantonatou, Vivian Stamou, Socrates Vak.
 
 Repository: [UD_Greek-GUD](https://github.com/UniversalDependencies/UD_Greek-GUD)<br />
-Search this treebank on-line: [PML-TQ](https://lindat.mff.cuni.cz/services/pmltq/#!/treebank/udel_gud214)<br />
-Download all treebanks: [UD 2.14](/#download)
+Search this treebank on-line: [PML-TQ](https://lindat.mff.cuni.cz/services/pmltq/#!/treebank/udel_gud215)<br />
+Download all treebanks: [UD 2.15](/#download)
 
 License: CC BY-SA 4.0
 
