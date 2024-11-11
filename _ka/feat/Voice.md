@@ -40,4 +40,4 @@ The subject of the verb is affected by the action (patient). The doer (agent) is
 
 * _ბავშვი <b>დაიბადა</b> ჯანმრთელი._ 'The child has been born healthy.'
 
-<!-- Interlanguage links updated Ne 5. května 2024, 18:20:28 CEST -->
+<!-- Interlanguage links updated Po 11. listopadu 2024, 20:10:11 CET -->

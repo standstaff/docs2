@@ -88,4 +88,4 @@ The vocative case is a special form of noun used to address someone.
 #### Examples
 
 * ბავშვებო, გააგრძელეთ წერა_ 'Children, continue writing' etc.
-<!-- Interlanguage links updated Ne 5. května 2024, 18:19:48 CEST -->
+<!-- Interlanguage links updated Po 11. listopadu 2024, 20:09:33 CET -->

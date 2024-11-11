@@ -57,4 +57,4 @@ IBM earned $ 5 a share
 nmod:unmarked($, share)
 ~~~
 
-<!-- Interlanguage links updated Ne 5. května 2024, 18:21:20 CEST -->
+<!-- Interlanguage links updated Po 11. listopadu 2024, 20:11:02 CET -->

@@ -15,3 +15,4 @@ orphan(մեղմանալ, եւ)
 orphan(մեղմանալ, ինձ)
 ~~~
 
+<!-- Interlanguage links updated Po 11. listopadu 2024, 20:11:23 CET -->

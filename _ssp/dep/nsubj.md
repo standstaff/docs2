@@ -20,3 +20,4 @@ With two-participant verbs of action, it is typically associated with the agent.
 3	OTRO	_	DET	Det	_	2	det	_	Gloss=OTHER
 4	BICICLETA	_	VERB	V	_	0	root	_	Gloss=BIKE
 ~~~
+<!-- Interlanguage links updated Po 11. listopadu 2024, 20:11:07 CET -->

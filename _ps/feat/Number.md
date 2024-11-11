@@ -51,4 +51,4 @@ Nouns ending in
 * ملګري _malgë́ri_ friends
 * څوکۍ _cawkë́y_ chairs
 
-<!-- Interlanguage links updated Ne 5. května 2024, 18:19:57 CEST -->
+<!-- Interlanguage links updated Po 11. listopadu 2024, 20:09:50 CET -->

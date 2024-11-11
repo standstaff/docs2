@@ -64,4 +64,4 @@ Mackridge, Peter. 1985. *The Modern Greek Language. A Descriptive Analysis of St
 https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/
 
 
-<!-- Interlanguage links updated Ne 5. května 2024, 18:19:33 CEST -->
+<!-- Interlanguage links updated Po 11. listopadu 2024, 20:09:19 CET -->

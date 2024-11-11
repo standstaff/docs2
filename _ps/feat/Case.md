@@ -155,4 +155,4 @@ Other nouns and adjectives (all masculine/feminine, singular/plural) share the f
 * **ړندې پېغلې**، دلته راشه _**ṛandé péġle**, dë́lta rấša_ “blind girl, come here”
 * **نوو کورونو**، دلته راشه _**në́wo korúno**, dë́lta rấša_ “new houses, come here”
 
-<!-- Interlanguage links updated Ne 5. května 2024, 18:19:48 CEST -->
+<!-- Interlanguage links updated Po 11. listopadu 2024, 20:09:33 CET -->

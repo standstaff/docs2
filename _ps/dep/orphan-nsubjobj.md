@@ -19,4 +19,4 @@ The `orphan:nsubjobj` relation provides information about the relations of the o
 7	.  .  PUNCT  _  _  1  punct  _  Gloss=.|LTranslit=.|Translit=.
 ~~~
 
-<!-- Interlanguage links updated Ne 5. května 2024, 18:21:42 CEST -->
+<!-- Interlanguage links updated Po 11. listopadu 2024, 20:11:23 CET -->

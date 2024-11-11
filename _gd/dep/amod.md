@@ -38,3 +38,4 @@ _an <b>t-seann</b> riaghaltas_ 'the old government'
 30	t-seann	seann	ADJ	Ar	_	31	amod	_	_
 31	riaghaltas	riaghaltas	NOUN	Ncsmn	Case=Nom|Gender=Masc|Number=Sing	27	conj	_	_
 ~~~
+<!-- Interlanguage links updated Po 11. listopadu 2024, 20:10:25 CET -->

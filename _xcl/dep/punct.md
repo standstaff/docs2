@@ -33,3 +33,4 @@ punct(անուանէ, ,)
 punct(մխիթարեսցին, ,)
 punct(comforted, ,)
 ~~~
+<!-- Interlanguage links updated Po 11. listopadu 2024, 20:11:27 CET -->
