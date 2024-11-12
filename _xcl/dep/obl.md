@@ -14,3 +14,4 @@ case(հոգի, ի)
 obl(baptize, Spirit)
 case(Spirit, with)
 ~~~
+<!-- Interlanguage links updated Po 11. listopadu 2024, 20:11:15 CET -->

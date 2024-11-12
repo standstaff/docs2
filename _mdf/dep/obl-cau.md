@@ -19,4 +19,4 @@ case(frienship-2, because_of-3)
 
 
 
-<!-- Interlanguage links updated Ne 5. května 2024, 18:21:36 CEST -->
+<!-- Interlanguage links updated Po 11. listopadu 2024, 20:11:17 CET -->

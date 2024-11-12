@@ -133,4 +133,4 @@ of the verb “to be”, which differs from itS present counterpart: بۀ وی _
 * future perfective: صبا **بۀ** کتاب **ولرلم** _sabấ **bë** kitấb **wë́lwalëm**_ “I will read a book tomorrow”
 
 
-<!-- Interlanguage links updated Ne 5. května 2024, 18:20:03 CEST -->
+<!-- Interlanguage links updated Po 11. listopadu 2024, 20:10:07 CET -->

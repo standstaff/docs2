@@ -17,3 +17,4 @@ discourse(opened, lo)
 որ եղեւ իսկ մատնիչ ։ \n which also was the traitor 
 discourse(մատնիչ, իսկ)
 ~~~
+<!-- Interlanguage links updated Po 11. listopadu 2024, 20:10:50 CET -->

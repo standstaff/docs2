@@ -63,3 +63,4 @@ nmod:unmarked(cookies, couple)
 **History:** Prior to release 2.15, case (i) (temporal modifiers)
 had a separate subtype called [nmod:tmod](), and [nmod:npmod]()
 was used for the non-temporal ones.
+<!-- Interlanguage links updated Po 11. listopadu 2024, 20:11:06 CET -->

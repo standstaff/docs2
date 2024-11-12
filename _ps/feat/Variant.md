@@ -45,4 +45,4 @@ The short variant is used for special forms of several verbs, that do not have a
 
 #### Examples
 
-<!-- Interlanguage links updated Ne 5. května 2024, 18:20:26 CEST -->
+<!-- Interlanguage links updated Po 11. listopadu 2024, 20:10:09 CET -->

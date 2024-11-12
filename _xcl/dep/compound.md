@@ -15,3 +15,4 @@ nummod(men, thousand)
 compound(հազար, հինգ)
 compound(thousand, five)
 ~~~
+<!-- Interlanguage links updated Po 11. listopadu 2024, 20:10:36 CET -->

@@ -179,4 +179,4 @@ Examples cited by Avila (2021) (our English translations):
 * [yrl] _Remaã yuíri mayé ií umuyasuka <b>pawa</b> se awa-itá pixunasawa! &nbsp;_  “See also how the water washed away all the blackness from my hair!”
 * [yrl] _Pepuri <b>pawa</b> paraná upé. &nbsp;_  “Everyone jump into the river.”
 * [yrl] _Uka aíwa ukukúi <b>pá</b> wã. &nbsp;_  “The old house has already completely collapsed.”
-<!-- Interlanguage links updated Ne 5. května 2024, 18:19:48 CEST -->
+<!-- Interlanguage links updated Po 11. listopadu 2024, 20:09:32 CET -->

@@ -12,3 +12,4 @@ An adjectival modifier of a noun (or pronoun) is any adjectival phrase that serv
 amod(մեղր, վայրենի)
 amod(honey, wild)
 ~~~
+<!-- Interlanguage links updated Po 11. listopadu 2024, 20:10:25 CET -->

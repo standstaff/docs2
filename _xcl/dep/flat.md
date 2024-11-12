@@ -20,3 +20,4 @@ flat(Simon, Peter)
 flat(տաղիթա, կումի)
 ccomp(ասէ, տաղիթա)
 ~~~
+<!-- Interlanguage links updated Po 11. listopadu 2024, 20:10:55 CET -->

@@ -41,4 +41,4 @@ using a stressed prefix و _wë́_.
 * تۀ ما ته راغلې _të mâ ta rấġle_ “You came to me”
 * به یو کتاب ولیکم _bë yaw kitấb wë́likëm_ “I will write a book”
 
-<!-- Interlanguage links updated Ne 5. května 2024, 18:19:48 CEST -->
+<!-- Interlanguage links updated Po 11. listopadu 2024, 20:09:32 CET -->
