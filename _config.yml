@@ -479,8 +479,6 @@ collections:
     output: true
   pay:
     output: true
-  mo:
-    output: true
 # End of language collections (do not remove this comment, addlanguage.sh looks for it)
 
 
