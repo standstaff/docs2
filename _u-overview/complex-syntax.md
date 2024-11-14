@@ -154,7 +154,7 @@ csubj(drives, said)
 
 ~~~ sdparse
 Whether pigs fly has been disputed
-csubj:pass(unknown, fly)
+csubj:pass(disputed, fly)
 ~~~
 
 ### Clausal Complements (Objects)
