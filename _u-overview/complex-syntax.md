@@ -143,18 +143,18 @@ A clausal subject is a clausal syntactic subject of a clause. Its governor may b
 If the governor is in the passive, the subtype `csubj:pass` can be used.
 
 ~~~ sdparse
-What she said makes sense
-csubj(makes, said)
+Eating meals at regular times can improve digestion
+csubj(improve, Eating)
 ~~~
 
 ~~~ sdparse
-What she said is interesting
-csubj(interesting, said)
+That nobody said anything drives me crazy
+csubj(drives, said)
 ~~~
 
 ~~~ sdparse
-What she said was well received
-csubj:pass(received, said)
+Whether pigs fly has been disputed
+csubj:pass(unknown, fly)
 ~~~
 
 ### Clausal Complements (Objects)
