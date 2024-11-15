@@ -51,7 +51,7 @@ iobj(πήραν, Του)
 obj(πήραν, χιλιάρικα)
 ~~~
 
-When two objects in accusative are present, one of them is annotated as `obj` and the other as [iobj]().  Generally, the most directly affected object _(patient)_ is marked as `obj`.
+When two arguments in accusative are present, one of them is annotated as `obj` and the other as [iobj]().  Τhe argument that can alternate between a bare nominal phrase and and a prepositional phrase is marked as [obl()], e.g., Διδάσκει ιστορία στα παιδιά. 
 
 ~~~ sdparse
 Διδάσκει τα παιδιά.ACC ιστορία.ACC
