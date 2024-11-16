@@ -216,6 +216,48 @@ Subsequent comment by [Flavio](https://github.com/UniversalDependencies/docs/iss
 and [Dan](https://github.com/UniversalDependencies/docs/issues/1059#issuecomment-2452688911).
 
 
+## Quantifiers
+
+Pronominal quantifiers, as opposed to definite cardinal numerals, are treated as determiners following the UD guidelines (see [DET](), [NUM](); the distinction is currently not mentioned directly in the guidelines for [det]() and [nummod](), but these relations are normally used to connect the quantifier with the counted noun, so the UPOS distinction projects to the relation distinction straightforwardly). Nevertheless, pronominal quantifiers can be modified to further specify the quantity or to compare it with some other quantity, as in these Czech examples:
+
+~~~sdparse
+třikrát tolik dětí než X \n three.times so.many children than X
+advmod(tolik, třikrát)
+advmod(so.many, three.times)
+det:numgov(dětí, tolik)
+det:numgov(children, so.many)
+nmod(tolik, X-5)
+nmod(so.many, X-11)
+case(X-5, než)
+case(X-11, than)
+~~~
+
+~~~sdparse
+víc rozdílů než společných prvků \n more differences than common elements
+det:numgov(rozdílů, víc)
+det:numgov(differences, more)
+nmod(víc, prvků)
+nmod(more, elements)
+case(prvků, než)
+case(elements, than)
+amod(prvků, společných)
+amod(elements, common)
+~~~
+
+~~~sdparse
+o 600000 méně lidí \n by 600,000 fewer people
+case(600000, o)
+case(600,000, by)
+nmod(méně, 600000)
+nmod(fewer, 600,000)
+det:numgov(lidí, méně)
+det:numgov(people, fewer)
+~~~
+
+The validation exception that could capture these cases looks at the features of the determiner. If there is [NumType]() or [Degree](), [nmod]() children are allowed.
+Alternatively, we could require that the relation between the quantifier and its modifier is [obl]() because the quantifier is not really a nominal. Then we would not need a new exception because [obl]() is already allowed for other reasons.
+
+
 ## Problematic Constructions that Do Not Need an Exception
 
 
