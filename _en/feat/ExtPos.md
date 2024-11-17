@@ -47,7 +47,19 @@ e.g. as a verb phrase or clause.
 
 #### Examples
 
-* _I saw <b><em>Waiting for Godot</em></b>_ (_Waiting_ = `PROPN`)
+~~~ sdparse
+I saw Some/DET Like/VERB[ExtPos=PROPN] It/PRON Hot/ADJ
+obj(saw, Like)
+nsubj(Like, Some)
+obj(Like, It)
+xcomp(Like, Hot)
+~~~
+
+**Note:** Proper name tagging conventions inherited from PTB might suggest that _Like_ be tagged as `PROPN`
+along with all name-internal content words. For names with non-nominal structure, we make an exception
+and instead follow the UD universal recommendation that `PROPN` be restricted to true nouns, applying the
+morphosyntactically accurate tags (`VERB`, etc.) coupled with `ExtPos=PROPN` on the head.
+This avoids apparent anomalies like non-copular `PROPN`s with subjects.
 
 ### <a name="SCONJ">`SCONJ`</a>: subordinator-like expression
 
