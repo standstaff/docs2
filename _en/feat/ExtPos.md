@@ -5,12 +5,12 @@ shortdef: 'external POS'
 udver: '2'
 ---
 
-This feature indicates, for the head of a [fixed expression](https://universaldependencies.org/en/dep/fixed.html), 
-the effective UPOS of the full expression when it differs from the UPOS of the word itself.
+This feature indicates the effective UPOS of an expression when it differs from the UPOS of the head word.
 
-`ExtPos` is used in the [SUD](https://surfacesyntacticud.github.io/) framework and appears in the MISC column 
-of some UD treebanks. Its inclusion in FEATS is currently specific to English, and only heads of the `fixed` relation, 
-though in the future it may be broadened.
+In English, only heads of a [`fixed`](https://universaldependencies.org/en/dep/fixed.html) relation 
+and a small number of multiword proper names employ the feature, though in the future it may be broadened.
+
+`ExtPos` is also used in the [SUD](https://surfacesyntacticud.github.io/) framework.
 
 ### <a name="ADP">`ADP`</a>: adposition-like expression
 
@@ -39,6 +39,15 @@ though in the future it may be broadened.
 
 * _<b>one another</b>_ (_one_ = `NUM`)
   - By contrast, _each other_ is analyzed with a `det` relation, not `fixed`, so `ExtPos` is not used there.
+
+### <a name="PROPN">`PROPN`</a>: proper name expression
+
+This is applied to multiword proper names analyzed internally as something other than a nominal,
+e.g. as a verb phrase or clause.
+
+#### Examples
+
+* _I saw <b><em>Waiting for Godot</em></b>_ (_Waiting_ = `PROPN`)
 
 ### <a name="SCONJ">`SCONJ`</a>: subordinator-like expression
 
