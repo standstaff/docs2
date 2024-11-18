@@ -104,6 +104,7 @@ on indefiniteness. (The quantity is present in any case, as the indefinite artic
 note that the word form _eins_ “one” is treated as an independent lemma in the `NUM` category. It is the self-standing
 numeral that does not accompany a counted noun (e.g. it can be the answer to the question “What is the number of
 the bus line?”) and it is different from all forms of the determiner _ein_.
+(But see [Issue 1061](https://github.com/UniversalDependencies/docs/issues/1061).)
 
 The word _beide_ “both” is also semantically a numeral, but unlike other cardinal numerals in German (including
 _zwei_ “two”) it has the adjective-like declension paradigm and fits in the here-defined class of determiners.
