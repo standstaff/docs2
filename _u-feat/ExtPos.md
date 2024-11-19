@@ -30,7 +30,10 @@ if it were analyzed as a single word. `ExtPos` is annotated at the head node of 
 expression. The possible values are taken from the defined [UPOS tags](/u/pos/index.html) and no other
 values are allowed (not even at the language-specific level). The main motivation for `ExtPos` is that
 the multiword expression may behave like a part of speech different from the UPOS of the head node;
-however, `ExtPos` is sometimes used even if it is identical to the UPOS of the head node.
+however, `ExtPos` is sometimes used even if it is identical to the UPOS of the head node. Also, it is
+not strictly necessary that the expression is multiword – if one of the words of the expression is
+omitted by mistake, or if a single word has been coerced into a part of speech different from its
+lexical one, `ExtPos` may be used to signal it.
 
 `ExtPos` is strongly recommended for fixed functional multiword expressions (the head node has one
 or more children attached via the [fixed]() relation). These should normally lead to `ExtPos` values
