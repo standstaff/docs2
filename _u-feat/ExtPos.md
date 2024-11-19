@@ -48,6 +48,12 @@ Multiword adpositions occur in many languages. Often they are grammaticalized pr
 * [cs] _<b>na rozdíl ode</b> mne_ “<b>in contrast to</b> me” (here the first node is the technical head and it is a preposition itself, so UPOS = `ExtPos`)
 * [cs] _<b>nehledě na</b> jeho úspěchy_ “<b>disregarding</b> his achievements” (here the first node is a [VERB]())
 
+### <a name="ADJ">`ADJ`</a>: adjective-like expression
+
+#### Examples
+
+* [sv] _<b>före detta</b>_ (a multiword adjective paraphrasable as “former”, lit. "before that"; the first node is [ADV]())
+
 ### <a name="ADV">`ADV`</a>: adverb-like expression
 
 #### Examples
