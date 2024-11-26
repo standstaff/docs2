@@ -142,7 +142,8 @@ For simplicity, regnal number suffixes are considered part of flat expressions
 just like version numbers, though they semantically resemble [generational suffixes](#personal-names):
 
 ~~~ sdparse
-Elizabeth/PROPN II/NUM
+Queen/PROPN Elizabeth/PROPN II/NUM
+nmod:desc(Elizabeth, Queen)
 flat(Elizabeth, II)
 ~~~
 
