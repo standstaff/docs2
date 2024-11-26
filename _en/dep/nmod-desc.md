@@ -157,12 +157,20 @@ tests for headedness are inconclusive:
 
 ~~~ sdparse
 Lake/PROPN Mead/PROPN
-nmod:desc(Mead, Lake)
+flat(Lake, Mead)
 ~~~
 
 ~~~ sdparse
 Mount/PROPN Everest/PROPN
-nmod:desc(Everest, Mount)
+flat(Mount, Everest)
+~~~
+
+By contrast, if the identificational part of the toponym precedes the entity type,
+this is analyzed as a regular right-headed [compound]() dependency:
+
+~~~ sdparse
+Mirror/PROPN Lake/PROPN
+compound(Lake, Mirror)
 ~~~
 
 <!-- Interlanguage links updated Po 11. listopadu 2024, 20:11:03 CET -->
