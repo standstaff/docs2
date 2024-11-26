@@ -23,7 +23,7 @@ In principle, they are a special case of [nmod:unmarked]().
 
 ## Personal Names
 
-One descriptor construction is the premodification of a personal name with a (determinerless) role or title:
+One descriptor construction is the pre- or postmodification of a personal name with a (determinerless) role or title:
 
 ** NOTE: we need to standardize UPOS. [SYM]() says that Dr. and Mr. are NOUN but in English treebanks they are predominantly PROPN. **
 
