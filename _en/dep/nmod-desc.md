@@ -60,7 +60,7 @@ A descriptor must be omissible, but not all omissible parts of a name are descri
 if the main part of a name has multiple parts such that there are at least two plausible heads,
 [flat]() is the appropriate choice, as is the case with the main parts of a personal name.
 
-Non-numeric regnal and generational suffixes are also `nmod:desc`
+Non-numeric generational suffixes are also `nmod:desc`
 (but see [Numbered Entities](#numbered-entities) below):
 
 ~~~ sdparse
@@ -138,7 +138,7 @@ flat(World, War)
 flat(World, II)
 ~~~
 
-For simplicity, regnal number suffixes are considered part of flat expressions
+For simplicity, regnal/generational number suffixes are considered part of flat expressions
 just like version numbers, though they semantically resemble [generational suffixes](#personal-names):
 
 ~~~ sdparse
