@@ -147,10 +147,7 @@ nmod:desc(Elizabeth, Queen)
 flat(Elizabeth, II)
 ~~~
 
-[^1]: This is a departure from a guideline articulated previously: 
-according to [de Marneffe et al. (2021)](https://doi.org/10.1162/coli_a_00402), p. 285, 
-the (pseudo)number attaches as [nmod](), though the main point of that passage
-is to articulate why [nummod]() is not appropriate (no rationale for headedness is presented).
+[^1]: This is a departure from a guideline articulated previously: according to [de Marneffe et al. (2021)](https://doi.org/10.1162/coli_a_00402), p. 285, the (pseudo)number attaches as [nmod](), though the main point of that passage is to articulate why [nummod]() is not appropriate (no rationale for headedness is presented).
 
 ### Toponyms
 
