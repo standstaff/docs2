@@ -139,7 +139,7 @@ flat(World, II)
 ~~~
 
 For simplicity, regnal/generational number suffixes are considered part of flat expressions
-just like version numbers, though they semantically resemble [generational suffixes](#personal-names):
+just like version numbers, though they semantically resemble [_Jr._ and _Sr._](#personal-names):
 
 ~~~ sdparse
 Queen/PROPN Elizabeth/PROPN II/NUM
