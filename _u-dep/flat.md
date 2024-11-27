@@ -64,6 +64,13 @@ punct(Rock, "-5)
 The scope of `flat` may extend beyond names of persons to names of other kinds of entities that depart from general headed structure.
 The expressions under this category must be established by language-specific criteria.
 
+The [ExtPos]() feature may be used to signal the external syntactic distribution of the flat expression—e.g., `ExtPos=PROPN` for _17_ in:
+
+~~~ sdparse
+17/NUM[ExtPos=PROPN] Across/ADV is wrong in this crossword .
+flat(17, Across)
+~~~
+
 ### Flat vs. non-flat names
 
 <!-- NO LONGER (NECESSARILY) FLAT - MISCHIEVOUS NOMINALS:
