@@ -19,11 +19,8 @@ Examples include:
 (i) temporal modifiers
 
 ~~~ sdparse
-Are you free for lunch some day this week ?
-nmod:unmarked(lunch, day)
-det(day, some)
+For lunch , any day this week is fine !
 nmod:unmarked(day, week)
-det(week, this)
 ~~~
 
 (ii) rate expressions with meaning equivalent to "per"
