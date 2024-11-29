@@ -209,10 +209,10 @@ Nevertheless, there are four important exceptions to the rule that function word
 ### Multiword Function Words
 
 The word forms that make up a fixed multiword expression are connected using the special dependency relation [u-dep/fixed]().
-By convention, the first word is always taken as the head, so when the multiword expression is a functional element, the initial word form will then superficially look like a function word with dependents.
+By convention, the first word is always taken as the head, so when the multiword expression is a functional element, the initial word form will then superficially look like a function word with dependents. The [ExtPos]() feature on the first word specifies the holistic UPOS category of the expression.
 
 <div id="fixed1" class="sd-parse">
-They saw each/DET other/ADJ
+They saw each/DET[ExtPos=PRON] other/ADJ
 fixed(each, other)
 obj(saw, each)
 </div>
@@ -446,7 +446,7 @@ Structures analyzed with [u-dep/fixed]() and [u-dep/flat]() are **headless** by 
 annotated by attaching all non-first elements to the first and only allowing outgoing dependents from the first element.
 
 <div id="mwe1" class="sd-parse">
-I like dogs as/ADV well/ADV as/ADP cats .
+I like dogs as/ADV[ExtPos=CCONJ] well/ADV as/ADP cats .
 fixed(as-4, well)
 fixed(as-4, as-6)
 cc(cats, as-4)
