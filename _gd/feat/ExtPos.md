@@ -55,6 +55,13 @@ Most of these, according to GOC, are spelt with a hyphen so this covers both obv
 
 * _<b>na</b> b' fheàrr_ - better (in the past)
 
+### <a name="PRON">`PRON`</a>: multiword pronoun
+#### Examples
+
+* _<b>có</b> dhiubh_ - which of them
+* _<b>cia</b> mheud_ - how many
+* _<b>car</b> son_ - why (usually a single word)
+
 ### <a name="SCONJ">`SCONJ`</a>: multiword subordinators
 #### Examples
 
