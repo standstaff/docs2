@@ -50,6 +50,12 @@ Most of these, according to GOC, are spelt with a hyphen so this covers both obv
 
 * _<b>a</b> h-uile_ - every
 
+### <a name="INTJ">`INTJ`</a>: multiword interjection
+#### Examples
+
+* _<b>'N</b> dà_
+
+
 ### <a name="PART">`PART`</a>: multiword particle
 #### Examples
 
