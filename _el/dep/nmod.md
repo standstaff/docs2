@@ -19,6 +19,11 @@ But when attaching to a noun, it corresponds to an attribute, or genitive comple
 nmod(άθλοι, Ηρακλή.Gen)
 ~~~
 
+~~~ sdparse
+γεμάτη λαχτάρα κρεμιέται
+nmod(γεμάτη, λαχτάρα)
+advcl(κρεμιέται, γεμάτη)
+~~~
 The `nmod` relation can be further specified by the [case]() label assigned to prepositions.
 
 
