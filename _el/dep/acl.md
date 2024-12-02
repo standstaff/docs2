@@ -39,7 +39,7 @@ acl(ερώτηση, μετακόμιζαν)
 acl(χαρά, πέρασε)
 ~~~
 
-Note: When a nominal modifies a clause, e.g., Αποφασίζετε επιπόλαια, πράγμα που δεν θα σας ωφελήσει, the nominal depends on the verb headof the clause with the [parataxis]() dependency.
+Note: When a nominal modifies a clause, e.g., Αποφασίζετε επιπόλαια, πράγμα που δεν θα σας ωφελήσει, the nominal depends on the verb head of the clause with the [parataxis]() dependency.
 
 
 <!---
