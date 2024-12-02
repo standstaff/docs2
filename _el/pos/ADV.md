@@ -20,7 +20,7 @@ Adverbs may be assigned the <code>PronType</code> feature:
 - indefinite adverbs ([PronType=Ind]()): *κάπου* / *kapou* "somewhere", *κάποτε* / *kapote* "sometime"', *οπουδήποτε* / *opoudipote* "anywhere", *οποτεδήποτε* / *opotedipote* "anytime"
 - interrogative adverbs ([PronType=Int]()): *πού* / *pou* "where", *πότε* / *pote* "when"', *πώς* / *pos* "how", *γιατί* / *giati* "why", *τι* / *ti* "what, why"
 - negative adverbs ([PronType=Neg]()): *πουθενά* / *pouthena* ‘nowhere", *ποτέ* / *pote* "never"
-- relative adverbs: *όπως* / *opos* `in the way that, as"
+- relative adverbs ([PronType=Rel]()): *όπως* / *opos* `in the way that, as"
 - totality adverbs ([PronType=Tot]()): *παντού* / *pantou* "everywhere", *πάντα/πάντοτε* / *panta/pantote* "always"
 
 Αdverbs may be specified for the feature [NumType](el-feat/NumType), e.g. *άπαξ* / *apaks* ‘once'. 
