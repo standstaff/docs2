@@ -17,58 +17,6 @@ This is a **work-in-progress** overview of the UD annotation for Georgian.
   b) postpositions  represented by a suffix attached to an inflected nominal (noun, adjective, numeral and pronoun): სახლში = სახლ+ში 'in the house';
   c) the indirect speech particle represented by a suffix attached to an inflected nominal or verb: სახლიო = სახლი+ო 'a house as smb. said', წერსო = წერს+ო 'he writes as smb. said'.
 
-## Nominal Multiword expressions (MWEs)
-
-The Georgian Multiword expressions (MWEs) are (continuous or discontinuous) sequences of words with the following compulsory properties:
-
-* They show some degree of orthographic, morphological, syntactic or semantic idiosyncrasy with respect to what is considered general grammar rules of a language (e.g. _მეცხრე ცა_ 'cloud nine', _ბინძური ფული_ 'dirty money' etc.).
-* Their component words include a head word and at least one other syntactically related word. Most often the relation they maintain is a syntactic (direct or indirect) dependence but it can also be e.g. a coordination (_ბურთი და მოედანი_ 'ball and field, ltr. do what you want' etc.). Depending on the category of the head word, the whole MWE can be nominal, adjectival, verbal etc.
-Probably the most salient property of MWEs is semantic non-compositionality. In other words, it is often impossible to deduce the meaning of the whole unit from the meanings of its parts and from its syntactic structure. For instance, while it is easy to interpret phrases like to kick the ball or to spill some water from the words that compose them, it is almost impossible to guess, without knowing it beforehand, that _ჩიტის რძე _ means 'Bird's milk, ltr. everything smb. wants'.
-
-~~~ sdparse
-ერთგვარი ჯაჭვური რეაქცია მოხდა . \n A kind of nuclear reaction happened
-nsubj(რეაქცია, მოხდა)
-~~~
-
-### Modifier Dependents
-
-A nominal head does not take any core arguments but may be associated with different types of modifiers:
-
-1. An `nmod` is a nominal phrase modifying the head of another nominal phrase. 
-2. An `amod` is an adjective modifying the head of a nominal phrase.
-3. A `nummod` is a numeral modifying the head of a nominal phrase.
-
-~~~ sdparse
-ფაიფურის თიხა
-nmod(თიხა, ფაიფურის)
-~~~
-
-~~~ sdparse
-არ არსებობს გამოუვალი მდგომარეობა
-amod(მდგომარეობა-4, გამოუვალი-3)
-~~~
-
-~~~ sdparse
-მეცხრე ცა
-nummod(ცა, მეცხრე)
-~~~
-
-
-### Function Word Dependents
-
-Nominals may also contain the following typical function word dependents:
-
-* Adpositions attach to the head of the nominal with the `case` relation.
-
-~~~ sdparse
-მეცხრე ცა ზე
-nummod(ცა-2, მეცხრე-1)
-case(ზე-3, ცა-2)
-~~~ 
-
----
-**Instruction**: Describe the general rules for delimiting words (for example, based on whitespace and punctuation) and exceptions to these rules. Specify whether words with spaces and/or multiword tokens occur. Include links to further language-specific documentation if available.
-
 ---
 
 ## Morphology
@@ -80,9 +28,6 @@ case(ზე-3, ცა-2)
 * There are two types of particles (PART) in Georgian. Those acting as separate words subdivided into different lexical classes: არ 'not', ვერ 'not' etc.) and those belonging to clitics and occupying concrete slots in the nominal or verbal paradigm: −ღა, -ცა etc. Thus, the PART tag is assigned to those particles, which act as separate tokens and the verbal particle denoting the indirect speech markers: -მეთქი 'As I said', -ო 'as he/them said' etc.  
 * Auxiliaries (AUX) add functional and grammatical meaning to the sentence, expressing tense, aspect, mood, etc., and can be of two types: (a) those which accompany the nominal paradigm and (b) those which accompany the verbal paradigm. If the auxiliaries are represented as clitics: მთავარია = მთავარი + ა 'it is important', სახლია = სახლი + ა 'it is a house', they are considered as copula verbs and assigned cop in DEPREL; while if they act as separate words: უნდა 'it should', შეუძლია 'it can' etc., they are considered as auxiliaries and assigned aux in DEPREL.
 * Verbal forms indicating verbal nouns or verbal adjectives are assigned a tag VERB with additional information on the features of verbal forms, especially, participles are assigned: VerbForm=Part, while masdars - VerbForm=Vnoun.
-
----
-**Instruction**: Specify any unused tags. Explain what words are tagged as PART. Describe how the AUX-VERB and DET-PRON distinctions are drawn, and specify whether there are (de)verbal forms tagged as ADJ, ADV or NOUN. Include links to language-specific tag definitions if any.
 
 ---
 
