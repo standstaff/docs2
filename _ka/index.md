@@ -21,12 +21,12 @@ This is a **work-in-progress** overview of the UD annotation for Georgian.
 
 The Georgian Multiword expressions (MWEs) are (continuous or discontinuous) sequences of words with the following compulsory properties:
 
-* They show some degree of orthographic, morphological, syntactic or semantic idiosyncrasy with respect to what is considered general grammar rules of a language (e.g. მეცხრე ცა 'cloud nine', _ბინძური ფული_ 'dirty money' etc.).
+* They show some degree of orthographic, morphological, syntactic or semantic idiosyncrasy with respect to what is considered general grammar rules of a language (e.g. _მეცხრე ცა_ 'cloud nine', _ბინძური ფული_ 'dirty money' etc.).
 * Their component words include a head word and at least one other syntactically related word. Most often the relation they maintain is a syntactic (direct or indirect) dependence but it can also be e.g. a coordination (_ბურთი და მოედანი_ 'ball and field, ltr. do what you want' etc.). Depending on the category of the head word, the whole MWE can be nominal, adjectival, verbal etc.
 Probably the most salient property of MWEs is semantic non-compositionality. In other words, it is often impossible to deduce the meaning of the whole unit from the meanings of its parts and from its syntactic structure. For instance, while it is easy to interpret phrases like to kick the ball or to spill some water from the words that compose them, it is almost impossible to guess, without knowing it beforehand, that _ჩიტის რძე _ means 'Bird's milk, ltr. everything smb. wants'.
 
 ~~~ sdparse
-ერთგვარი ჯაჭვური რეაქცია მოხდა. \n A kind of nuclear reaction happened
+ერთგვარი ჯაჭვური რეაქცია მოხდა . \n A kind of nuclear reaction happened
 nsubj(რეაქცია, მოხდა)
 ~~~
 
@@ -75,7 +75,7 @@ case(ზე-3, ცა-2)
 
 ### Tags
 
-* UD_Georgian-GLC treebank uses all UPOS tags except of [DET](https://universaldependencies.org/u/pos/DET.html) and [SYM] (https://universaldependencies.org/u/pos/SYM.html).
+* UD_Georgian-GLC treebank uses all UPOS tags except of [DET](https://universaldependencies.org/u/pos/DET.html).
 
 * There are two types of particles (PART) in Georgian. Those acting as separate words subdivided into different lexical classes: არ 'not', ვერ 'not' etc.) and those belonging to clitics and occupying concrete slots in the nominal or verbal paradigm: −ღა, -ცა etc. Thus, the PART tag is assigned to those particles, which act as separate tokens and the verbal particle denoting the indirect speech markers: -მეთქი 'As I said', -ო 'as he/them said' etc.  
 * Auxiliaries (AUX) add functional and grammatical meaning to the sentence, expressing tense, aspect, mood, etc., and can be of two types: (a) those which accompany the nominal paradigm and (b) those which accompany the verbal paradigm. If the auxiliaries are represented as clitics: მთავარია = მთავარი + ა 'it is important', სახლია = სახლი + ა 'it is a house', they are considered as copula verbs and assigned cop in DEPREL; while if they act as separate words: უნდა 'it should', შეუძლია 'it can' etc., they are considered as auxiliaries and assigned aux in DEPREL.
@@ -178,17 +178,9 @@ case(ზე-3, ცა-2)
   * xcomp: open clausal complement
 
 ---
-**Instruction**: Give criteria for identifying core arguments (subjects and objects), and describe the range of copula constructions in nonverbal clauses. List all subtype relations used. Include links to language-specific relations definitions if any.
-
----
 
 ## Treebanks
 
-There are not UD treebanks of Georgian.
-
----
-**Instruction**: Treebank-specific pages are generated automatically from the README file in the treebank repository and
-from the data in the latest release. Link to the respective `*-index.html` page in the `treebanks` folder, using the language code
-and the treebank code in the file name.
+This is the first UD treebank for Georgian.
 
 ---
