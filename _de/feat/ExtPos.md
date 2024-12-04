@@ -51,6 +51,7 @@ Multiword adpositions occur in many languages. Often they are grammaticalized pr
 #### Examples
 
 * [en] _<b>by and large</b>_ (a multiword adverb paraphrasable as “altogether”; the first node is [ADP]())
+* [de] _<b>um die 200 Euro</b>_ “around 200 euros” (_um_ = [ADP]())
 
 ### <a name="CCONJ">`CCONJ`</a>: coordinating conjunction-like expression
 
