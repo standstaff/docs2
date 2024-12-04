@@ -307,7 +307,7 @@ fixed(such, as)
 ~~~
 
 
-## Reciprocal Pronouns
+### Reciprocal Pronouns
 
 The first word is marked as [PronType]()=`Rcp`. See discussion at [PRON]().
 
@@ -328,7 +328,7 @@ obj(saw, one)
 ~~~
 
 
-## Pragmatic/miscellaneous markers
+### Pragmatic/miscellaneous markers
 
 *all but*
 
