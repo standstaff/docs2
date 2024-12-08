@@ -35,12 +35,12 @@ This is a **work-in-progress** overview of the UD annotation for Georgian.
 
 #### Lexical Features
 
-* UD_Georgian-GLC treebank uses all main lexical FEATS tags except of [REflex] (https://universaldependencies.org/u/feat/Reflex.html)
+* UD_Georgian-GLC treebank uses all main lexical FEATS tags except of [REflex](https://universaldependencies.org/u/feat/Reflex.html)
 
 #### Inflectional Features
 ##### Nominal Features
 
-* UD_Georgian-GLC treebank uses all main inflectional FEATS tags except of [Gender] (https://universaldependencies.org/u/feat/Gender.html), [NounClass] (https://universaldependencies.org/u/feat/NounClass.html) and [Definite] (https://universaldependencies.org/u/feat/Definite.html).
+* UD_Georgian-GLC treebank uses all main inflectional FEATS tags except of [Gender](https://universaldependencies.org/u/feat/Gender.html), [NounClass](https://universaldependencies.org/u/feat/NounClass.html) and [Definite](https://universaldependencies.org/u/feat/Definite.html).
   * Nouns have inherent Animacy and inflect for Number (singular or plural) and Case (nominative, ergative, dative, genetive, instrumental, essive (adverbial) and vocative).
   * Adjectives in the majority of cases agree with nouns (in both attributive and predicative position) with respect to Case. Many adjectives inflect for Degree (diminutive, positive, comparative, superlative), Case and Number.
   * Numerals agree with nouns (in both attributive and predicative position) with respect to Case and inflect for Case and very rarely for Number: ორი 'two in Singular' -> ორნი 'two in Plural'.
@@ -48,7 +48,7 @@ This is a **work-in-progress** overview of the UD annotation for Georgian.
 
 ##### Verbal Features
 
-* UD_Georgian-GLC treebank uses all main inflectional FEATS tags except of [Polarity] (https://universaldependencies.org/u/feat/Polarity.html), [Polite] (https://universaldependencies.org/u/feat/Polite.html) and [Clusivity] (https://universaldependencies.org/u/feat/Clusivity.html).
+* UD_Georgian-GLC treebank uses all main inflectional FEATS tags except of [Polarity](https://universaldependencies.org/u/feat/Polarity.html), [Polite](https://universaldependencies.org/u/feat/Polite.html) and [Clusivity](https://universaldependencies.org/u/feat/Clusivity.html).
   * Verbs inflect for Tense (present, imperfect, future, aorist, perfect, pluperfect), Aspect (imperfective, perfective) and Mood (indicative, subjunctive, conditional, imperative) so called TAM series, which specifies case-marking and relationships so called agreement between participants such as agent and patient by means of preverbs, version markers and thematic suffixes. The category of voice can be subdivided into the active, autoactive, inactive, passive and mediopassive voices, but the traditional Georgian grammar (Shanidze 1961, 1973) distinguishes only active, middle and passive voices.
   * The category of personality covers unipersonal, bipersonal and tripersonal verbs. As a result verbal morphology includes agreement between the verb and its arguments in terms of Person, Case and Number. While in Indo-European languages, the verb generally agrees with the subject of the sentence, in Georgian the verb agrees not only with the subject, but with its objects as well, both direct and/or indirect. The verb in Georgian has core and peripheral arguments. A core argument agrees morphologically with the verb by means of Person (1, 2, or 3 for Person[subj], Person[obj], Person[io]) and Number (singular or plural for Number[subj], Number[obj], Number[io]), while a peripheral argument does not. The number of core arguments affects the conjugation system as a whole, subdividing it into subject and object paradigms.
   * There are two types of nonfinite forms: participles and masdars.
@@ -59,7 +59,7 @@ This is a **work-in-progress** overview of the UD annotation for Georgian.
 ---
 
 ## Syntax
-* UD_Georgian-GLC treebank uses all main DEPREL tags except of [expl] (https://universaldependencies.org/u/dep/expl.html), [dislocated] (https://universaldependencies.org/u/dep/dislocated.html), [clf] (https://universaldependencies.org/u/dep/clf.html) and [reparandum] (https://universaldependencies.org/u/dep/reparandum.html). Georgian language has a flexible word order, which sometimes follows Subject-Indirect Object-Object-Verb patterns.
+* UD_Georgian-GLC treebank uses all main DEPREL tags except of [expl](https://universaldependencies.org/u/dep/expl.html), [dislocated](https://universaldependencies.org/u/dep/dislocated.html), [clf](https://universaldependencies.org/u/dep/clf.html) and [reparandum](https://universaldependencies.org/u/dep/reparandum.html). Georgian language has a flexible word order, which sometimes follows Subject-Indirect Object-Object-Verb patterns.
 * Subjects have the following characteristics:
   * Case marking: Subjects occur in nominative, ergative or dative.
   * Passivization: Subjects are suppressed when verbs (both intransitive and transitive) are passivized.
