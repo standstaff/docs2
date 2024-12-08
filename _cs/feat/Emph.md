@@ -17,6 +17,10 @@ It is used only with unlexicalized forms of open word classes such as verbs and 
 Lexicalized forms ending in _-ž_ do not use the feature and retain _-ž_ in their lemma.
 Pronouns _(kdož, což, jenž)_, pronominal adverbs _(jakž, takž)_, conjunctions _(aniž, až, než)_ and particles _(až)_ are treated as lexicalized.
 
+Note: Currently some of the closed class words that did not survive to Modern Czech
+are actually treated with `Emph=Yes` in the data, too: _inhedž_ “immediately” ([ADV]()),
+_dokudž_ “whilst” ([SCONJ]()), _všakž_ “however” ([CCONJ]()).
+
 ### <a name="Yes">`Yes`</a>: strong pronouns
 
 The value `Yes` marks unlexicalized combinations of a word form and the emphatic _-ž_.
