@@ -25,6 +25,7 @@ This is a **work-in-progress** overview of the UD annotation for Georgian.
 Georgian dictionaries employ various strategies for representing lemmas in nominal and verbal paradigms, each with distinct implications for computational systems and linguistic analysis:
 
 Nominals: The lemma is consistently represented as the nominative singular form, providing a straightforward and standard approach.
+
 Verbs: Unlike nominals, Georgian verbs lack an infinitive form, resulting in diverse lemmatization strategies:
 * Verbal Noun (Masdar): Some dictionaries (Chubinashvili 1940; Tsotsanidze et al. 2014 and others) use the verbal noun as the lemma, treating it as an abstract root for verb generation. 
 * Abstract Root: Some dictionaries (Tschenkeli 1965), use abstract verbal roots accompanied by valency information. 
