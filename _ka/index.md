@@ -19,7 +19,7 @@ This is a **work-in-progress** overview of the UD annotation for Georgian.
 
 ---
 
-## Lemma
+## Lemmatization
 
 ### Lemmatization Strategies
 Georgian dictionaries employ various strategies for representing lemmas in nominal and verbal paradigms, each with distinct implications for computational systems and linguistic analysis:
