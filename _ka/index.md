@@ -19,6 +19,27 @@ This is a **work-in-progress** overview of the UD annotation for Georgian.
 
 ---
 
+## Lemma
+
+### Lemmatization Strategies
+Georgian dictionaries employ various strategies for representing lemmas in nominal and verbal paradigms, each with distinct implications for computational systems and linguistic analysis:
+
+Nominals: The lemma is consistently represented as the nominative singular form, providing a straightforward and standard approach.
+Verbs: Unlike nominals, Georgian verbs lack an infinitive form, resulting in diverse lemmatization strategies:
+* Verbal Noun (Masdar): Some dictionaries (Chubinashvili 1940; Tsotsanidze et al. 2014 and others) use the verbal noun as the lemma, treating it as an abstract root for verb generation. 
+* Abstract Root: Some dictionaries (Tschenkeli 1965), use abstract verbal roots accompanied by valency information. 
+* Third-Person Singular (Present/Future): Widely adopted by lexicographers (Chikobava 1950–1964; Oniani 1966; Rayfield 2006 and others), this approach represents lemmas as finite verb forms, supplemented with grammatical information. 
+
+### Lemmatization in UD Treebanks
+For Universal Dependency (UD) treebanks, lemmatization practices typically reflect a hybrid approach, influenced by the diverse strategies used for Georgian verbs. Depending on the treebank, two main approaches are observed:
+
+* Third-Person Singular Lemmatization: This method is widely used due to its prevalence in Georgian lexicography and its compatibility with treebank annotation principles.
+* Verbal Noun-Based Lemmatization: This approach aligns with dictionaries that prioritize the masdar form but may present challenges for verbs lacking nominal counterparts.
+
+By combining these approaches, UD treebanks aim to balance linguistic tradition with computational utility and user accessibility.
+
+---
+
 ## Morphology
 
 ### Tags
