@@ -86,7 +86,7 @@ exception: The FEATS column may contain the feature `Typo=Yes`. For more informa
 To accommodate the use of empty nodes for the analysis of ellipsis in the enhanced dependency representation, we adopt
 a further extension of the indexing scheme from v2. It is possible to insert one or more empty nodes indexed
 _i_.1, _i_.2, etc. immediately after a word with index _i_ (where _i_ = 0 for sentence-initial empty nodes). Note that
-the the numbers after the decimal point must form a sequence starting at 1, i.e. it is not allowed to skip _i_.1 and
+the numbers after the decimal point must form a sequence starting at 1, i.e. it is not allowed to skip _i_.1 and
 use _i_.2. In the unlikely case that there are ten or more empty nodes between two real tokens, _i_.10 comes after
 _i_.9, that is, the entire ID is not ordered numerically as a decimal number. Here is an example showing the use of an
 empty node in the analysis of the sentence _Sue likes coffee and Bill tea_:

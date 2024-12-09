@@ -47,7 +47,7 @@ Do not submit pull requests against the UD repository.
 Turkish Tourism is a domain specific treebank consisting of 19,750 manually annotated sentences and 92,200 tokens. These sentences were taken from the original customer reviews of a tourism company.
 
 
-Turkish Tourism is the first domain specific treebank of Turkish. It consists of 19,750 manually annotated sentences and and 92,200 tokens. The corpus consists of hotel/restaurant reviews of a booking company.
+Turkish Tourism is the first domain specific treebank of Turkish. It consists of 19,750 manually annotated sentences and 92,200 tokens. The corpus consists of hotel/restaurant reviews of a booking company.
 The data is split into half by test and training files.
 
 
